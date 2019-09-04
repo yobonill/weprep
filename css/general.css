@@ -17,13 +17,46 @@
     .dangerText {
         color: #e66868;
     }
+    /*Header*/
+        .side-button {
+            float: right;
+            margin-top: 5px;
+            margin-right: 10px;
+            background-color: transparent;
+            color: white;
+            border: 0px;
+        }
+    /*Header*/
+    
+    /*nav*/
+        nav {
+            height: 40px;
+        }
+        .navbar {
+            min-height:40px;
+        }
+        .navbar-brand {
+            padding:10px;
+        }
+        .navbar-text {
+            margin-top: 10px;
+            margin-bottom: 10px; 
+        }
+    /*nav*/
+
+    /*Footer*/
+        footer {
+            padding-top: 45px;
+        }
+        footer .container-fluid {
+            float:right;
+        }
+    /*Footer*/
 /*General CSS*/
 
 /*Content CSS*/
     /*Footer CSS */
 
-        footer .container-fluid {
-            float:right;
-        }
+        
 	/*Footer CSS */
 /*Content CSS*/

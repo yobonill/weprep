@@ -9,8 +9,7 @@
 
 	//------------Function to log into the web page ------------
 
-	function login($user, $pass){
-
+	function login($user, $pass){ 
 		//Create a variable that contains the query that log in the page
 			$query = "SELECT id_usuario, tipo, nombre, apellido, usuario FROM usuarios WHERE usuario = '$user' AND pass = '$pass'";
 		//Create a variable that contains the query that log in the page

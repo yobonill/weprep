@@ -142,7 +142,7 @@
 					<?php if (isLogin()): ?>
 						<!-- Logout Button -->
 							<a href='core/controllers/logout.controller.php'>
-								<button type='button' class='btn btn-default side-button poweroff'  aria-label='Left Align'>											<span class='glyphicon glyphicon-off' aria-hidden='true'></span>
+								<button type='button' class='btn btn-default side-button poweroff'  aria-label='Left Align' title="Salir">								<span class='glyphicon glyphicon-off' aria-hidden='true'></span>
 								</button>
 							</a>
 						<!-- Logout Button -->
@@ -151,16 +151,16 @@
 					<?php if (isAdmin()): ?>
 						<!-- Link to admin features -->
 							<a href='?view=admin'>
-								<button type='button' class='btn btn-default side-button'  aria-label='Left Align'>
-									<span class='glyphicon glyphicon-cog' aria-hidden='true'></span>
+								<button type='button' class='btn btn-default side-button'  aria-label='Left Align' title="Administrar">
+								<span class='glyphicon glyphicon-cog' aria-hidden='true' ></span>
 								</button>
 							</a>
 						<!-- Link to admin features -->
 					<?php endif ?>
 					<!-- Link to kanban -->
 						<a href='?view=kanban'>
-							<button type='button' class='btn btn-default side-button'  aria-label='Left Align'>
-								<span class='glyphicon glyphicon-list-alt' aria-hidden='true'></span>
+							<button type='button' class='btn btn-default side-button'  aria-label='Left Align' title="kanban">
+							<span class='glyphicon glyphicon-list-alt' aria-hidden='true' ></span>
 							</button>
 						</a>
 					<!-- Link to kanban -->

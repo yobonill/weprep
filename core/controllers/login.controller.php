@@ -27,9 +27,8 @@
 			//if they do, assign those to a variable
 
 			//run the function that logs in the user
-				$result = login($user, $pass);
+				$result = login(strtoupper($user), strtoupper($pass));
 			//run the function that logs in the user
-
 
 			if ($result) {
 				//Assign the values of result to the $_SESSION variable
@@ -39,7 +38,7 @@
 				//Assign the values of result to the $_SESSION variable
 
 				//Send the user to the index page and return a message
-					header("Location: ../../?msj=logged");
+					header("Location: ../../?view=default&msj=logged");
                 //Send the user to the index page and return a message
                 
 			} else {

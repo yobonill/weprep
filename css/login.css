@@ -1,31 +1,4 @@
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
-    /*General*/
-        nav {
-            height: 40px;
-        }
-        .navbar {
-            min-height:40px;
-        }
-        .navbar-brand {
-            padding:10px;
-        }
-        .navbar-text {
-            margin-top: 10px;
-            margin-bottom: 10px; 
-        }
-    /*General*/
-
-    /*Header*/
-        .side-button {
-            float: right;
-            margin-top: 5px;
-            margin-right: 10px;
-            background-color: transparent;
-            color: white;
-            border: 0px;
-        }
-    /*Header*/
-
     /*Content*/
         label {
             font-size:26px;
@@ -38,42 +11,8 @@
             font-size: 20px;
         }
     /*Content*/
-
-    /*Footer*/
-        footer {
-            padding-top: 45px;
-        }
-    /*Footer*/
 }
-@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
-    /*General*/
-        nav {
-            height: 40px;
-        }
-        .navbar {
-            min-height:40px;
-        }
-        .navbar-brand {
-            padding:10px;
-        }
-        .navbar-text {
-            margin-top: 10px;
-            margin-bottom: 10px; 
-        }
-    /*General*/
-
-    /*Header*/
-        .side-button {
-            float: right;
-            margin-top: 5px;
-            margin-right: 10px;
-            background-color: transparent;
-            color: white;
-            border: 0px;
-        }
-    /*Header*/
-
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
     /*Content*/
         label {
             font-size:26px;
@@ -86,42 +25,22 @@
             font-size: 30px;
         }
     /*Content*/
-
-    /*Footer*/
-        footer {
-            padding-top: 45px;
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    /*Content*/
+        label {
+            font-size:26px;
         }
-    /*Footer*/
-
+        .form-control {
+            height: 75px;
+            font-size:50px;
+        }
+        .btn-primary {
+            font-size: 30px;
+        }
+    /*Content*/
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-    /*General*/
-        nav {
-            height: 40px;
-        }
-        .navbar {
-            min-height:40px;
-        }
-        .navbar-brand {
-            padding:10px;
-        }
-        .navbar-text {
-            margin-top: 10px;
-            margin-bottom: 10px; 
-        }
-    /*General*/
-    
-    /*Header*/
-        .side-button {
-            float: right;
-            margin-top: 5px;
-            margin-right: 10px;
-            background-color: transparent;
-            color: white;
-            border: 0px;
-        }
-    /*Header*/
-
     /*Content*/
         label {
             font-size:26px;
@@ -134,12 +53,6 @@
             font-size: 30px;
         }
     /*Content*/
-
-    /*Footer*/
-        footer {
-            padding-top: 45px;
-        }
-    /*Footer*/
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ }

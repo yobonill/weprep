@@ -1,61 +1,61 @@
-@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
-@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
-@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-    /*Header*/
-        .side-button {
-            float: right;
-            margin-top: 10px;
-            margin-right: 20px;
-            background-color: transparent;
-            color: white;
-            border: 0px;
-        }
-    /*Header*/
-
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     /*Content*/
-        .back {
-            font-size: 40px;
-            color:rgb(4, 144, 65); ;
-            float: left;
-        }
         /*buttons*/
-            .btn-big {
+            .personal-btn {
                 font-size: 20px; /* Change the font size of the text inside buttons */
                 margin: 10px;
                 width: 100%;
             }
-            .big-fa {
+            .personal-fa {
                 font-size: 14em; /* Change the font size of the icons inside buttons */
-            }
-            .sm-fa {
-                font-size: 8em; /* Change the font size of the icons inside buttons */	
-            }
-            .big-submit {
-                font-size: 40px;
-            }
-            .btn-green {
-                background-color: rgb(4, 144, 65); /* Green color */
-                border-color: black;
-                color: white;
-            }
-            .btn-red {
-                background-color: red; /* Red color */
-                border-color: black;
-                color: white;
-            }
-            .btn-black:hover {
-                background-color: black;
             }
         /*buttons*/
     /*Content*/
-
-    /*Footer*/
-        footer {
-            padding-top: 55px;
-        }
-    /*Footer*/
 }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.  */
+ /*Content*/
+        /*buttons*/
+            .personal-btn {
+                font-size: 20px; /* Change the font size of the text inside buttons */
+                margin: 10px;
+                width: 100%;
+            }
+            .personal-fa {
+                font-size: 14em; /* Change the font size of the icons inside buttons */
+            }
+    /*buttons*/
+/*Content*/
+
+}
+
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    /*Content*/
+        /*buttons*/
+            .personal-btn {
+                font-size: 20px; /* Change the font size of the text inside buttons */
+                margin: 10px;
+                width: 100%;
+            }
+            .personal-fa {
+                font-size: 14em; /* Change the font size of the icons inside buttons */
+            }
+        /*buttons*/
+    /*Content*/
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    /*Content*/
+        /*buttons*/
+            .personal-btn {
+                font-size: 20px; /* Change the font size of the text inside buttons */
+                margin: 10px;
+                width: 100%;
+            }
+            .personal-fa {
+                font-size: 14em; /* Change the font size of the icons inside buttons */
+            }
+        /*buttons*/
+    /*Content*/
+}
+/* @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops / }
+@media (min-width:1281px) { /* hi-res laptops and desktops / } */
 

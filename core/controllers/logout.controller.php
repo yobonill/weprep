@@ -1,6 +1,6 @@
 <?php  
 	//Load Configuration with config data as an array, to be able to use the directory root parameter
-	    require_once($_SERVER['DOCUMENT_ROOT'] . '/arca/config.php');
+	    require_once($_SERVER['DOCUMENT_ROOT'] . '/weprep/config.php');
 	//Load Configuration with config data as an array, to be able to use the directory root paramete
 
 	//Require db and user model to use the functions in this file

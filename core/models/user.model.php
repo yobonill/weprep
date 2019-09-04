@@ -12,7 +12,7 @@
 	function login($user, $pass){
 
 		//Create a variable that contains the query that log in the page
-			$query = "SELECT id_user, user_type, name, lastname, user, code FROM users WHERE user = '$user' AND password = '$pass'";
+			$query = "SELECT id_usuario, tipo, nombre, apellido, usuario FROM usuarios WHERE usuario = '$user' AND pass = '$pass'";
 		//Create a variable that contains the query that log in the page
 
 		//Run the query and assign it to the variable result
@@ -38,13 +38,13 @@
 
 	//------------Check if the user is login------------
 		function isLogin(){
-			return isset($_SESSION['id_user']);
+			return isset($_SESSION['id_usuario']);
 		}
 	//------------Check if the user is login------------
 
 	//------------Check if the user is and Admin depending on the level on the database------------
 		function isAdmin(){
-			if(isset($_SESSION['user_type']) && $_SESSION['user_type'] == 'admin'){
+			if(isset($_SESSION['tipo']) && $_SESSION['tipo'] == 'ADMIN'){
 				return true;
 			} else {
 				return false;

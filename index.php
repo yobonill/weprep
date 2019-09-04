@@ -166,16 +166,16 @@
 		<div class="content">
 			<div class="container-fluid" id="content">
 				<?php 
+
 					//We require the messages file, to be able to run messages sent via GET
 						require_once($config['__DOCUMENT_ROOT__'] . '/controllers/messages.controller.php');
 					//We require the messages files, to be able to run messages sent via GET
 
 					//We assign a default value to the variable VIEW
-						if (isset($_SESSION['id_user'])) {
+						if (isLogin()) {
 							$view = 'default';
 						} else {
-							// $view = 'login';
-							$view = 'default';
+							$view = 'login';
 						}
 					//We assign a default value to the variable VIEW
 
@@ -208,8 +208,6 @@
 							require_once('core/views/' . $view . '.view.php');
 						}
 					//If the view in get exist we show this view
-					
-					// var_dump($_SESSION['id_user']);
 				?>
 			</div>
 		</div>

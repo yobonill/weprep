@@ -5,8 +5,8 @@
 		return array (
 			//Web title, brand, sign and general text
 				'example' => 'Ejemplo',
-				'__TITLE_APPNAME__' => 'Plantilla de Sistema',
-				'__INSTITUTION_NAME__' => 'Institucion',
+				'__TITLE_APPNAME__' => 'WePrep',
+				'__INSTITUTION_NAME__' => 'WePrep',
 				'__SIGN__' => 'Creado por Yorki Bonilla, Toda la gloria es de Dios',
 			//Web title, brand, sign and general text
 
@@ -29,7 +29,10 @@
 
 			//Content texts
 					//Login View
-						
+						'__TITLE_LOGIN__' => 'Ingrese su usuario para continuar',
+						'__USERNAME_LOGIN__' => 'Usuario',
+						'__USERPASS_LOGIN__' => 'Password',
+						'__SUBMIT_LOGIN__' => 'Aceptar',
 					//Login View
 
 					//Default View

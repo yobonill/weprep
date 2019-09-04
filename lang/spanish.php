@@ -29,7 +29,7 @@
 
 			//Content texts
 					//Login View
-						'__TITLE_LOGIN__' => 'Ingrese su usuario para continuar',
+						'__TITLE_LOGIN__' => 'Ingrese sus crendenciales',
 						'__USERNAME_LOGIN__' => 'Usuario',
 						'__USERPASS_LOGIN__' => 'Password',
 						'__SUBMIT_LOGIN__' => 'Aceptar',

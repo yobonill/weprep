@@ -22,10 +22,15 @@
 		require_once($config['__DOCUMENT_ROOT__'] . '/models/user.model.php');
 	//Require db and user model to use the functions in this file
 
-	//To play with the users
-		//$_SESSION['id_user'] = 1;
-		//$_SESSION['user_type'] = 'admin';
-	//To play with the users
+	//Redirect to default view if actual view do not exist
+		if (!isset($_GET['view']) || isset($_GET['view']) && !is_file('core/views/'. $_GET		['view'] . '.view.php') ) {
+			if(islogin()) {
+				header("Location: http://localhost/weprep/?view=default");
+			} else {
+				header("Location: http://localhost/weprep/?view=login");
+			}
+		}
+	//Redirect to default view if actual view do not exist
 ?>
 
 <!DOCTYPE html>
@@ -201,7 +206,7 @@
 						}
 					//This checks if the actual view has a controller with that name
 
-					//Print a home button if they are not in the default page
+					//Print a back button if they are not in the default or login page
 						if ($view != 'default' and $view != 'login') {
 						?>
 							<script type="text/javascript">
@@ -209,13 +214,13 @@
 							</script>
 						<?php 
 						}
-					//Print a home button if they are not in the default page
+					//Print a back button if they are not in the default or login page
 
-					//If the view in get exist we show this view
+					//If the view in get exist we show this view if not, show a default one
 						if(is_file('core/views/' . $view . '.view.php')){
 							require_once('core/views/' . $view . '.view.php');
 						}
-					//If the view in get exist we show this view
+					//If the view in get exist we show this view if not, show a default one
 				?>
 			</div>
 		</div>

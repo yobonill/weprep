@@ -40,13 +40,15 @@
 						'__BUTTON2__' => 'Reportes',
 					//Default View
 
+					//Selling View
+						'__TITLE_SELLING__' => 'Ventas',
+						'__TITLE_SELLING_PRODUCTS__' => 'Productos',
+						'__TITLE_SELLING_CART__' => 'Carrito',
+					//Selling View
+
 					//Reports View
 						
 					//Reports View
-
-					//Inventory View
-						'__TITLE_INVENTORY__' => 'Inventario',
-					//Inventory View
 
 					//Admin View	
 						'__TITLE_ADMIN__' => 'Opciones de administrador',

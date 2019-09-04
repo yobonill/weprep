@@ -142,20 +142,28 @@
 					<?php if (isLogin()): ?>
 						<!-- Logout Button -->
 							<a href='core/controllers/logout.controller.php'>
-								<button type='button' class='btn btn-default side-button poweroff'  aria-label='Left Align'>											<span class='glyphicon glyphicon-off' 		aria-hidden='true'></span>
+								<button type='button' class='btn btn-default side-button poweroff'  aria-label='Left Align'>											<span class='glyphicon glyphicon-off' aria-hidden='true'></span>
 								</button>
 							</a>
 						<!-- Logout Button -->
-						<?php if (isAdmin()): ?>
-							
+					<?php endif ?>
+
+					<?php if (isAdmin()): ?>
+						<!-- Link to admin features -->
 							<a href='?view=admin'>
 								<button type='button' class='btn btn-default side-button'  aria-label='Left Align'>
 									<span class='glyphicon glyphicon-cog' aria-hidden='true'></span>
 								</button>
 							</a>
-						<?php endif ?>
-							
+						<!-- Link to admin features -->
 					<?php endif ?>
+					<!-- Link to kanban -->
+						<a href='?view=kanban'>
+							<button type='button' class='btn btn-default side-button'  aria-label='Left Align'>
+								<span class='glyphicon glyphicon-list-alt' aria-hidden='true'></span>
+							</button>
+						</a>
+					<!-- Link to kanban -->
 					<a class="navbar-brand"><?= $language['__INSTITUTION_NAME__'] ?></a>
 				</div>
 			</nav>
@@ -215,10 +223,9 @@
 
 	<!--FOOTER-->
 		<footer>
-			<nav class="navbar navbar-inverse navbar-fixed-bottom">
+			<nav class="navbar navbar-inverse navbar-fixed-bottom nav-color">
 				<div class="container-fluid">
-					<p class="navbar-text"><?= $language['__SIGN__']?></p>
-					<a class="navbar-brand"><?= $language['__INSTITUTION_NAME__']?></a>  	
+					<p class="navbar-text"><?= $language['__SIGN__']?></p>	
 				</div>
 			</nav>
 		</footer>

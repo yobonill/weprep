@@ -36,8 +36,8 @@
 					//Login View
 
 					//Default View
-						'__BUTTON1__' => 'Button1',
-						'__BUTTON2__' => 'Button2',
+						'__BUTTON1__' => 'Vender',
+						'__BUTTON2__' => 'Reportes',
 					//Default View
 
 					//Reports View

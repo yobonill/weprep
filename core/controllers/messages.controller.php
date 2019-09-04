@@ -23,7 +23,7 @@
 							"<script>
 								swal({
 									title: 'Exito!',
-									text: 'Bienvenido al sistema de AQL!',
+									text: 'Bienvenido al sistema de ventas WEPREP!',
 									icon: 'success',
 								})
 								$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');

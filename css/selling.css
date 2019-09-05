@@ -10,19 +10,39 @@
                 z-index: +1;
             }
         /*Back Button*/
+        .sm-fa {
+            font-size: 4em; /* Change the font size of the icons inside buttons */	
+        }
+        .btn-green {
+            background-color: rgb(4, 144, 65); /* Green color */
+            border-color: black;
+            color: white;
+            width:100%;
+            margin-bottom:20px;
+        }
     /*Content*/
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.  */
     /*Content*/
-            /*Back Button*/
-                .back {
-                    font-size: 40px;
-                    color:rgb(63,81,181) ;
-                    float: left;
-                    position: absolute;
-                    margin-top: 60px;
-                }
-            /*Back Button*/
+        /*Back Button*/
+            .back {
+                font-size: 40px;
+                color:rgb(63,81,181) ;
+                float: left;
+                position: absolute;
+                margin-top: 60px;
+            }
+        /*Back Button*/
+        .sm-fa {
+            font-size: 8em; /* Change the font size of the icons inside buttons */	
+         }
+        .btn-green {
+            background-color: rgb(4, 144, 65); /* Green color */
+            border-color: black;
+            color: white;
+            width:100%;
+            margin-bottom:20px;
+        }
     /*Content*/
 
 }
@@ -30,19 +50,29 @@
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
     /*Content*/
         /*Back Button*/
-            .back {
-                font-size: 40px;
-                color:rgb(63,81,181) ;
-                float: left;
-                position: absolute;
-                margin-top: 60px;
-            }
+        .back {
+            font-size: 40px;
+            color:rgb(63,81,181) ;
+            float: left;
+            position: absolute;
+            margin-top: 60px;
+        }
         /*Back Button*/
+        .sm-fa {
+            font-size: 4em; /* Change the font size of the icons inside buttons */	
+        }
+        .btn-green {
+            background-color: rgb(4, 144, 65); /* Green color */
+            border-color: black;
+            color: white;
+            width:100%;
+            margin-bottom:20px;
+        }
     /*Content*/
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
     /*Content*/
-        /*Back Button*/
+            /*Back Button*/
             .back {
                 font-size: 40px;
                 color:rgb(63,81,181) ;
@@ -51,6 +81,16 @@
                 margin-top: 60px;
             }
         /*Back Button*/
+        .sm-fa {
+            font-size: 4em; /* Change the font size of the icons inside buttons */	
+        }
+        .btn-green {
+            background-color: rgb(4, 144, 65); /* Green color */
+            border-color: black;
+            color: white;
+            width:100%;
+            margin-bottom:20px;
+        }
     /*Content*/
 }
 /* @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops / }

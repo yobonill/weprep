@@ -43,7 +43,7 @@
                 
 			} else {
 				//Send the user to the index page and return a message
-					header("Location: ../../?msj=wronguser");
+					header("Location: ../../?view=login&msj=wronguser");
 				//Send the user to the index page and return a message
 			}
 		}

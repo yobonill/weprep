@@ -71,6 +71,13 @@
 							//ADDUSERMODAL
 						//ADDUSER
 
+						//ADDPRODUCT
+							'__TITLE_ADDPRODUCT_ADMIN__' => 'Agregar Producto',
+							//ADDUSERMODAL
+								'__PRODUCTFORM_NAME_ADMIN__' => 'Nombre del producto',
+								'__PRODUCTFORM_PRICE_ADMIN__' => 'Precio del producto',
+							//ADDUSERMODAL
+						//ADDPRODUCT
 						//DELETEUSER
 						'__TITLE_DELETEUSER_ADMIN__' => 'Eliminar Usuario',
 						//DELETEUSER

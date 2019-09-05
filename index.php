@@ -23,12 +23,13 @@
 	//Require db and user model to use the functions in this file
 
 	//Redirect to default view if actual view do not exist
-		if (!isset($_GET['view']) || isset($_GET['view']) && !is_file('core/views/'. $_GET		['view'] . '.view.php') ) {
-			if(islogin()) {
+		if(isLogin()) {
+			if (!isset($_GET['view']) || isset($_GET['view']) && !is_file('core/views/'. $_GET		['view'] . '.view.php') ) {
 				header("Location: http://localhost/weprep/?view=default");
-			} else {
-				header("Location: http://localhost/weprep/?view=login");
 			}
+		} 
+		elseif($_GET['view'] != 'login' && $_GET['view'] != 'kanban') {
+			header("Location: http://localhost/weprep/?view=login");
 		}
 	//Redirect to default view if actual view do not exist
 ?>
@@ -55,7 +56,7 @@
 
 				$view = $_GET['view'];
 
-				if($view  == 'inventory'){
+				if($view  == 'reports' || $view  == 'selling'){
 					?>
 						<!-- DataTables CSS -->
 							<link rel="stylesheet" href="dataTables/DataTables-1.10.16/css/jquery.dataTables.min.css">
@@ -115,7 +116,7 @@
 		<!-- Bootstrap JavaScript -->
 		<?php
 			if(isset($_GET['view'])){
-				if($_GET['view'] == 'inventory'){
+				if($view  == 'reports' || $view  == 'selling'){
 					?>
 						<!-- DataTables JavaScript -->
 							<script src="dataTables/DataTables-1.10.16/js/jquery.dataTables.min.js"></script>

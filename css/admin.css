@@ -18,11 +18,7 @@
             .big-submit {
                 font-size: 40px;
             }
-            .btn-green {
-                background-color: rgb(4, 144, 65); /* Green color */
-                border-color: black;
-                color: white;
-            }
+
             .btn-red {
                 background-color: red; /* Red color */
                 border-color: black;

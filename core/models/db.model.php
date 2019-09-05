@@ -8,7 +8,12 @@
 			// Try and connect to the database, if a connection has not been stablished yet
 				if(!isset($connection)) {
 					//Load Configuration with config data as an array, to be able to use the directory root parameter
-					    require('../../config.php');
+					if(is_file('../../config.php')) {
+						require('../../config.php');
+					} else {
+						require('config.php');
+					}
+					    
 					//Load Configuration with config data as an array, to be able to use the directory root parameter
 
 					//Try and connect to the database

@@ -7,72 +7,36 @@
 		</div> <!-- TITLE row -->
 	<!-- Modal Buttons ROW 1 ADDMODALS-->
 		<div class="row"> 
-			<!-- Add User -->
+			<!-- Add Product -->
 				<div class="col-md-3">
-					<button type="button" class="btn btn-default btn-big btn-green" data-toggle='modal'  href='#addUser' aria-label='Left Align'><i class="fa fa-user-o sm-fa" aria-hidden="true"> </i> <br><?= $language['__TITLE_ADDUSERS_ADMIN__']?></button>
+					<button type="button" class="btn btn-default btn-big btn-green" data-toggle='modal'  href='#addProduct' aria-label='Left Align'><i class="fa fa-plus-square sm-fa" aria-hidden="true"> </i> <br><?= $language['__TITLE_ADDPRODUCT_ADMIN__']?></button>
 				</div>
 				<!-- Configuration Modal -->
-					<div class="modal fade" id="addUser">
+					<div class="modal fade" id="addProduct">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-									<h4 class="modal-title text-center"><?= $language['__TITLE_ADDUSERS_ADMIN__']?></h4>
+									<h4 class="modal-title text-center"><?= $language['__TITLE_ADDPRODUCT_ADMIN__']?></h4>
 								</div>
 								<div class="modal-body">
-									<form action = "core/controllers/adduser.controller.php" method="POST" class="form text-center">	
-									  	<!-- Employee DATA -->
-										  	<div class="row"> <!-- Codigo, Level -->
+									<form action = "core/controllers/addproduct.controller.php" method="POST" class="form text-center">	
+										<!-- Product DATA -->
+											<div class="row">
 										  		<div class="col-md-6"> 
 													<div class="form-group">
-												    	<label for="userCode"><?= $language['__USERFORM_CODE_ADMIN__']?></label>
-												    	<input type="number" class="form-control" name="userCode" id="userCode" placeholder="<?= $language['__USERFORM_CODE_ADMIN__']?>"> 
-											  		</div>
-												</div>
-										  		<div class="col-md-6">
-											  		<div class="form-group">
-														<label for='userLevel'><?= $language['__USERFORM_LEVEL_ADMIN__']?></label>
-														<select class="form-control" name="userLevel">
-															<option value="" disabled selected hidden><?= $language['__USERFORM_LEVEL_ADMIN__'] ?></option>
-														  	<option value="admin"><?= $language['__USERFORM_LEVELADMIN_ADMIN__'] ?></option>
-														  	<option value="supervisor"><?= $language['__USERFORM_LEVELSUPERVISOR_ADMIN__'] ?></option>
-														  	<option value="consultant"><?= $language['__USERFORM_LEVELCONSULTANT_ADMIN__'] ?></option>
-														  	<option value="dispatcher"><?= $language['__USERFORM_LEVELDISPATCHER_ADMIN__'] ?></option>
-														</select>
-													</div>
-												</div>
-											</div> <!-- Codigo, Level -->
-
-											<div class="row"> <!-- Name and lastName -->
-										  		<div class="col-md-6"> 
-													<div class="form-group">
-												    	<label for="userName"><?= $language['__USERFORM_NAME_ADMIN__']?></label>
-												    	<input type="text" class="form-control" name="userName" id="userName" placeholder="<?= $language['__USERFORM_NAME_ADMIN__']?>"> 
+												    	<label for="productName"><?= $language['__PRODUCTFORM_NAME_ADMIN__']?></label>
+												    	<input type="text" class="form-control" name="productName" id="productName" placeholder="<?= $language['__PRODUCTFORM_NAME_ADMIN__']?>"> 
 											  		</div>
 												</div>
 												<div class="col-md-6"> 
 													<div class="form-group">
-												    	<label for="userLastName"><?= $language['__USERFORM_LASTNAME_ADMIN__']?></label>
-												    	<input type="text" class="form-control" name="userLastName" id="userLastName" placeholder="<?= $language['__USERFORM_LASTNAME_ADMIN__']?>"> 
+												    	<label for="productPrice"><?= $language['__PRODUCTFORM_PRICE_ADMIN__'] ?></label>
+												    	<input type="number" class="form-control" PRICE="productPrice" id="productPrice" placeholder="<?= $language['__PRODUCTFORM_PRICE_ADMIN__']?>"> 
 											  		</div>
 												</div>
-											</div> <!-- Name and lastName -->
-
-											<div class="row"> <!-- User and Password -->
-										  		<div class="col-md-6"> 
-													<div class="form-group">
-												    	<label for="userUser"><?= $language['__USERFORM_USER_ADMIN__']?></label>
-												    	<input type="text" class="form-control" name="userUser" id="userUser" placeholder="<?= $language['__USERFORM_USER_ADMIN__']?>"> 
-											  		</div>
-												</div>
-												<div class="col-md-6"> 
-													<div class="form-group">
-												    	<label for="userPass"><?= $language['__USERFORM_PASSWORD_ADMIN__']?></label>
-												    	<input type="password" class="form-control" name="userPass" id="userPass" placeholder="<?= $language['__USERFORM_PASSWORD_ADMIN__']?>"> 
-											  		</div>
-												</div>
-											</div> <!-- User and Password -->
-										<!-- Employee DATA -->
+											</div>
+										<!-- Product DATA -->
 											<div class="row">
 												<div class="col-md-12">
 											  		<div class="form-group">

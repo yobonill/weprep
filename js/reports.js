@@ -1,4 +1,4 @@
-//Inventory View
+//Reports View
 $("#tableInventory").DataTable({
     dom: 'lBfrtip',
     fixedHeader: true,
@@ -15,4 +15,4 @@ $("#tableInventory").DataTable({
         }
     ]
 });
-//Inventory View
+//Reports View

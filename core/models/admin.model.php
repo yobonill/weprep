@@ -136,15 +136,15 @@
 		}
 	//------------Function to get all the users from database ------------
 
-	//------------Function that allows us to add a team to the database------------
-		function add_team() {
+	//------------Function that allows us to add a product to the database------------
+		function add_product() {
 			//Variables used for the query
-				$teamName = db_quote($_POST['teamName']);
+				$productName = db_quote($_POST['productName']);
 			//Variables used for the query
 
-			//Create a variable containing the query that inserts the team into the database
-				$query = "INSERT INTO team (name) VALUES ('$teamName')";
-			//Create a variable containing the query that inserts the team into the database
+			//Create a variable containing the query that inserts the product into the database
+				$query = "INSERT INTO product (name) VALUES ('$productName')";
+			//Create a variable containing the query that inserts the product into the database
 
 			//Create a variable that runs the query
 				$result = db_query($query);
@@ -159,17 +159,17 @@
 			}
 			//Check if the query ran correctly, if not return the error
 		}
-	//------------Function that allows us to add a team to the database------------
+	//------------Function that allows us to add a product to the database------------
 
-	//------------Function that allows us to delete a team from the database------------
-		function delete_team() {
+	//------------Function that allows us to delete a product from the database------------
+		function delete_product() {
 
 			//Variables used for the query
-				$id_team = db_quote($_POST['id_team']);
+				$id_product = db_quote($_POST['id_product']);
 			//Variables used for the query
 
 			//Create a variable containing the query that inserts the user into the database
-				$query = "DELETE FROM team WHERE id_team = '$id_team'";
+				$query = "DELETE FROM product WHERE id_product = '$id_product'";
 			//Create a variable containing the query that inserts the user into the database
 
 			//Create a variable that runs the query
@@ -185,12 +185,12 @@
 			}
 			//Check if the query ran correctly, if not return the error
 		}
-	//------------Function that allows us to delete a team from the database------------
+	//------------Function that allows us to delete a product from the database------------
 
-	//------------Function to get all the team from database ------------
-		function select_team(){
+	//------------Function to get all the product from database ------------
+		function select_products(){
 			//Create a variable that contains the query that log in the page
-				$query = "SELECT * FROM team";
+				$query = "SELECT * FROM producto";
 			//Create a variable that contains the query that log in the page
 
 			//Run the query and assign it to the variable result
@@ -206,5 +206,5 @@
 				}
 			//Check if the query ran correctly, if not return the error
 		}
-	//------------Function to get all the team from database ------------
+	//------------Function to get all the product from database ------------
 ?>

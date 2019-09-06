@@ -1,0 +1,162 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    /*Content*/
+        /*buttons*/
+            /*Back Button*/
+                .back {
+                    font-size: 40px;
+                    color:rgb(63,81,181) ;
+                    float: left;
+                    position: absolute;
+                    margin-top: 60px;
+                }
+            /*Back Button*/
+
+            .btn-green {
+                background-color: rgb(4, 144, 65); /* Green color */
+                border-color: black;
+                color: white;
+                width:100%;
+                margin-bottom:20px;
+            }
+        /*buttons*/
+
+        .addUser{
+            font-size: 40px;
+            color:rgb(4, 144, 65) ;
+            float: right;
+            /* position: absolute; */
+        }
+        th{
+            text-align: center;
+        }
+        .fa-trash{
+            color:red;
+        }
+        .fa {
+            font-size:24px;
+        }
+    /*Content*/
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.  */
+ /*Content*/
+        /*buttons*/
+            /*Back Button*/
+                .back {
+                    font-size: 40px;
+                    color:rgb(63,81,181) ;
+                    float: left;
+                    position: absolute;
+                    margin-top: 60px;
+                }
+            /*Back Button*/
+
+            .btn-green {
+                background-color: rgb(4, 144, 65); /* Green color */
+                border-color: black;
+                color: white;
+                width:100%;
+                margin-bottom:20px;
+            }
+    /*buttons*/
+
+        .addUser{
+            font-size: 40px;
+            color:rgb(4, 144, 65) ;
+            float: right;
+            /* position: absolute; */
+        }
+        th{
+            text-align: center;
+        }
+        .fa-trash{
+            color:red;
+        }
+        .fa {
+            font-size:24px;
+        }
+/*Content*/
+
+}
+
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    /*Content*/
+        /*buttons*/
+            /*Back Button*/
+                .back {
+                    font-size: 40px;
+                    color:rgb(63,81,181) ;
+                    float: left;
+                    position: absolute;
+                    margin-top: 60px;
+                }
+            /*Back Button*/
+
+            .btn-green {
+                background-color: rgb(4, 144, 65); /* Green color */
+                border-color: black;
+                color: white;
+                width:100%;
+                margin-bottom:20px;
+            }
+        /*buttons*/
+
+        .addUser{
+            font-size: 40px;
+            color:rgb(4, 144, 65) ;
+            float: right;
+            /* position: absolute; */
+        }
+        th{
+            text-align: center;
+        }
+        .fa-trash{
+            color:red;
+        }
+        .fa {
+            font-size:24px;
+        }
+    /*Content*/
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    /*Content*/
+        /*buttons*/
+            /*Back Button*/
+                .back {
+                    font-size: 40px;
+                    color:rgb(63,81,181) ;
+                    float: left;
+                    position: absolute;
+                    margin-top: 60px;
+                }
+            /*Back Button*/
+
+            .btn-green {
+                background-color: rgb(4, 144, 65); /* Green color */
+                border-color: black;
+                color: white;
+                width:100%;
+                margin-bottom:20px;
+            }
+        /*buttons*/
+
+        .addUser{
+            font-size: 40px;
+            color:rgb(4, 144, 65) ;
+            float: right;
+            /* position: absolute; */
+        }
+
+        th{
+            text-align: center;
+        }
+        .fa-trash{
+            color:red;
+        }
+        .fa {
+            font-size:24px;
+        }
+    /*Content*/
+}
+/* @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops / }
+@media (min-width:1281px) { /* hi-res laptops and desktops / } */
+

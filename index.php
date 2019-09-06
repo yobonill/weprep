@@ -211,7 +211,7 @@
 						if ($view != 'default' and $view != 'login') {
 						?>
 							<script type="text/javascript">
-								$("#content").append("<a href='javascript:history.back(1)'><span class='glyphicon glyphicon-arrow-left back' aria-hidden='true'></span></a>");
+								$("#content").append("<a href='?view=default'><span class='glyphicon glyphicon-arrow-left back' aria-hidden='true'></span></a>");
 							</script>
 						<?php 
 						}

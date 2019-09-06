@@ -12,18 +12,15 @@
 			// $password = hash('sha256', $pass); Example of encripting a password
 
 			//Variables used for the query
-				$code = db_quote($_POST['userCode']);
-				$userType = db_quote($_POST['userLevel']);
-				$name = db_quote($_POST['userName']);
-				$lastname = db_quote($_POST['userLastName']);
-				$user = db_quote($_POST['userUser']);
-				//Encript the password for better security
-					$password = db_quote($_POST['userPass']);
-				//Encript the password for better security
+				$name = db_quote(strtoupper($_POST['userName']));
+				$lastname = db_quote(strtoupper($_POST['userLastName']));
+				$userType = db_quote(strtoupper($_POST['userType']));
+				$user = db_quote(strtoupper($_POST['userUser']));
+				$password = db_quote(strtoupper($_POST['userPass']));
 			//Variables used for the query
 
 			//Create a variable containing the query that inserts the user into the database
-				$query = "INSERT INTO users (code, user_type, name, lastname, user, password) VALUES ('$code','$userType', '$name', '$lastname', '$user','$password')";
+				$query = "INSERT INTO usuarios (nombre, apellido, tipo, usuario, pass) VALUES ('$name', '$lastname', '$userType', '$user','$password')";
 			//Create a variable containing the query that inserts the user into the database
 
 			//Create a variable that runs the query
@@ -42,14 +39,10 @@
 	//------------Function that allows us to add an user to the database------------
 
 	//------------Function that allows us to delete an user from the database------------
-		function delete_user() {
-
-			//Variables used for the query
-				$code = db_quote($_POST['userCode']);
-			//Variables used for the query
+		function delete_user($id) {
 
 			//Create a variable containing the query that inserts the user into the database
-				$query = "DELETE FROM users WHERE code = '$code'";
+				$query = "DELETE FROM usuarios WHERE id_usuario = '$id'";
 			//Create a variable containing the query that inserts the user into the database
 
 			//Create a variable that runs the query
@@ -118,7 +111,7 @@
 	//------------Function to get all the users from database ------------
 		function select_users(){
 			//Create a variable that contains the query that log in the page
-				$query = "SELECT id_user, code, user, name, lastname, user_type FROM users";
+				$query = "SELECT * FROM usuarios";
 			//Create a variable that contains the query that log in the page
 
 			//Run the query and assign it to the variable result

@@ -138,6 +138,15 @@
 									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
 									</script>";
 						break;
+						case 'userdeleted':
+							echo "<script> swal({
+									  title: 'Exito!',
+									  text: 'El usuario fue eliminado correctamente',
+									  icon: 'success',
+									})
+									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
+									</script>";
+						break;
 					//Approved Messages
 
 					//Denied Messages

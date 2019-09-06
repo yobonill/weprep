@@ -8,6 +8,7 @@
 				'__TITLE_APPNAME__' => 'WePrep',
 				'__INSTITUTION_NAME__' => 'WePrep',
 				'__SIGN__' => 'Creado por Yorki Bonilla, Toda la gloria es de Dios',
+				'__SUBMIT__' => 'Aceptar',
 			//Web title, brand, sign and general text
 
 			//Modal texts
@@ -55,23 +56,33 @@
 						'__USERS_ADMIN__' => 'Usuarios',
 						'__PRODUCTS_ADMIN__' => 'Productos',
 						'__CLIENTS_ADMIN__' => 'Clientes',
-						//ADDUSER
+						'__CLOSE_MODAL__' => "Cerrar",
+
+						//Adminuser View
+							'__TITLEUSER_ADMIN__' => 'Listado de usuarios',
+							'__NAMEUSER_ADMIN__' => 'Nombre',
+							'__LASTNAMEUSER_ADMIN__' => 'Apellido',
+							'__TYPEUSER_ADMIN__' => 'Tipo',
+							'__USERUSER_ADMIN__' => 'Usuario',
+							'__PASSUSER_ADMIN__' => 'Pass',
+							'__EDITUSER_ADMIN__' => 'Editar',
 							'__TITLE_ADDUSERS_ADMIN__' => 'Agregar Usuario',
-							//ADDUSERMODAL
+							'__DELETEUSER_ADMIN__' => 'Eliminar',
+						//Adminuser View
+						//EDITUSER
+							'__TITLE_EDITUSERS_ADMIN__' => 'Editar Usuario',
+							//EDITUSERMODAL
 								'__USERFORM_CODE_ADMIN__' => 'Codigo',
-								'__USERFORM_LEVEL_ADMIN__' => 'Tipo de usuario',
-								'__USERFORM_LEVELADMIN_ADMIN__' => 'Administrador',
-								'__USERFORM_LEVELSUPERVISOR_ADMIN__' => 'Supervisor',
-								'__USERFORM_LEVELCONSULTANT_ADMIN__' => 'Consultor',
-								'__USERFORM_LEVELDISPATCHER_ADMIN__' => 'Despachador',
+								'__USERFORM_TYPE_ADMIN__' => 'Tipo de usuario',
+								'__USERFORM_TYPEADMIN_ADMIN__' => 'Administrador',
+								'__USERFORM_TYPEVENDEDOR_ADMIN__' => 'Vendedor',
 
 								'__USERFORM_NAME_ADMIN__' => 'Nombre',
 								'__USERFORM_LASTNAME_ADMIN__' => 'Apellido',
 								'__USERFORM_USER_ADMIN__' => 'Usuario',
 								'__USERFORM_PASSWORD_ADMIN__' => 'Clave',
-								'__USERFORM_USERLIST_ADMIN__' => 'Listado de usuarios',
-							//ADDUSERMODAL
-						//ADDUSER
+							//EDITUSERMODAL
+						//EDITUSER
 
 						//ADDPRODUCT
 							'__TITLE_ADDPRODUCT_ADMIN__' => 'Agregar Producto',

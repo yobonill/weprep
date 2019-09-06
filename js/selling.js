@@ -13,17 +13,22 @@
             $("."+nombre+"cantidad").val(parseInt($("."+nombre+"cantidad").val(), 10) + 1);
         } else {
             //If it does not exist, create the td with the below info
-            $('#cartTable tr:last').after('<tr><td class="'+nombre+'">'+nombre+'</td><td class="'+precio+'">'+precio+'</td><td><input type="text" name="'+nombre+'" class="form-control '+nombre+'cantidad" value="1"></td><td>test</td></tr>');
+            $('#cartTable tr:last').after('<tr><td class="'+nombre+'">'+nombre+'</td><td class="'+precio+'">'+precio+'</td><td><input type="number" name="'+nombre+'" class="form-control '+nombre+'cantidad test" value="1"><td class="'+nombre+'total">'+precio * 1+'</td><td><input type="number" name="'+nombre+'comentario" class="form-control '+nombre+'comentario" value=""></td></tr>');
         }
-        
     });
 //Add products to cart
 
-//Add datatable functionalities to Cart Table
-    $("#cartTable").DataTable({
-        dom: 'lBfrtip',
-        fixedHeader: true,
-        responsive: true
+//Modify price when manually modifying quantity
+    $(".test").on('input', function(){
+        alert("changeing");
     });
+//Modify price when manually modifying quantity
+
+//Add datatable functionalities to Cart Table
+    // $("#cartTable").DataTable({
+    //     dom: 'lBfrtip',
+    //     fixedHeader: true,
+    //     responsive: true
+    // });
 //Add datatable functionalities to Cart Table
 

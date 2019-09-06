@@ -52,7 +52,9 @@
 
 					//Admin View	
 						'__TITLE_ADMIN__' => 'Opciones de administrador',
-						'__FORMS_SUBMIT_ADMIN__' => 'Aceptar',
+						'__USERS_ADMIN__' => 'Usuarios',
+						'__PRODUCTS_ADMIN__' => 'Productos',
+						'__CLIENTS_ADMIN__' => 'Clientes',
 						//ADDUSER
 							'__TITLE_ADDUSERS_ADMIN__' => 'Agregar Usuario',
 							//ADDUSERMODAL

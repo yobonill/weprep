@@ -40,13 +40,15 @@
                             <h3><?= $language['__TITLE_SELLING_CART__']?></h3>
                         </div>
                         <div class="panel-body">
-                            <table class="table table-bordered text-center" id="cartTable">
+                            <table class="table text-center" id="cartTable">
                                 <thead>
                                 <tr class="btn-primary">
                                     <th>Producto</th>
                                     <th>Precio</th>
                                     <th>Cantidad</th>
+                                    <th>Total</th>
                                     <th>Comentario</th>
+                                    <th>-</th>
                                 </tr>
                                 </thead>
                                 <form action="core/controllers/billing.controller.php" method="post">

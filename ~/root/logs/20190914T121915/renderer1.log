@@ -1,0 +1,6 @@
+[2019-09-14 12:28:58.561] [renderer1] [error] connect ECONNREFUSED 127.0.0.1:22: Error: connect ECONNREFUSED 127.0.0.1:22
+	at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+[2019-09-14 12:29:23.691] [renderer1] [error] connect ECONNREFUSED 127.0.0.1:22: Error: connect ECONNREFUSED 127.0.0.1:22
+	at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+[2019-09-15 07:38:55.462] [renderer1] [info] Setting search error: XHR timeout: 5000ms
+[2019-09-15 07:38:55.472] [renderer1] [info] Setting search error: XHR timeout: 5000ms

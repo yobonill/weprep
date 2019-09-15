@@ -4,7 +4,8 @@
 	//Load Configuration with config data as an array, to be able to use the directory root paramete
 
 	//Require db and user model to use the functions in this file
-		require_once ($config['__DOCUMENT_ROOT__'] . '/models/admin.model.php');
+		require_once($config['__DOCUMENT_ROOT__'] . '/models/admin.model.php');
+		require_once($config['__DOCUMENT_ROOT__'] . '/models/user.model.php');
 	//Require db and user model to use the functions in this file
 
 	//Check if the session is started in order to be able to log out, if not, start it
@@ -13,12 +14,18 @@
 		}
 	//Check if the session is started in order to be able to log out, if not, start it
 
-    //Call the function for deleting the user
-        $id = $_GET['id'];
-        delete_user($id);
-	//Call the function for deleting the user
+	//Call the function for deleting the user if it is admin
+		if (isAdmin()) {
+			$id = $_GET['id'];
+			delete_user($id);
+		} else {
+			//Send the user to the index page and return a message
+				header("Location: ../../?view=login&msj=notloggedin");
+			//Send the user to the index page and return a message
+		}
+	//Call the function for deleting the user if it is admin
 
-	//Return the user to the login page
+	//Return the user to the adminusers page
 		header("Location: ../../?view=adminusers&msj=userdeleted");
-	//Return the user to the login page
+	//Return the user to the adminusers page
 ?>

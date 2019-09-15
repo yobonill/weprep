@@ -132,11 +132,12 @@
 	//------------Function that allows us to add a product to the database------------
 		function add_product() {
 			//Variables used for the query
-				$productName = db_quote($_POST['productName']);
+				$productName = db_quote(strtoupper($_POST['productName']));
+				$productPrice = db_quote(strtoupper($_POST['productPrice']));
 			//Variables used for the query
 
 			//Create a variable containing the query that inserts the product into the database
-				$query = "INSERT INTO product (name) VALUES ('$productName')";
+				$query = "INSERT INTO producto (nombre, precio) VALUES ('$productName','$productPrice')";
 			//Create a variable containing the query that inserts the product into the database
 
 			//Create a variable that runs the query
@@ -155,14 +156,14 @@
 	//------------Function that allows us to add a product to the database------------
 
 	//------------Function that allows us to delete a product from the database------------
-		function delete_product() {
+		function delete_product($id) {
 
 			//Variables used for the query
-				$id_product = db_quote($_POST['id_product']);
+				$id_producto = db_quote($id);
 			//Variables used for the query
 
 			//Create a variable containing the query that inserts the user into the database
-				$query = "DELETE FROM product WHERE id_product = '$id_product'";
+				$query = "DELETE FROM producto WHERE id_producto = '$id_producto'";
 			//Create a variable containing the query that inserts the user into the database
 
 			//Create a variable that runs the query

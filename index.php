@@ -25,11 +25,11 @@
 	//Redirect to default view if actual view do not exist
 		if(isLogin()) {
 			if (!isset($_GET['view']) || isset($_GET['view']) && !is_file('core/views/'. $_GET		['view'] . '.view.php') ) {
-				header("Location: http://localhost/weprep/?view=default");
+				header("Location: ?view=default");
 			}
 		} 
 		elseif($_GET['view'] != 'login' && $_GET['view'] != 'kanban') {
-			header("Location: http://localhost/weprep/?view=login");
+			header("Location: ?view=login");
 		}
 	//Redirect to default view if actual view do not exist
 ?>
@@ -208,7 +208,7 @@
 					//This checks if the actual view has a controller with that name
 
 					//Print a back button if they are not in the default or login page
-						if ($view != 'default' and $view != 'login') {
+						if ($view != 'default' && $view != 'login') {
 						?>
 							<script type="text/javascript">
 								$("#content").append("<a href='?view=default'><span class='glyphicon glyphicon-arrow-left back' aria-hidden='true'></span></a>");

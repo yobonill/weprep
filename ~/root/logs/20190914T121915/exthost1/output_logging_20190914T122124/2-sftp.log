@@ -1,0 +1,364 @@
+[09-14 12:22:24] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":true,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"wepreprd","host":"localhost","port":22,"username":"******","password":"******"}
+[09-14 12:22:33] [warn] ENOENT: no such file or directory, open '/home/yorki/.ssh/config' load /home/yorki/.ssh/config failed
+[09-14 12:22:33] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"wepreprd","host":"localhost","port":22,"username":"******","password":"******"}
+[09-14 12:24:10] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"localhost","port":22,"username":"******","password":"******"}
+[09-14 12:25:21] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"localhost","port":22,"username":"******","password":"******"}
+[09-14 12:26:23] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"wepreprd","host":"wepreprd","port":22,"username":"******","password":"******"}
+[09-14 12:26:30] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"localhost","port":22,"username":"******","password":"******"}
+[09-14 12:26:41] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"localhost","port":22,"username":"******","password":"******"}
+[09-14 12:28:22] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"localhost","port":22,"username":"******","password":"******"}
+[09-14 12:29:20] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/home/wepreprd/public_html/weprep/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"localhost","port":22,"username":"******","password":"******"}
+[09-14 12:29:27] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"localhost","port":22,"username":"******","password":"******"}
+[09-14 12:32:01] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"wepreprd.com","port":22,"username":"******","password":"******"}
+[09-14 12:33:30] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"ftp.wepreprd.com","port":22,"username":"******","password":"******"}
+[09-14 12:33:50] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"weprep@wepreprd.com","port":22,"username":"******","password":"******"}
+[09-14 12:33:55] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"ftp.wepreprd.com","port":22,"username":"******","password":"******"}
+[09-14 12:34:02] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"wepreprd.com","port":22,"username":"******","password":"******"}
+[09-14 15:30:26] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"wepreprd.com","port":22,"username":"******","password":"******"}
+[09-14 15:30:37] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"wepreprd.com","port":2222,"username":"******","password":"******"}
+[09-14 15:31:09] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"wepreprd.com","port":22,"username":"******","password":"******"}
+[09-14 15:31:15] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"wepreprd.com","port":25,"username":"******","password":"******"}
+[09-14 15:31:54] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"wepreprd","port":22,"username":"******","password":"******"}
+[09-14 15:32:04] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"wepreprd.com","port":22,"username":"******","password":"******"}
+[09-14 15:35:29] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"wepreprd.com","port":22,"username":"******","password":"******"}
+[09-14 15:36:19] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"104.156.59.17","port":22,"username":"******","password":"******"}
+[09-14 15:36:25] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"104.156.59.17","port":2222,"username":"******","password":"******"}
+[09-14 15:38:16] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"104.156.59.17","port":2222,"username":"******","password":"******"}
+[09-14 15:38:24] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"104.156.59.17","port":22,"username":"******","password":"******"}
+[09-14 15:39:45] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"104.156.59.17","port":21,"username":"******","password":"******"}
+[09-14 15:40:02] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"104.156.59.17","port":21,"username":"******","password":"******"}
+[09-14 15:40:22] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":true,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"104.156.59.17","port":21,"username":"******","password":"******"}
+[09-14 15:40:32] [info] [file-save] /opt/lampp/htdocs/weprep/index.php
+[09-14 15:40:33] [info] local ➞ remote /opt/lampp/htdocs/weprep/index.php
+[09-14 15:41:29] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/adduser.controller.php
+[09-14 15:41:29] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/adminclients.controller.php
+[09-14 15:41:30] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/adminusers.controller.php
+[09-14 15:41:30] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/deleteuser.controller.php
+[09-14 15:41:30] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/login.controller.php
+[09-14 15:41:31] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/logout.controller.php
+[09-14 15:41:31] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/messages.controller.php
+[09-14 15:41:31] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/reports.controller.php
+[09-14 15:41:31] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/selling.controller.php
+[09-14 15:41:32] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/sendemail.controller.php
+[09-14 15:41:32] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/models/admin.model.php
+[09-14 15:41:32] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/models/db.model.php
+[09-14 15:41:33] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/models/selling.model.php
+[09-14 15:41:33] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/models/user.model.php
+[09-14 15:41:33] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/admin.view.php
+[09-14 15:41:34] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminclients.view.php
+[09-14 15:41:34] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-14 15:41:34] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminusers.view.php
+[09-14 15:41:35] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/default.view.php
+[09-14 15:41:35] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/kanban.view.php
+[09-14 15:41:35] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/login.view.php
+[09-14 15:41:36] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/reports.view.php
+[09-14 15:41:36] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-14 15:41:41] [info] local ➞ remote /opt/lampp/htdocs/weprep/css/admin.css
+[09-14 15:41:41] [info] local ➞ remote /opt/lampp/htdocs/weprep/css/adminclients.css
+[09-14 15:41:42] [info] local ➞ remote /opt/lampp/htdocs/weprep/css/adminproducts.css
+[09-14 15:41:42] [info] local ➞ remote /opt/lampp/htdocs/weprep/css/adminusers.css
+[09-14 15:41:43] [info] local ➞ remote /opt/lampp/htdocs/weprep/css/bootstrap.min.css
+[09-14 15:41:43] [info] local ➞ remote /opt/lampp/htdocs/weprep/css/default.css
+[09-14 15:41:44] [info] local ➞ remote /opt/lampp/htdocs/weprep/css/font-awesome.min.css
+[09-14 15:41:44] [info] local ➞ remote /opt/lampp/htdocs/weprep/css/general.css
+[09-14 15:41:44] [info] local ➞ remote /opt/lampp/htdocs/weprep/css/login.css
+[09-14 15:41:45] [info] local ➞ remote /opt/lampp/htdocs/weprep/css/reports.css
+[09-14 15:41:45] [info] local ➞ remote /opt/lampp/htdocs/weprep/css/selling.css
+[09-14 15:42:02] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/datatables.css
+[09-14 15:42:27] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/datatables.js
+[09-14 15:42:27] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/datatables.min.css
+[09-14 15:42:40] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/datatables.min.js
+[09-14 15:42:42] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/JSZip-2.5.0/jszip.js
+[09-14 15:42:43] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/JSZip-2.5.0/jszip.min.js
+[09-14 15:42:56] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/pdfmake-0.1.32/pdfmake.js
+[09-14 15:43:02] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/pdfmake-0.1.32/pdfmake.min.js
+[09-14 15:43:08] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/pdfmake-0.1.32/vfs_fonts.js
+[09-14 15:43:08] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/css/buttons.bootstrap.css
+[09-14 15:43:09] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/css/buttons.bootstrap.min.css
+[09-14 15:43:09] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/css/buttons.bootstrap4.css
+[09-14 15:43:09] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/css/buttons.bootstrap4.min.css
+[09-14 15:43:10] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/css/buttons.dataTables.css
+[09-14 15:43:10] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/css/buttons.dataTables.min.css
+[09-14 15:43:10] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/css/buttons.foundation.css
+[09-14 15:43:11] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/css/buttons.foundation.min.css
+[09-14 15:43:11] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/css/buttons.jqueryui.css
+[09-14 15:43:11] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/css/buttons.jqueryui.min.css
+[09-14 15:43:12] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/css/buttons.semanticui.css
+[09-14 15:43:12] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/css/buttons.semanticui.min.css
+[09-14 15:43:12] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/css/common.scss
+[09-14 15:43:12] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/css/mixins.scss
+[09-14 15:43:13] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.bootstrap.js
+[09-14 15:43:13] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.bootstrap.min.js
+[09-14 15:43:13] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.bootstrap4.js
+[09-14 15:43:14] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.bootstrap4.min.js
+[09-14 15:43:14] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.colVis.js
+[09-14 15:43:15] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.colVis.min.js
+[09-14 15:43:15] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.flash.js
+[09-14 15:43:16] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.flash.min.js
+[09-14 15:43:16] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.foundation.js
+[09-14 15:43:16] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.foundation.min.js
+[09-14 15:43:17] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.html5.js
+[09-14 15:43:17] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.html5.min.js
+[09-14 15:43:18] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.jqueryui.js
+[09-14 15:43:18] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.jqueryui.min.js
+[09-14 15:43:18] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.print.js
+[09-14 15:43:19] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.print.min.js
+[09-14 15:43:19] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.semanticui.js
+[09-14 15:43:19] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/buttons.semanticui.min.js
+[09-14 15:43:20] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/dataTables.buttons.js
+[09-14 15:43:20] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/js/dataTables.buttons.min.js
+[09-14 15:43:22] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Buttons-1.5.1/swf/flashExport.swf
+[09-14 15:43:23] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/ColReorder-1.4.1/css/colReorder.bootstrap.css
+[09-14 15:43:24] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/ColReorder-1.4.1/css/colReorder.bootstrap.min.css
+[09-14 15:43:24] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/ColReorder-1.4.1/css/colReorder.bootstrap4.css
+[09-14 15:43:25] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/ColReorder-1.4.1/css/colReorder.bootstrap4.min.css
+[09-14 15:43:25] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/ColReorder-1.4.1/css/colReorder.dataTables.css
+[09-14 15:43:25] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/ColReorder-1.4.1/css/colReorder.dataTables.min.css
+[09-14 15:43:26] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/ColReorder-1.4.1/css/colReorder.foundation.css
+[09-14 15:43:26] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/ColReorder-1.4.1/css/colReorder.foundation.min.css
+[09-14 15:43:26] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/ColReorder-1.4.1/css/colReorder.jqueryui.css
+[09-14 15:43:27] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/ColReorder-1.4.1/css/colReorder.jqueryui.min.css
+[09-14 15:43:27] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/ColReorder-1.4.1/css/colReorder.semanticui.css
+[09-14 15:43:27] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/ColReorder-1.4.1/css/colReorder.semanticui.min.css
+[09-14 15:43:28] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/ColReorder-1.4.1/js/dataTables.colReorder.js
+[09-14 15:43:28] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/ColReorder-1.4.1/js/dataTables.colReorder.min.js
+[09-14 15:43:28] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/css/dataTables.bootstrap.css
+[09-14 15:43:29] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/css/dataTables.bootstrap.min.css
+[09-14 15:43:29] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/css/dataTables.bootstrap4.css
+[09-14 15:43:29] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css
+[09-14 15:43:30] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/css/dataTables.foundation.css
+[09-14 15:43:30] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/css/dataTables.foundation.min.css
+[09-14 15:43:30] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/css/dataTables.jqueryui.css
+[09-14 15:43:31] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/css/dataTables.jqueryui.min.css
+[09-14 15:43:31] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/css/dataTables.semanticui.css
+[09-14 15:43:31] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/css/dataTables.semanticui.min.css
+[09-14 15:43:32] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/css/jquery.dataTables.css
+[09-14 15:43:32] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/css/jquery.dataTables.min.css
+[09-14 15:43:33] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/images/sort_asc.png
+[09-14 15:43:33] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/images/sort_asc_disabled.png
+[09-14 15:43:33] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/images/sort_both.png
+[09-14 15:43:34] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/images/sort_desc.png
+[09-14 15:43:34] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/images/sort_desc_disabled.png
+[09-14 15:43:34] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/js/dataTables.bootstrap.js
+[09-14 15:43:34] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/js/dataTables.bootstrap.min.js
+[09-14 15:43:35] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/js/dataTables.bootstrap4.js
+[09-14 15:43:35] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js
+[09-14 15:43:35] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/js/dataTables.foundation.js
+[09-14 15:43:36] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/js/dataTables.foundation.min.js
+[09-14 15:43:36] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/js/dataTables.jqueryui.js
+[09-14 15:43:36] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/js/dataTables.jqueryui.min.js
+[09-14 15:43:37] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/js/dataTables.semanticui.js
+[09-14 15:43:37] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/js/dataTables.semanticui.min.js
+[09-14 15:43:40] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/js/jquery.dataTables.js
+[09-14 15:43:41] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/DataTables-1.10.16/js/jquery.dataTables.min.js
+[09-14 15:43:41] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedColumns-3.2.4/css/fixedColumns.bootstrap.css
+[09-14 15:43:41] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedColumns-3.2.4/css/fixedColumns.bootstrap.min.css
+[09-14 15:43:42] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedColumns-3.2.4/css/fixedColumns.bootstrap4.css
+[09-14 15:43:42] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedColumns-3.2.4/css/fixedColumns.bootstrap4.min.css
+[09-14 15:43:42] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedColumns-3.2.4/css/fixedColumns.dataTables.css
+[09-14 15:43:42] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedColumns-3.2.4/css/fixedColumns.dataTables.min.css
+[09-14 15:43:43] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedColumns-3.2.4/css/fixedColumns.foundation.css
+[09-14 15:43:43] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedColumns-3.2.4/css/fixedColumns.foundation.min.css
+[09-14 15:43:43] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedColumns-3.2.4/css/fixedColumns.jqueryui.css
+[09-14 15:43:44] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedColumns-3.2.4/css/fixedColumns.jqueryui.min.css
+[09-14 15:43:44] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedColumns-3.2.4/css/fixedColumns.semanticui.css
+[09-14 15:43:44] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedColumns-3.2.4/css/fixedColumns.semanticui.min.css
+[09-14 15:43:45] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedColumns-3.2.4/js/dataTables.fixedColumns.js
+[09-14 15:43:46] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedColumns-3.2.4/js/dataTables.fixedColumns.min.js
+[09-14 15:43:46] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedHeader-3.1.3/css/fixedHeader.bootstrap.css
+[09-14 15:43:46] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedHeader-3.1.3/css/fixedHeader.bootstrap.min.css
+[09-14 15:43:47] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedHeader-3.1.3/css/fixedHeader.bootstrap4.css
+[09-14 15:43:47] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedHeader-3.1.3/css/fixedHeader.bootstrap4.min.css
+[09-14 15:43:47] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedHeader-3.1.3/css/fixedHeader.dataTables.css
+[09-14 15:43:48] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedHeader-3.1.3/css/fixedHeader.dataTables.min.css
+[09-14 15:43:48] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedHeader-3.1.3/css/fixedHeader.foundation.css
+[09-14 15:43:48] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedHeader-3.1.3/css/fixedHeader.foundation.min.css
+[09-14 15:43:49] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedHeader-3.1.3/css/fixedHeader.jqueryui.css
+[09-14 15:43:49] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedHeader-3.1.3/css/fixedHeader.jqueryui.min.css
+[09-14 15:43:49] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedHeader-3.1.3/css/fixedHeader.semanticui.css
+[09-14 15:43:50] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedHeader-3.1.3/css/fixedHeader.semanticui.min.css
+[09-14 15:43:50] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedHeader-3.1.3/js/dataTables.fixedHeader.js
+[09-14 15:43:50] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/FixedHeader-3.1.3/js/dataTables.fixedHeader.min.js
+[09-14 15:43:51] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/css/responsive.bootstrap.css
+[09-14 15:43:51] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/css/responsive.bootstrap.min.css
+[09-14 15:43:51] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/css/responsive.bootstrap4.css
+[09-14 15:43:52] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/css/responsive.bootstrap4.min.css
+[09-14 15:43:52] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/css/responsive.dataTables.css
+[09-14 15:43:52] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/css/responsive.dataTables.min.css
+[09-14 15:43:53] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/css/responsive.foundation.css
+[09-14 15:43:53] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/css/responsive.foundation.min.css
+[09-14 15:43:53] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/css/responsive.jqueryui.css
+[09-14 15:43:54] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/css/responsive.jqueryui.min.css
+[09-14 15:43:54] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/css/responsive.semanticui.css
+[09-14 15:43:54] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/css/responsive.semanticui.min.css
+[09-14 15:43:55] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/js/dataTables.responsive.js
+[09-14 15:43:55] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/js/dataTables.responsive.min.js
+[09-14 15:43:56] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/js/responsive.bootstrap.js
+[09-14 15:43:56] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/js/responsive.bootstrap.min.js
+[09-14 15:43:56] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/js/responsive.bootstrap4.js
+[09-14 15:43:57] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/js/responsive.bootstrap4.min.js
+[09-14 15:43:57] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/js/responsive.foundation.js
+[09-14 15:43:57] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/js/responsive.foundation.min.js
+[09-14 15:43:58] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/js/responsive.jqueryui.js
+[09-14 15:43:58] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/js/responsive.jqueryui.min.js
+[09-14 15:43:58] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/js/responsive.semanticui.js
+[09-14 15:43:59] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Responsive-2.2.1/js/responsive.semanticui.min.js
+[09-14 15:43:59] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/RowReorder-1.2.3/css/rowReorder.bootstrap.css
+[09-14 15:43:59] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/RowReorder-1.2.3/css/rowReorder.bootstrap.min.css
+[09-14 15:44:00] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/RowReorder-1.2.3/css/rowReorder.bootstrap4.css
+[09-14 15:44:00] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/RowReorder-1.2.3/css/rowReorder.bootstrap4.min.css
+[09-14 15:44:00] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/RowReorder-1.2.3/css/rowReorder.dataTables.css
+[09-14 15:44:01] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/RowReorder-1.2.3/css/rowReorder.dataTables.min.css
+[09-14 15:44:01] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/RowReorder-1.2.3/css/rowReorder.foundation.css
+[09-14 15:44:01] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/RowReorder-1.2.3/css/rowReorder.foundation.min.css
+[09-14 15:44:02] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/RowReorder-1.2.3/css/rowReorder.jqueryui.css
+[09-14 15:44:02] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/RowReorder-1.2.3/css/rowReorder.jqueryui.min.css
+[09-14 15:44:02] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/RowReorder-1.2.3/css/rowReorder.semanticui.css
+[09-14 15:44:03] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/RowReorder-1.2.3/css/rowReorder.semanticui.min.css
+[09-14 15:44:03] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/RowReorder-1.2.3/js/dataTables.rowReorder.js
+[09-14 15:44:03] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/RowReorder-1.2.3/js/dataTables.rowReorder.min.js
+[09-14 15:44:04] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Scroller-1.4.4/css/scroller.bootstrap.css
+[09-14 15:44:04] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Scroller-1.4.4/css/scroller.bootstrap.min.css
+[09-14 15:44:04] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Scroller-1.4.4/css/scroller.bootstrap4.css
+[09-14 15:44:05] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Scroller-1.4.4/css/scroller.bootstrap4.min.css
+[09-14 15:44:05] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Scroller-1.4.4/css/scroller.dataTables.css
+[09-14 15:44:05] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Scroller-1.4.4/css/scroller.dataTables.min.css
+[09-14 15:44:06] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Scroller-1.4.4/css/scroller.foundation.css
+[09-14 15:44:06] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Scroller-1.4.4/css/scroller.foundation.min.css
+[09-14 15:44:06] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Scroller-1.4.4/css/scroller.jqueryui.css
+[09-14 15:44:07] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Scroller-1.4.4/css/scroller.jqueryui.min.css
+[09-14 15:44:07] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Scroller-1.4.4/css/scroller.semanticui.css
+[09-14 15:44:07] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Scroller-1.4.4/css/scroller.semanticui.min.css
+[09-14 15:44:08] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Scroller-1.4.4/js/dataTables.scroller.js
+[09-14 15:44:08] [info] local ➞ remote /opt/lampp/htdocs/weprep/dataTables/Scroller-1.4.4/js/dataTables.scroller.min.js
+[09-14 15:44:25] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/FontAwesome.otf
+[09-14 15:44:26] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/fontawesome-webfont.eot
+[09-14 15:44:29] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/fontawesome-webfont.svg
+[09-14 15:44:30] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/fontawesome-webfont.ttf
+[09-14 15:44:31] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/fontawesome-webfont.woff
+[09-14 15:44:31] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/fontawesome-webfont.woff2
+[09-14 15:44:32] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/glyphicons-halflings-regular.eot
+[09-14 15:44:33] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/glyphicons-halflings-regular.svg
+[09-14 15:44:33] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/glyphicons-halflings-regular.ttf
+[09-14 15:44:34] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/glyphicons-halflings-regular.woff
+[09-14 15:44:34] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/glyphicons-halflings-regular.woff2
+[09-14 15:44:34] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Bold.eot
+[09-14 15:44:35] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Bold.ttf
+[09-14 15:44:36] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Bold.woff
+[09-14 15:44:37] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Bold.woff2
+[09-14 15:44:37] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Light.eot
+[09-14 15:44:38] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Light.ttf
+[09-14 15:44:39] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Light.woff
+[09-14 15:44:39] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Light.woff2
+[09-14 15:44:40] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Medium.eot
+[09-14 15:44:41] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Medium.ttf
+[09-14 15:44:41] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Medium.woff
+[09-14 15:44:42] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Medium.woff2
+[09-14 15:44:42] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Regular.eot
+[09-14 15:44:43] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Regular.ttf
+[09-14 15:44:44] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Regular.woff
+[09-14 15:44:44] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Regular.woff2
+[09-14 15:44:45] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Thin.eot
+[09-14 15:44:46] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Thin.ttf
+[09-14 15:44:47] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Thin.woff
+[09-14 15:44:47] [info] local ➞ remote /opt/lampp/htdocs/weprep/fonts/roboto/Roboto-Thin.woff2
+[09-14 15:44:55] [info] local ➞ remote /opt/lampp/htdocs/weprep/js/Chart.min.js
+[09-14 15:44:56] [info] local ➞ remote /opt/lampp/htdocs/weprep/js/bootstrap.min.js
+[09-14 15:44:56] [info] local ➞ remote /opt/lampp/htdocs/weprep/js/general.js
+[09-14 15:44:57] [info] local ➞ remote /opt/lampp/htdocs/weprep/js/jquery-3.2.1.min.js
+[09-14 15:44:57] [info] local ➞ remote /opt/lampp/htdocs/weprep/js/jquery.validate.min.js
+[09-14 15:44:57] [info] local ➞ remote /opt/lampp/htdocs/weprep/js/reports.js
+[09-14 15:44:58] [info] local ➞ remote /opt/lampp/htdocs/weprep/js/selling.js
+[09-14 15:44:58] [info] local ➞ remote /opt/lampp/htdocs/weprep/js/sweetalert.min.js
+[09-14 15:45:00] [info] local ➞ remote /opt/lampp/htdocs/weprep/lang/spanish.php
+[09-14 15:45:18] [info] local ➞ remote /opt/lampp/htdocs/weprep/index.php
+[09-14 16:10:32] [info] [file-save] /opt/lampp/htdocs/weprep/index.php
+[09-14 16:10:32] [info] local ➞ remote /opt/lampp/htdocs/weprep/index.php
+[09-14 16:10:48] [info] [file-save] /opt/lampp/htdocs/weprep/index.php
+[09-14 16:10:48] [info] local ➞ remote /opt/lampp/htdocs/weprep/index.php
+[09-14 16:11:26] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/adminclients.controller.php
+[09-14 16:11:28] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/adminclients.controller.php
+[09-14 16:12:07] [info] [file-save] /opt/lampp/htdocs/weprep/index.php
+[09-14 16:12:09] [info] local ➞ remote /opt/lampp/htdocs/weprep/index.php
+[09-15 07:30:56] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/adminproducts.controller.php
+[09-15 07:30:59] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:31:02] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/adminproducts.controller.php
+[09-15 07:31:02] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:32:18] [info] [file-save] /opt/lampp/htdocs/weprep/css/adminproducts.css
+[09-15 07:32:21] [info] local ➞ remote /opt/lampp/htdocs/weprep/css/adminproducts.css
+[09-15 07:33:26] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:33:27] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:35:56] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:35:59] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:41:31] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:41:31] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:43:39] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:43:40] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:45:43] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:45:53] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:46:54] [info] [file-save] /opt/lampp/htdocs/weprep/core/models/admin.model.php
+[09-15 07:46:55] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/models/admin.model.php
+[09-15 07:47:47] [info] [file-save] /opt/lampp/htdocs/weprep/core/models/admin.model.php
+[09-15 07:47:47] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/models/admin.model.php
+[09-15 07:48:42] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/adminproducts.controller.php
+[09-15 07:48:44] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/adminproducts.controller.php
+[09-15 07:49:37] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:49:38] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:50:01] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:50:02] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:51:30] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:51:33] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:51:40] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:51:41] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:52:02] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:52:02] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:52:33] [info] [file-save] /opt/lampp/htdocs/weprep/core/models/admin.model.php
+[09-15 07:52:34] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/models/admin.model.php
+[09-15 07:53:59] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/deleteuser.controller.php
+[09-15 07:53:59] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/deleteuser.controller.php
+[09-15 07:54:23] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/deleteuser.controller.php
+[09-15 07:54:23] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/deleteuser.controller.php
+[09-15 07:54:32] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:54:35] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:54:40] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:54:40] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:55:03] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:55:03] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:55:11] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:55:12] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/deleteproduct.controller.php
+[09-15 07:55:51] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/deleteuser.controller.php
+[09-15 07:55:53] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/deleteuser.controller.php
+[09-15 07:56:31] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:56:32] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:57:19] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:57:20] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:57:44] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:57:56] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:58:22] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:58:26] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:58:26] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:58:26] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:58:51] [info] [file-save] /opt/lampp/htdocs/weprep/css/adminproducts.css
+[09-15 07:58:52] [info] local ➞ remote /opt/lampp/htdocs/weprep/css/adminproducts.css
+[09-15 07:59:19] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:59:21] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:59:52] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 07:59:53] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 08:00:35] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 08:00:36] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/views/adminproducts.view.php
+[09-15 08:01:13] [info] [file-save] /opt/lampp/htdocs/weprep/css/adminproducts.css
+[09-15 08:01:14] [info] local ➞ remote /opt/lampp/htdocs/weprep/css/adminproducts.css
+[09-15 08:20:21] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/addproduct.controller.php
+[09-15 08:20:25] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/addproduct.controller.php
+[09-15 08:20:53] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/addproduct.controller.php
+[09-15 08:20:54] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/addproduct.controller.php
+[09-15 08:21:27] [info] [file-save] /opt/lampp/htdocs/weprep/core/models/admin.model.php
+[09-15 08:21:27] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/models/admin.model.php
+[09-15 08:23:15] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/messages.controller.php
+[09-15 08:23:16] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/messages.controller.php
+[09-15 08:23:27] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/messages.controller.php
+[09-15 08:23:27] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/messages.controller.php
+[09-15 08:23:35] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/messages.controller.php
+[09-15 08:23:36] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/messages.controller.php
+[09-15 08:23:57] [info] [file-save] /opt/lampp/htdocs/weprep/core/controllers/messages.controller.php
+[09-15 08:23:57] [info] local ➞ remote /opt/lampp/htdocs/weprep/core/controllers/messages.controller.php

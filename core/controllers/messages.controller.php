@@ -138,6 +138,24 @@
 									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
 									</script>";
 						break;
+						case 'productadded':
+							echo "<script> swal({
+									  title: 'Exito!',
+									  text: 'El producto fue agregado correctamente',
+									  icon: 'success',
+									})
+									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
+									</script>";
+						break;
+						case 'productdeleted':
+							echo "<script> swal({
+									  title: 'Exito!',
+									  text: 'El producto fue eliminado correctamente',
+									  icon: 'success',
+									})
+									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
+									</script>";
+						break;
 						case 'userdeleted':
 							echo "<script> swal({
 									  title: 'Exito!',

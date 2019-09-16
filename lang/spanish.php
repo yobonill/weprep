@@ -69,6 +69,13 @@
 							'__TITLE_ADDUSERS_ADMIN__' => 'Agregar Usuario',
 							'__DELETEUSER_ADMIN__' => 'Eliminar',
 						//Adminuser View
+
+						//Adminclient View
+							'__TITLE_ADDCLIENT_ADMIN__' => 'Agregar Cliente',
+							'__CLIENTFORM_PHONE_ADMIN__' => 'Telefono', 
+							'__CLIENTFORM_ADDRESS_ADMIN__' => 'Direccion', 
+							'__CLIENTFORM_ZONE_ADMIN__' => 'Zona',
+						//Adminclient View
 						//EDITUSER
 							'__TITLE_EDITUSERS_ADMIN__' => 'Editar Usuario',
 							//EDITUSERMODAL

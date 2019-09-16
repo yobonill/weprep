@@ -18,7 +18,7 @@
 		//check if $_POST has the values user and pass
 		if (isLogin()) {
 			//run the function that logs in the user
-				$result = select_users();
+				$result = select_clients();
 			//run the function that logs in the user
 		} else {
             //Send the user to the index page and return a message

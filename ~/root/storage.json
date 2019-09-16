@@ -4,7 +4,10 @@
         "workspaces3": [
             "file:///opt/lampp/htdocs/weprep"
         ],
-        "files2": []
+        "files2": [
+            "file:///media/yorki/Seagate%20Backup%20Plus%20Drive/backup%20last%20yorki/memoria%20personal/Personal/Web%20development/SDQ%20Dreamweaver/javascript%20y%20jquery/proyecto%20final/materialize/portfolio/index.html",
+            "file:///media/yorki/Seagate%20Backup%20Plus%20Drive/backup%20last%20yorki/memoria%20personal/Personal/Web%20development/SDQ%20Dreamweaver/javascript%20y%20jquery/proyecto%20final/materialize/portfolio/js/main.js"
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -56,6 +59,31 @@
                                     },
                                     "enabled": true,
                                     "label": "/opt/lampp/htdocs/weprep"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///media/yorki/Seagate%20Backup%20Plus%20Drive/backup%20last%20yorki/memoria%20personal/Personal/Web%20development/SDQ%20Dreamweaver/javascript%20y%20jquery/proyecto%20final/materialize/portfolio/index.html",
+                                        "path": "/media/yorki/Seagate Backup Plus Drive/backup last yorki/memoria personal/Personal/Web development/SDQ Dreamweaver/javascript y jquery/proyecto final/materialize/portfolio/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/media/yorki/Seagate Backup Plus Drive/backup last yorki/memoria personal/Personal/Web development/SDQ Dreamweaver/javascript y jquery/proyecto final/materialize/portfolio/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///media/yorki/Seagate%20Backup%20Plus%20Drive/backup%20last%20yorki/memoria%20personal/Personal/Web%20development/SDQ%20Dreamweaver/javascript%20y%20jquery/proyecto%20final/materialize/portfolio/js/main.js",
+                                        "path": "/media/yorki/Seagate Backup Plus Drive/backup last yorki/memoria personal/Personal/Web development/SDQ Dreamweaver/javascript y jquery/proyecto final/materialize/portfolio/js/main.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/media/yorki/Seagate Backup Plus Drive/backup last yorki/memoria personal/Personal/Web development/SDQ Dreamweaver/javascript y jquery/proyecto final/materialize/portfolio/js/main.js"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1378,13 +1406,14 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/opt/lampp/htdocs/weprep/~/root/Backups/1568477538963",
+            "folder": "file:///opt/lampp/htdocs/weprep",
+            "backupPath": "/opt/lampp/htdocs/weprep/~/root/Backups/74ecf80a52d8a193bcbdc470a5232d58",
             "uiState": {
-                "mode": 1,
-                "x": 449,
-                "y": 958,
-                "width": 1024,
-                "height": 768
+                "mode": 0,
+                "x": 0,
+                "y": 802,
+                "width": 1920,
+                "height": 997
             }
         },
         "openedWindows": []

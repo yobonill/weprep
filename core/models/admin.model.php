@@ -201,4 +201,80 @@
 			//Check if the query ran correctly, if not return the error
 		}
 	//------------Function to get all the product from database ------------
+
+	//------------Function that allows us to add a client to the database------------
+		function add_client() {
+			//Variables used for the query
+				$clientName = db_quote(strtoupper($_POST['clientName']));
+				$clientLastName = db_quote(strtoupper($_POST['clientLastName']));
+				$clientPhone = db_quote(strtoupper($_POST['clientPhone']));
+				$clientZone = db_quote(strtoupper($_POST['clientZone']));
+				$clientAddress = db_quote(strtoupper($_POST['clientAddress']));
+			//Variables used for the query
+
+			//Create a variable containing the query that inserts the client into the database
+				$query = "INSERT INTO clientes (nombre, apellido, telefono,zona , direccion) VALUES ('$clientName','$clientLastName', '$clientPhone','$clientZone', '$clientAddress')";
+			//Create a variable containing the query that inserts the client into the database
+
+			//Create a variable that runs the query
+				$result = db_query($query);
+			//Create a variable that runs the query
+
+			//Check if the query ran correctly, if not return the error
+			if($result === false) {
+				$error = db_error();
+				echo $error;
+			} else {
+				return $result;
+			}
+			//Check if the query ran correctly, if not return the error
+		}
+	//------------Function that allows us to add a client to the database------------
+
+	//------------Function that allows us to delete a client from the database------------
+		function delete_client($id) {
+
+			//Variables used for the query
+				$id_client = db_quote($id);
+			//Variables used for the query
+
+			//Create a variable containing the query that inserts the user into the database
+				$query = "DELETE FROM clientes WHERE id_clientes = '$id_client'";
+			//Create a variable containing the query that inserts the user into the database
+
+			//Create a variable that runs the query
+				$result = db_query($query);
+			//Create a variable that runs the query
+
+			//Check if the query ran correctly, if not return the error
+			if($result === false) {
+				$error = db_error();
+				echo $error;
+			} else {
+				return $result;
+			}
+			//Check if the query ran correctly, if not return the error
+		}
+	//------------Function that allows us to delete a client from the database------------
+
+	//------------Function to get all the client from database ------------
+		function select_clients(){
+			//Create a variable that contains the query that log in the page
+				$query = "SELECT * FROM clientes";
+			//Create a variable that contains the query that log in the page
+
+			//Run the query and assign it to the variable result
+				$result = db_select($query);
+			//Run the query and assign it to the variable result
+
+			//Check if the query ran correctly, if not return the error
+				if($result === false) {
+					$error = db_error();
+					echo $error;
+				} else {
+					return $result;
+				}
+			//Check if the query ran correctly, if not return the error
+		}
+	//------------Function to get all the client from database ------------
 ?>

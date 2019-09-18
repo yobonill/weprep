@@ -1,0 +1,5 @@
+[2019-09-17 11:56:53.462] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-09-17 12:47:06.851] [renderer1] [warning] Aborted onWillSaveTextDocument-event after 1750ms
+[2019-09-17 12:47:11.656] [renderer1] [warning] UNRESPONSIVE extension host, 'vscode.css-language-features' took 96% of 844.312ms, saved PROFILE here: '/tmp/exthost-45671e.cpuprofile' [{"id":"vscode.css-language-features","total":808950,"percentage":96}]
+[2019-09-17 13:00:58.486] [renderer1] [warning] Aborted onWillSaveTextDocument-event after 1750ms
+[2019-09-17 13:01:01.700] [renderer1] [warning] UNRESPONSIVE extension host, 'vscode.css-language-features' took 87% of 997.351ms, saved PROFILE here: '/tmp/exthost-f681b8.cpuprofile' [{"id":"program","total":98,"percentage":0},{"id":"self","total":108696,"percentage":11},{"id":"vscode.css-language-features","total":862794,"percentage":87},{"id":"vscode.emmet","total":21508,"percentage":2},{"id":"vscode.html-language-features","total":85,"percentage":0},{"id":"vscode.merge-conflict","total":340,"percentage":0},{"id":"vscode.typescript-language-features","total":2536,"percentage":0}]

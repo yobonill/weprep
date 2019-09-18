@@ -1,0 +1,217 @@
+[09-17 12:09:01] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":true,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"104.156.59.17","port":21,"username":"******","password":"******"}
+[09-17 12:15:05] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:15:05] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:15:07] [info] [file-save] /opt/lampp/htdocs/weprep/js/shoppingcart.js
+[09-17 12:15:07] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/js/shoppingcart.js
+[09-17 12:17:13] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:17:13] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:17:42] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:17:42] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:19:21] [info] [file-save] /opt/lampp/htdocs/weprep/index.php
+[09-17 12:19:21] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/index.php
+[09-17 12:19:38] [info] [file-save] /opt/lampp/htdocs/weprep/index.php
+[09-17 12:19:38] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/index.php
+[09-17 12:20:06] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:20:06] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:21:57] [info] [file-save] /opt/lampp/htdocs/weprep/css/style.css
+[09-17 12:21:57] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/css/style.css
+[09-17 12:25:48] [info] [file-save] /opt/lampp/htdocs/weprep/index.php
+[09-17 12:25:48] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/index.php
+[09-17 12:31:41] [info] [file-save] /opt/lampp/htdocs/weprep/css/selling.css
+[09-17 12:31:41] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/css/selling.css
+[09-17 12:33:23] [info] [file-save] /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:33:23] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:35:37] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:35:37] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:36:36] [info] [file-save] /opt/lampp/htdocs/weprep/js/shoppingcart.js
+[09-17 12:36:36] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/js/shoppingcart.js
+[09-17 12:36:47] [info] [file-save] /opt/lampp/htdocs/weprep/js/shoppingcart.js
+[09-17 12:36:47] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/js/shoppingcart.js
+[09-17 12:37:11] [info] [file-save] /opt/lampp/htdocs/weprep/js/shoppingcart.js
+[09-17 12:37:11] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/js/shoppingcart.js
+[09-17 12:37:38] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:37:38] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:38:30] [info] [file-save] /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:38:30] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:38:43] [info] [file-save] /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:38:43] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:40:03] [info] [file-save] /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:40:03] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:40:52] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:40:52] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:41:40] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:41:40] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:41:53] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:41:53] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:42:13] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:42:13] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:42:14] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:42:14] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:43:18] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:43:18] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:44:04] [info] [file-save] /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:44:04] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/core/views/selling.view.php
+[09-17 12:44:18] [info] [file-save] /opt/lampp/htdocs/weprep/js/shoppingcart.js
+[09-17 12:44:18] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/js/shoppingcart.js
+[09-17 12:45:33] [info] [file-save] /opt/lampp/htdocs/weprep/js/shoppingcart.js
+[09-17 12:45:33] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/js/shoppingcart.js
+[09-17 12:47:08] [info] [file-save] /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:47:08] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:47:28] [info] [file-save] /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:47:28] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:47:47] [info] [file-save] /opt/lampp/htdocs/weprep/js/shoppingcart.js
+[09-17 12:47:47] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/js/shoppingcart.js
+[09-17 12:56:49] [info] [file-save] /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:56:49] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:57:41] [info] [file-save] /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:57:41] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:58:27] [info] [file-save] /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:58:27] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:59:56] [info] [file-save] /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 12:59:56] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 13:01:01] [info] [file-save] /opt/lampp/htdocs/weprep/css/shoppingCart.css
+[09-17 13:01:01] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/css/shoppingCart.css

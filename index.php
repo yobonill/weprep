@@ -75,6 +75,14 @@
 						<?php
 					}
 				//This checks if the actual view has a css with that name
+
+				//Shopping Cart
+					if($view = "selling"){
+						?>
+							<link rel="stylesheet" href="css/shoppingCart.css">	
+						<?php
+					}
+				//Shopping Cart
 			}
 		?>
 
@@ -248,6 +256,11 @@
 				if(is_file('js/' . $view . '.js')){
 					?>
 						<script src="js/<?=$view?>.js">	</script>
+					<?php
+				}
+				if($view = "selling"){
+					?>
+						<script src="js/shoppingcart.js">	</script>
 					<?php
 				}
 			//This checks if the actual view has a js with that name

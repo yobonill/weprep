@@ -1,0 +1,7 @@
+[09-17 11:56:52] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":true,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"104.156.59.17","port":21,"username":"******","password":"******"}
+[09-17 12:08:53] [info] [file-save] /opt/lampp/htdocs/weprep/~/.vscode-root/Workspaces/1568736531420/workspace.json
+[09-17 12:08:53] [error] Error: connect ENETUNREACH 104.156.59.17:21 - Local (0.0.0.0:0)
+	at internalConnect (net.js:884:16)
+	at defaultTriggerAsyncIdScope (internal/async_hooks.js:294:19)
+	at defaultTriggerAsyncIdScope (net.js:974:9)
+	at process._tickCallback (internal/process/next_tick.js:61:11) download /opt/lampp/htdocs/weprep/~/.vscode-root/Workspaces/1568736531420/workspace.json

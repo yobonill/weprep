@@ -20,6 +20,13 @@
             width:100%;
             margin-bottom:20px;
         }
+        /* Shopping Cart */
+            .cd-cart-container select{
+                display:inline;
+                height: auto;
+                width: auto;
+            }
+        /* Shopping Cart */
     /*Content*/
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.  */
@@ -43,6 +50,13 @@
             width:100%;
             margin-bottom:20px;
         }
+        /* Shopping Cart */
+            .cd-cart-container select{
+                display:inline;
+                height: auto;
+                width: auto;
+            }
+        /* Shopping Cart */
     /*Content*/
 
 }
@@ -68,6 +82,13 @@
             width:100%;
             margin-bottom:20px;
         }
+        /* Shopping Cart */
+            .cd-cart-container select{
+                display:inline;
+                height: auto;
+                width: auto;
+            }
+        /* Shopping Cart */
     /*Content*/
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
@@ -91,6 +112,13 @@
             width:100%;
             margin-bottom:20px;
         }
+        /* Shopping Cart */
+            .cd-cart-container select{
+                display:inline;
+                height: auto;
+                width: auto;
+            }
+        /* Shopping Cart */
     /*Content*/
 }
 /* @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops / }

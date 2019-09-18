@@ -45,10 +45,10 @@
     /*nav*/
 
     /*Footer*/
-        footer {
+        #footer {
             padding-top: 45px;
         }
-        footer .container-fluid {
+        #footer .container-fluid {
             float:right;
         }
     /*Footer*/

@@ -56,7 +56,7 @@
 
 				$view = $_GET['view'];
 
-				if($view  == 'reports' || $view  == 'selling'){
+				if($view  == 'reports'){
 					?>
 						<!-- DataTables CSS -->
 							<link rel="stylesheet" href="dataTables/DataTables-1.10.16/css/jquery.dataTables.min.css">
@@ -124,7 +124,7 @@
 		<!-- Bootstrap JavaScript -->
 		<?php
 			if(isset($_GET['view'])){
-				if($view  == 'reports' || $view  == 'selling'){
+				if($view  == 'reports'){
 					?>
 						<!-- DataTables JavaScript -->
 							<script src="dataTables/DataTables-1.10.16/js/jquery.dataTables.min.js"></script>
@@ -236,7 +236,7 @@
 	<!--CONTENT-->
 
 	<!--FOOTER-->
-		<footer>
+		<footer id="footer">
 			<nav class="navbar navbar-inverse navbar-fixed-bottom nav-color">
 				<div class="container-fluid">
 					<p class="navbar-text"><?= $language['__SIGN__']?></p>	

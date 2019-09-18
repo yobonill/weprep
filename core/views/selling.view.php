@@ -39,6 +39,20 @@
 		</div>
     </div>
     <!-- Shopping Cart -->
+    
+    <form action="addbilling.controller.php" method="POST" role="form">
+       
+    
+        <div class="form-group">
+            <label for="">label</label>
+            <input type="text" class="form-control" id="" placeholder="Input field">
+        </div>
+    
+        
+    
+        <button type="submit" class="btn btn-primary"></button>
+    </form>
+    
         <div class="cd-cart-container empty">
             <a href="#0" class="cd-cart-trigger">
             <ul class="count"> <!-- cart items count -->
@@ -50,7 +64,23 @@
             <div class="cd-cart">
             <div class="wrapper">
                 <header>
-                <h2>Cart</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="clientName">Cliente</label>
+                        <select name="clientName" id="clientName" class="form-control" required="required">
+                            <option value="Transeunte" selected>Transeunte</option>
+                            <?php foreach ($clients as $value) { ?>
+                                <option value=<?= $value['id_clientes']?>> <?= $value['nombre'] . " " . $value['apellido']?></option>
+                            <?php } ?>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        
+                        <input type="date" name="date" id="inputdate" class="form-control" value="" required="required">
+                        
+                    </div>
+                </div>
+                
                 <span class="undo">Item removed. <a href="#0">Undo</a></span>
                 </header>
                 
@@ -61,6 +91,20 @@
                 </div>
 
                 <footer>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="discount" placeholder="descuento" value="0">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="input-group">
+                                <input type="number" class="form-control" id="days" placeholder="dias">
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
                     <a href="#0" class="checkout btn"><em>Checkout - $<span>0</span></em></a>
                 </footer>
             </div>

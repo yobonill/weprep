@@ -12,6 +12,7 @@ if( cartWrapper.length > 0 ) {
     var cartTrigger = cartWrapper.children('.cd-cart-trigger');
     var cartCount = cartTrigger.children('.count')
     var addToCartBtn = $('.cd-add-to-cart');
+    var discount = $('#discount');
     var undo = cartWrapper.find('.undo');
     var undoTimeoutId;
     var price;
@@ -31,6 +32,11 @@ if( cartWrapper.length > 0 ) {
         event.preventDefault();
         toggleCart();
     });
+
+    //calculate discount
+    discount.on('change', function(event){
+        quickUpdateCart();
+    })
 
     //close cart when clicking on the .cd-cart-container::before (bg layer)
     cartWrapper.on('click', function(event){
@@ -133,7 +139,7 @@ function quickUpdateCart() {
         price = price + singleQuantity*Number($(this).find('.price').text().replace('$', ''));
     });
 
-    cartTotal.text(price.toFixed(2));
+    cartTotal.text(price.toFixed(2) -discount.val());
     cartCount.find('li').eq(0).text(quantity);
     cartCount.find('li').eq(1).text(quantity+1);
 }
@@ -171,7 +177,7 @@ function updateCartCount(emptyCart, quantity) {
 }
 
 function updateCartTotal(price, bool) {
-    bool ? cartTotal.text( (Number(cartTotal.text()) + price).toFixed(2) )  : cartTotal.text( (Number(cartTotal.text()) - price).toFixed(2) );
+    bool ? cartTotal.text( (Number(cartTotal.text()) + price -discount.val()).toFixed(2))  : cartTotal.text( (Number(cartTotal.text()) - price -discount.val()).toFixed(2));
 }
 
 // Shopping Cart

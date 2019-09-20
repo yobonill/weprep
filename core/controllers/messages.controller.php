@@ -156,6 +156,15 @@
 									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
 									</script>";
 						break;
+						case 'billadded':
+							echo "<script> swal({
+									  title: 'Exito!',
+									  text: 'La factura fue agregada correctamente',
+									  icon: 'success',
+									})
+									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
+									</script>";
+						break;
 						case 'clientdeleted':
 							echo "<script> swal({
 									  title: 'Exito!',

@@ -277,4 +277,75 @@
 			//Check if the query ran correctly, if not return the error
 		}
 	//------------Function to get all the client from database ------------
+
+	//------------Function that allows us to add a client to the database------------
+		function add_bills() {
+
+			//Get the last bill ID
+				//Create a variable that contains the query that log in the page
+				$billQuery = "SELECT numero_factura FROM facturacion ORDER BY numero_factura DESC LIMIT 1";
+				//Create a variable that contains the query that log in the page
+
+				//Run the query and assign it to the variable result
+					$lastBill = db_select($billQuery);
+				//Run the query and assign it to the variable result
+				//Check if the query ran correctly, if not return the error
+					if(!$lastBill) {
+						$billId = 0;
+						$error = db_error();
+						echo $error;
+					} else {
+						//$billId = $lastBill["numero_factura"];
+						$billId = $lastBill[0]["numero_factura"] + 1;
+					}
+				//Check if the query ran correctly, if not return the error
+			//Get the last bill ID
+			//var_dump($billId);
+			//echo $billId[0];
+			//Variables used for the query
+				$user = $_SESSION['id_usuario'];
+				$counter = $_POST['counter'];
+				$clientId = db_quote($_POST['clientName']);
+				$days = db_quote($_POST['days']) + 1;
+				$date = db_quote($_POST['date']);
+			//Variables used for the query
+
+			Do {
+				while ($counter > 0) {
+					//Variables used for the query
+						$productId = db_quote($_POST['id_producto'.$counter]);
+						$productName = db_quote($_POST['product'.$counter]);
+						$productPrice = db_quote($_POST['price'.$counter]);
+						$productQuantity = db_quote($_POST['quantity'.$counter]);
+						$discount = db_quote($_POST['discount']);
+						$total = $productPrice * $productQuantity;
+					//Variables used for the query
+
+					//Create a variable containing the query that inserts the client into the database
+						if($counter == 1) {
+							$query = "INSERT INTO facturacion (numero_factura, id_usuario,id_cliente,id_producto, cantidad_producto,descuento_producto,total_factura,fecha_factura, estatus_factura) VALUES ('$billId', '$user', '$clientId','$productId','$productQuantity','$discount','$total','$date',0)";
+						} else {
+							$query = "INSERT INTO facturacion (numero_factura, id_usuario,id_cliente,id_producto, cantidad_producto,descuento_producto,total_factura,fecha_factura, estatus_factura) VALUES ('$billId', '$user', '$clientId','$productId','$productQuantity',0,'$total','$date',0)";
+						}
+					//Create a variable containing the query that inserts the client into the database
+					//Create a variable that runs the query
+						$result = db_query($query);
+					//Create a variable that runs the query
+
+					//Check if the query ran correctly, if not return the error
+						if($result === false) {
+							$error = db_error();
+							echo $error;
+						}
+					//Check if the query ran correctly, if not return the error
+					
+					$counter--;
+				}
+				$date = date('Y-m-d',strtotime($date . "+1 days"));
+				$days--;
+				$counter = $_POST['counter'];
+			} while ($days > 0);
+			return $result;
+		}
+	//------------Function that allows us to add a client to the database------------
 ?>

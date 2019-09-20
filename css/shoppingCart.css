@@ -288,7 +288,7 @@
   }
   .cd-cart .checkout em {
     position: relative;
-    display: inline-block;
+    display: inline-block
     -webkit-transform: translateX(40px);
         -ms-transform: translateX(40px);
             transform: translateX(40px);
@@ -1792,6 +1792,7 @@
   .cd-cart .checkout em {
     position: relative;
     display: inline-block;
+    width: 342px;
     -webkit-transform: translateX(40px);
         -ms-transform: translateX(40px);
             transform: translateX(40px);

@@ -18,10 +18,12 @@ if( cartWrapper.length > 0 ) {
     var price;
     var productName;
     var productImage;
+    var id;
     //add product to cart
     addToCartBtn.on('click', function(event){
         price = $(this).data("price");
         productName = $(this).data("product");
+        id = $(this).data("id");
         productImage = $(this).parent().parent().parent().find("img.activator").attr("src");
         event.preventDefault();
         addToCart($(this));
@@ -103,8 +105,12 @@ function addProduct() {
     //you should insert an item with the selected product info
     //replace productId, productName, price and url with your real product info
     productId = productId + 1;
-    var productAdded = $('<li class="product"><div class="product-details"><h3><a href="#0">'+ productName +'</a></h3><span class="price">$'+ price +'</span><div class="actions"><a href="#0" class="delete-item">Delete</a><div class="quantity"><label for="cd-product-'+ productId +'">Qty</label><span class="select"><select id="cd-product-'+ productId +'" name="quantity"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></span></div></div></div></li>');
+    var productAdded = $('<li class="product"><div class="product-details"><h3><a href="#0">'+ productName +'</a></h3><span class="price">$'+ price +'</span><div class="actions"><a href="#0" class="delete-item">Delete</a><div class="quantity"><label for="cd-product-'+ productId +'">Qty</label><span class="select"><select id="cd-product-'+ productId +'" name="quantity'+productId+'"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></span></div></div></div></li>');
+    var productData = $('<input type="text" name = product'+productId+' value = '+productName+' hidden> <input type="text" name = price'+productId+' value = '+price+' hidden> <input type="numer" name = id_producto'+productId+' value = '+id+' hidden> ')
+    
+    document.getElementById("counter").value = productId;
     cartList.prepend(productAdded);
+    cartList.prepend(productData);
 }
 
 function removeProduct(product) {

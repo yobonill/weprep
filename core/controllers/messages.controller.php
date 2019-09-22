@@ -74,27 +74,17 @@
 					//Warning Messages
 				//Reports VIEW messages
 
-				//Request VIEW messages
+				//Selling VIEW messages
 					//Approved Messages
-						case 'recordadded':
+						case 'billadded':
 							echo "<script> swal({
-									  title: 'Exito!',
-									  text: 'La informacion fue registrada correctamente',
-									  icon: 'success',
+									title: 'Exito!',
+									text: 'La factura fue agregada correctamente',
+									icon: 'success',
 									})
 									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
 									</script>";
-						break;
-
-						case 'recordupdated':
-							echo "<script> swal({
-									  title: 'Exito!',
-									  text: 'La informacion fue actualizada correctamente',
-									  icon: 'success',
-									})
-									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
-									</script>";
-						break;			
+						break;		
 					//Approved Messages
 
 					//Denied Messages
@@ -151,15 +141,6 @@
 							echo "<script> swal({
 									  title: 'Exito!',
 									  text: 'El cliente fue agregado correctamente',
-									  icon: 'success',
-									})
-									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
-									</script>";
-						break;
-						case 'billadded':
-							echo "<script> swal({
-									  title: 'Exito!',
-									  text: 'La factura fue agregada correctamente',
 									  icon: 'success',
 									})
 									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');

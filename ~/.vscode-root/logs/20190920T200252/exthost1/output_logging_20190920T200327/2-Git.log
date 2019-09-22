@@ -1,0 +1,893 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /opt/lampp/htdocs/weprep
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --show-toplevel
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :css/shoppingCart.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :css/shoppingCart.css
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :css/shoppingCart.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :css/shoppingCart.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :js/shoppingcart.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git show :core/models/admin.model.php
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :core/views/selling.view.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :core/views/selling.view.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse shoppingCart
+> git rev-parse --symbolic-full-name shoppingCart@{u}
+fatal: no upstream configured for branch 'shoppingCart'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose

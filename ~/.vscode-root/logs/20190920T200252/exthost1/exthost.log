@@ -1,0 +1,28 @@
+[2019-09-20 20:03:19.914] [exthost] [info] extension host started
+[2019-09-20 20:03:20.504] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"activationEvent":"onLanguage:css"}
+[2019-09-20 20:03:20.505] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/15/usr/share/code/resources/app/extensions/css-language-features/client/dist/cssMain
+[2019-09-20 20:03:20.983] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"activationEvent":"onLanguage:css"}
+[2019-09-20 20:03:20.984] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/15/usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-09-20 20:03:21.517] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-09-20 20:03:21.518] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/15/usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2019-09-20 20:03:21.573] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-09-20 20:03:21.574] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/15/usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-09-20 20:03:22.012] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-09-20 20:03:22.014] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/15/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-09-20 20:03:22.800] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-09-20 20:03:22.801] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/15/usr/share/code/resources/app/extensions/npm/dist/main
+[2019-09-20 20:03:23.001] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-09-20 20:03:23.002] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/15/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-09-20 20:03:23.745] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-09-20 20:03:23.746] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/15/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2019-09-20 20:03:24.096] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-09-20 20:03:24.097] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/15/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-09-20 20:03:24.218] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-09-20 20:03:24.222] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/15/usr/share/code/resources/app/extensions/git/dist/main
+[2019-09-20 20:03:25.738] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-09-20 20:03:25.739] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/15/usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-09-20 20:03:25.903] [exthost] [info] ExtensionService#_doActivateExtension liximomo.sftp {"startup":true,"activationEvent":"workspaceContains:.vscode/sftp.json"}
+[2019-09-20 20:03:25.905] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yorki/.vscode/extensions/liximomo.sftp-1.12.9/dist/extension
+[2019-09-20 20:03:28.845] [exthost] [info] eager extensions activated
+[2019-09-20 20:18:41.087] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2019-09-20 20:18:41.092] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/15/usr/share/code/resources/app/extensions/php-language-features/dist/phpMain

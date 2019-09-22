@@ -20,6 +20,6 @@
 	//Call the function for adding the bill
 
 	//Return the user to the login page
-		//header("Location: ../../?view=selling&msj=billadded");
+		header("Location: ../../?view=selling&msj=billadded");
 	//Return the user to the login page
 ?>

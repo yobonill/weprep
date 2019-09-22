@@ -344,8 +344,38 @@
 				$date = date('Y-m-d',strtotime($date . "+1 days"));
 				$days--;
 				$counter = $_POST['counter'];
+				$billId++;
 			} while ($days > 0);
 			return $result;
 		}
 	//------------Function that allows us to add a client to the database------------
+
+	//------------Function to get all the client from database ------------
+		function select_bills($status=0, $kanban=0){
+
+			if($kanban){
+				//Create a variable that contains the query that log in the page
+					$query = "SELECT producto.nombre, facturacion.cantidad_producto FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) WHERE facturacion.fecha_factura = CURRENT_DATE AND estatus_factura = '$status' GROUP BY facturacion.cantidad_producto DESC
+					";
+				//Create a variable that contains the query that log in the page
+			}
+
+			//Create a variable that contains the query that log in the page
+				//$query = "SELECT * FROM facturacion WHERE estatus_factura = '$status' ORDER BY numero_factura DESC";
+			//Create a variable that contains the query that log in the page
+
+			//Run the query and assign it to the variable result
+				$result = db_select($query);
+			//Run the query and assign it to the variable result
+
+			//Check if the query ran correctly, if not return the error
+				if($result === false) {
+					$error = db_error();
+					echo $error;
+				} else {
+					return $result;
+				}
+			//Check if the query ran correctly, if not return the error
+		}
+	//------------Function to get all the client from database ------------
 ?>

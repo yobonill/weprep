@@ -18,7 +18,7 @@
                                     foreach ($products as $value):
                                     ?>
                                         <div class="col-md-2">
-                                            <a href="#" class="cd-add-to-cart" data-price=<?=$value['precio']?> data-product=<?=$value['nombre']?> data-id = <?= $value["id_producto"]?> data-position="left" data-delay="50" data-tooltip="Price <?=$value['precio']?>">
+                                            <a href="#" class="cd-add-to-cart" data-price=<?=$value['precio']?> data-product="<?=$value['nombre']?>" data-id = <?= $value["id_producto"]?> data-position="left" data-delay="50" data-tooltip="Price <?=$value['precio']?>">
                                                 <button type="button" class="btn btn-success btn-big btn-green btn-product" title=<?=$value['precio']?>>
                                                     <i class="fa fa-plus-square sm-fa" aria-hidden="true"> </i>
                                                     <br>

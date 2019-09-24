@@ -41,9 +41,9 @@
 						'__BUTTON2__' => 'Reportes',
 					//Default View
 
-					//Default View
-						'__BUTTON2__' => 'Reportes',
-					//Default View
+					//Kaban View
+						'__PRODUCT_QUANTITY__' => 'Cantidad',
+					//Kaban View
 
 					//Selling View
 						'__TITLE_SELLING__' => 'Ventas',

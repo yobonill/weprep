@@ -52,7 +52,7 @@ if( cartWrapper.length > 0 ) {
     });
 
     //update item quantity
-    cartList.on('change', 'select', function(event){
+    cartList.on('change', 'input', function(event){
         quickUpdateCart();
     });
 
@@ -105,8 +105,8 @@ function addProduct() {
     //you should insert an item with the selected product info
     //replace productId, productName, price and url with your real product info
     productId = productId + 1;
-    var productAdded = $('<li class="product"><div class="product-details"><h3><a href="#0">'+ productName +'</a></h3><span class="price">$'+ price +'</span><div class="actions"><a href="#0" class="delete-item">Delete</a><div class="quantity"><label for="cd-product-'+ productId +'">Qty</label><span class="select"><select id="cd-product-'+ productId +'" name="quantity'+productId+'"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></span></div></div></div></li>');
-    var productData = $('<input type="text" name = product'+productId+' value = '+productName+' hidden> <input type="text" name = price'+productId+' value = '+price+' hidden> <input type="numer" name = id_producto'+productId+' value = '+id+' hidden> ')
+    var productAdded = $('<li class="product"><div class="product-details"><h3><a href="#0">'+ productName +'</a></h3><span class="price">$'+ price +'</span><div class="actions"><a href="#0" class="delete-item">Eliminar</a><div class="quantity"><label for="cd-product-'+ productId +'">Cant</label><input type="number" id="cd-product-'+ productId +'" name="quantity'+productId+'" value="1"></span></div></div></div></li>');
+    var productData = $('<input type="text" name = product'+productId+' value = '+productName+' hidden> <input type="number" name = price'+productId+' value = '+price+' hidden> <input type="number" name = id_producto'+productId+' value = '+id+' hidden> ')
     
     document.getElementById("counter").value = productId;
     cartList.prepend(productAdded);
@@ -118,7 +118,7 @@ function removeProduct(product) {
     cartList.find('.deleted').remove();
     
     var topPosition = product.offset().top - cartBody.children('ul').offset().top ,
-        productQuantity = Number(product.find('.quantity').find('select').val()),
+        productQuantity = Number(product.find('.quantity').find('input').text()),
         productTotPrice = Number(product.find('.price').text().replace('$', '')) * productQuantity;
     
     product.css('top', topPosition+'px').addClass('deleted');
@@ -140,7 +140,7 @@ function quickUpdateCart() {
     var price = 0;
     
     cartList.children('li:not(.deleted)').each(function(){
-        var singleQuantity = Number($(this).find('select').val());
+        var singleQuantity = Number($(this).find('input').val());
         quantity = quantity + singleQuantity;
         price = price + singleQuantity*Number($(this).find('.price').text().replace('$', ''));
     });

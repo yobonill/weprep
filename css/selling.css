@@ -118,6 +118,9 @@
                 height: auto;
                 width: auto;
             }
+            li.product input {
+                width:44px;
+            }
         /* Shopping Cart */
     /*Content*/
 }

@@ -2,8 +2,8 @@
   <table class="table table-bordered text-center" id="tableKanban">
     <thead>
       <tr class="btn-primary">
-        <th><?= $language['example']?></th>
-        <th><?= $language['example']?></th>
+        <th><?= $language['__PRODUCTFORM_NAME_ADMIN__']?></th>
+        <th><?= $language['__PRODUCT_QUANTITY__']?></th>
       </tr>
     </thead>
     <tbody>

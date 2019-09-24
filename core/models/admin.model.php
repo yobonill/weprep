@@ -306,7 +306,11 @@
 				$user = $_SESSION['id_usuario'];
 				$counter = $_POST['counter'];
 				$clientId = db_quote($_POST['clientName']);
-				$days = db_quote($_POST['days']) + 1;
+				if(isset($_POST['days']) && is_numeric($_POST['days'])){
+					$days = db_quote($_POST['days']) + 1;
+				} else {
+					$days = 0;
+				}
 				$date = db_quote($_POST['date']);
 			//Variables used for the query
 
@@ -317,8 +321,12 @@
 						$productName = db_quote($_POST['product'.$counter]);
 						$productPrice = db_quote($_POST['price'.$counter]);
 						$productQuantity = db_quote($_POST['quantity'.$counter]);
-						$discount = db_quote($_POST['discount']);
-						$total = $productPrice * $productQuantity;
+						if(isset($_POST['discount']) && is_numeric($_POST['discount'])){
+							$discount = db_quote($_POST['discount']);
+						} else {
+							$discount = 0;
+						}
+						$total = $productPrice * $productQuantity - $discount;
 					//Variables used for the query
 
 					//Create a variable containing the query that inserts the client into the database
@@ -355,7 +363,7 @@
 
 			if($kanban){
 				//Create a variable that contains the query that log in the page
-					$query = "SELECT producto.nombre, facturacion.cantidad_producto FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) WHERE facturacion.fecha_factura = CURRENT_DATE AND estatus_factura = '$status' GROUP BY facturacion.cantidad_producto DESC
+					$query = "SELECT producto.nombre, sum(facturacion.cantidad_producto) as cantidad_producto FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) WHERE facturacion.fecha_factura = CURRENT_DATE AND estatus_factura = '$status' GROUP BY producto.nombre  DESC
 					";
 				//Create a variable that contains the query that log in the page
 			}

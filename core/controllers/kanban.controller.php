@@ -17,7 +17,6 @@
 	//Log in if the requirements are met
 		//run the function that logs in the user
             $result = select_bills(0,1);
-            var_dump($result);
 		//run the function that logs in the user
 	//Log in if the requirements are met
 ?>

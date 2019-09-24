@@ -86,7 +86,7 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="discount" name = "discount" placeholder="descuento" value="0">
+                                    <input type="number" class="form-control" id="discount" name = "discount" placeholder="descuento">
                                 </div>
                             </div>
                         </div>

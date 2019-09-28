@@ -62,7 +62,17 @@
 
 				//Reports VIEW messages
 					//Approved Messages
-
+						case 'billsUpdated':
+							echo 
+							"<script>
+								swal({
+									title: 'Exito!',
+									text: 'Factura actualizada!',
+									icon: 'success',
+								})
+								$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
+							</script>";
+						break;
 					//Approved Messages
 
 					//Denied Messages
@@ -115,7 +125,7 @@
 					//Warning Messages
 
 					//Warning Messages
-				//Request VIEW messages
+				//Selling VIEW messages
 
 				//Admin VIEW messages
 					//Approved Messages

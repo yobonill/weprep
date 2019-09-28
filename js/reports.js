@@ -1,18 +1,7 @@
 //Reports View
-$("#tableInventory").DataTable({
+$("#tableReports").DataTable({
     dom: 'lBfrtip',
     fixedHeader: true,
-    colReorder: true,
-    responsive: true,
-    buttons: [
-        {
-            extend: 'excelHtml5',
-            title: $('.reportTitle').text(),
-        },
-        {
-            extend: 'pdfHtml5',
-            title: $('.reportTitle').text()
-        }
-    ]
+    responsive: true
 });
 //Reports View

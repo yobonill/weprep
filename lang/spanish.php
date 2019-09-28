@@ -52,7 +52,16 @@
 					//Selling View
 
 					//Reports View
-						
+						'__TITLE_REPORTS_DELIVERY__' => "Reporte Delivery",
+						//Tables
+							'__CLIENT_NAME_REPORTS__' => 'Cliente',
+							'__CLIENT_ZONE_REPORTS__' => 'Zona',
+							'__PRODUCT_NAME_REPORTS__' => 'Producto',
+							'__PRODUCT_QTY_REPORTS__' => 'Cantidad',
+							'__PRODUCT_PRICE_REPORTS__' => 'Precio',
+							'__PRODUCT_TOTAL_REPORTS__' => 'Total',
+							'__DISPATCH_BILL_REPORTS__' => 'despachar',
+						//Tables
 					//Reports View
 
 					//Admin View	
@@ -97,10 +106,10 @@
 
 						//ADDPRODUCT
 							'__TITLE_ADDPRODUCT_ADMIN__' => 'Agregar Producto',
-							//ADDUSERMODAL
+							//ADDPRODUCTMODAL
 								'__PRODUCTFORM_NAME_ADMIN__' => 'Nombre del producto',
 								'__PRODUCTFORM_PRICE_ADMIN__' => 'Precio del producto',
-							//ADDUSERMODAL
+							//ADDPRODUCTMODAL
 						//ADDPRODUCT
 						//DELETEUSER
 						'__TITLE_DELETEUSER_ADMIN__' => 'Eliminar Usuario',

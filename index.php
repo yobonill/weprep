@@ -60,9 +60,9 @@
 					?>
 						<!-- DataTables CSS -->
 							<link rel="stylesheet" href="dataTables/DataTables-1.10.16/css/jquery.dataTables.min.css">
-							<link rel="stylesheet" href="dataTables/Buttons-1.5.1/css/buttons.dataTables.min.css">
+							<!-- <link rel="stylesheet" href="dataTables/Buttons-1.5.1/css/buttons.dataTables.min.css"> -->
 							<link rel="stylesheet" href="dataTables/FixedHeader-3.1.3/css/fixedHeader.dataTables.min.css">
-							<link rel="stylesheet" href="dataTables/ColReorder-1.4.1/css/colReorder.dataTables.min.css">
+							<!-- <link rel="stylesheet" href="dataTables/ColReorder-1.4.1/css/colReorder.dataTables.min.css"> -->
 							<link rel="stylesheet" href="dataTables/Responsive-2.2.1/css/responsive.dataTables.min.css">
 						<!-- DataTables CSS -->
 					<?php
@@ -80,6 +80,7 @@
 					if($view = "selling"){
 						?>
 							<link rel="stylesheet" href="css/shoppingCart.css">	
+							<link rel="stylesheet" href="css/bootstrap-select.min.css">	
 						<?php
 					}
 				//Shopping Cart
@@ -124,22 +125,24 @@
 		<!-- Bootstrap JavaScript -->
 		<?php
 			if(isset($_GET['view'])){
+				$view = $_GET['view'];
+
 				if($view  == 'reports'){
 					?>
 						<!-- DataTables JavaScript -->
 							<script src="dataTables/DataTables-1.10.16/js/jquery.dataTables.min.js"></script>
-							<script src="dataTables/Buttons-1.5.1/js/dataTables.buttons.min.js"></script>
+							<!-- <script src="dataTables/Buttons-1.5.1/js/dataTables.buttons.min.js"></script> -->
 							<script src="dataTables/JSZip-2.5.0/jszip.min.js"></script>
-							<script src="dataTables/pdfmake-0.1.32/pdfmake.min.js"></script>
+							<!-- <script src="dataTables/pdfmake-0.1.32/pdfmake.min.js"></script>
 							<script src="dataTables/pdfmake-0.1.32/vfs_fonts.js"></script>
-							<script src="dataTables/Buttons-1.5.1/js/buttons.html5.min.js"></script>
+							<script src="dataTables/Buttons-1.5.1/js/buttons.html5.min.js"></script> -->
 							<script src="dataTables/FixedHeader-3.1.3/js/dataTables.fixedHeader.min.js"></script>
-							<script src="dataTables/ColReorder-1.4.1/js/dataTables.colReorder.min.js"></script>
+							<!-- <script src="dataTables/ColReorder-1.4.1/js/dataTables.colReorder.min.js"></script> -->
 							<script src="dataTables/Responsive-2.2.1/js/dataTables.responsive.min.js"></script>
 						<!-- DataTables JavaScript -->
 
 						<!-- Charts.js JavaScript -->
-							<script src="js/Chart.min.js"></script>
+							<!-- <script src="js/Chart.min.js"></script> -->
 						<!-- Charts.js JavaScript -->
 					<?php
 				}
@@ -261,6 +264,8 @@
 				if($view = "selling"){
 					?>
 						<script src="js/shoppingcart.js">	</script>
+						<script src="js/bootstrap-select.min.js">	</script>
+						
 					<?php
 				}
 			//This checks if the actual view has a js with that name

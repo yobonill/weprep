@@ -51,10 +51,8 @@
                 <header>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="clientName">Cliente</label>
-                            <select name="clientName" id="clientName" class="form-control" required="required">
-                                <option value="0" selected>Transeunte</option>
+                        <div class="group">
+                            <select name="clientName" id="clientName" class="selectpicker" required="required" data-live-search="true">
                                 <?php foreach ($clients as $value) { ?>
                                     <option value=<?= $value['id_clientes']?>> <?= $value['nombre'] . " " . $value['apellido']?></option>
                                 <?php } ?>

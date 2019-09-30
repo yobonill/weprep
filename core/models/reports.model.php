@@ -8,19 +8,18 @@
 	//Define Timezone
 
 	//------------Function to get several reports data from database ------------
-		function select_bills($report){
+		function select_bills($report, $bDate = NULL, $aDate = NULL){
 
 			switch ($report) {
-                case 'selligs':
+                case 'sellings':
                     //Create a variable that contains the query that log in the page
-					    $query = "SELECT producto.nombre, sum(facturacion.cantidad_producto) as cantidad_producto FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) WHERE facturacion.fecha_factura = CURRENT_DATE AND estatus_factura = 0 GROUP BY producto.nombre  DESC
-					    ";
+					    $query = "SELECT clientes.nombre as cliente, facturacion.descuento_producto as descuento, clientes.zona as zona, GROUP_CONCAT(producto.nombre SEPARATOR '-') as producto, sum(facturacion.cantidad_producto) as cantidad, producto.precio as precio, facturacion.total_factura as total, GROUP_CONCAT(facturacion.id_factura SEPARATOR '-') as factura FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) LEFT JOIN clientes ON (facturacion.id_cliente = clientes.id_clientes) WHERE facturacion.fecha_factura BETWEEN '" . $bDate . "' AND '" . $aDate . "' AND estatus_factura = 0 GROUP BY clientes.nombre, producto.nombre ORDER BY clientes.nombre";
 				    //Create a variable that contains the query that log in the page
                 break;
 
                 case 'delivery':
                     //Create a variable that contains the query that log in the page
-					    $query = "SELECT clientes.nombre as cliente, clientes.zona as zona, producto.nombre as producto, sum(facturacion.cantidad_producto) as cantidad, producto.precio as precio, facturacion.total_factura as total, GROUP_CONCAT(facturacion.id_factura SEPARATOR '-') as factura FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) LEFT JOIN clientes ON (facturacion.id_cliente = clientes.id_clientes) WHERE facturacion.fecha_factura = CURRENT_DATE AND estatus_factura = 0 GROUP BY clientes.nombre, producto.nombre
+					    $query = "SELECT clientes.nombre as cliente, clientes.zona as zona, producto.nombre as producto, sum(facturacion.cantidad_producto) as cantidad, producto.precio as precio, facturacion.total_factura as total, GROUP_CONCAT(facturacion.id_factura SEPARATOR '-') as factura FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) LEFT JOIN clientes ON (facturacion.id_cliente = clientes.id_clientes) WHERE facturacion.fecha_factura BETWEEN '" . $bDate . "' AND '" . $aDate . "' AND estatus_factura = 0 GROUP BY clientes.nombre, producto.nombre
 					    ";
 				    //Create a variable that contains the query that log in the page
                 break;

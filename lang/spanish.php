@@ -52,8 +52,12 @@
 					//Selling View
 
 					//Reports View
+						'__TITLE_REPORTS__' => "Listado de reportes",
 						'__TITLE_REPORTS_DELIVERY__' => "Reporte Delivery",
+						'__TITLE_REPORTS_SELLINGS__' => "Ventas del Dia",
 						//Tables
+							'__FILTER_BDATE_REPORTS__' => 'Desde',
+							'__FILTER_ADATE_REPORTS__' => 'Hasta',
 							'__CLIENT_NAME_REPORTS__' => 'Cliente',
 							'__CLIENT_ZONE_REPORTS__' => 'Zona',
 							'__PRODUCT_NAME_REPORTS__' => 'Producto',

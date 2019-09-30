@@ -1,23 +1,95 @@
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
-    
-}
-@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.  */
-}
-
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
-    
-}
-@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-     /*Content*/
-        /*Back Button*/
+    /*Content*/
+         /*Back Button*/
             .back {
                 font-size: 40px;
-                color:rgb(63,81,181) ;
+                color:rgb(36,50,100); ;
                 float: left;
                 position: absolute;
                 margin-top: 60px;
             }
         /*Back Button*/
+        /*buttons*/
+            .personal-btn {
+                font-size: 20px; /* Change the font size of the text inside buttons */
+                margin: 10px;
+                width: 100%;
+            }
+            .personal-fa {
+                font-size: 14em; /* Change the font size of the icons inside buttons */
+            }
+        /*buttons*/
+    /*Content*/
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.  */
+ /*Content*/
+         /*Back Button*/
+            .back {
+                font-size: 40px;
+                color:rgb(36,50,100); ;
+                float: left;
+                position: absolute;
+                margin-top: 60px;
+            }
+        /*Back Button*/
+        /*buttons*/
+            .personal-btn {
+                font-size: 20px; /* Change the font size of the text inside buttons */
+                margin: 10px;
+                width: 100%;
+            }
+            .personal-fa {
+                font-size: 14em; /* Change the font size of the icons inside buttons */
+            }
+    /*buttons*/
+/*Content*/
+
+}
+
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    /*Content*/
+         /*Back Button*/
+            .back {
+                font-size: 40px;
+                color:rgb(36,50,100); ;
+                float: left;
+                position: absolute;
+                margin-top: 60px;
+            }
+        /*Back Button*/
+        /*buttons*/
+            .personal-btn {
+                font-size: 20px; /* Change the font size of the text inside buttons */
+                margin: 10px;
+                width: 100%;
+            }
+            .personal-fa {
+                font-size: 14em; /* Change the font size of the icons inside buttons */
+            }
+        /*buttons*/
+    /*Content*/
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    /*Content*/
+         /*Back Button*/
+            .back {
+                font-size: 40px;
+                color:rgb(36,50,100);;
+                float: left;
+                position: absolute;
+                margin-top: 60px;
+            }
+        /*Back Button*/
+        /*buttons*/
+            .personal-btn {
+                font-size: 20px; /* Change the font size of the text inside buttons */
+                margin: 10px;
+                width: 100%;
+            }
+            .personal-fa {
+                font-size: 14em; /* Change the font size of the icons inside buttons */
+            }
+        /*buttons*/
     /*Content*/
 }
 /* @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops / }

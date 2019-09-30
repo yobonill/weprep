@@ -44,6 +44,12 @@
         }
     /*nav*/
 
+    /*content*/
+        .btn-primary, .panel-heading {
+            background-color:rgb(36,50,100);
+        }
+    /*content*/
+
     /*Footer*/
         #footer {
             padding-top: 45px;

@@ -139,6 +139,7 @@
 							<script src="dataTables/FixedHeader-3.1.3/js/dataTables.fixedHeader.min.js"></script>
 							<!-- <script src="dataTables/ColReorder-1.4.1/js/dataTables.colReorder.min.js"></script> -->
 							<script src="dataTables/Responsive-2.2.1/js/dataTables.responsive.min.js"></script>
+							<script src="dataTables/rowgroup/js/dataTables.rowGroup.min.js"></script>
 						<!-- DataTables JavaScript -->
 
 						<!-- Charts.js JavaScript -->

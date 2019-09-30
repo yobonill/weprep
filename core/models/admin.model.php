@@ -312,6 +312,7 @@
 					$days = 0;
 				}
 				$date = db_quote($_POST['date']);
+				
 			//Variables used for the query
 
 			Do {
@@ -336,9 +337,27 @@
 							$query = "INSERT INTO facturacion (numero_factura, id_usuario,id_cliente,id_producto, cantidad_producto,descuento_producto,total_factura,fecha_factura, estatus_factura) VALUES ('$billId', '$user', '$clientId','$productId','$productQuantity',0,'$total','$date',0)";
 						}
 					//Create a variable containing the query that inserts the client into the database
-					//Create a variable that runs the query
-						$result = db_query($query);
-					//Create a variable that runs the query
+
+					//Convert the date string into a unix timestamp.
+						$unixTimestamp = strtotime($date);
+						
+					//Get the day of the week using PHP's date function.
+						$dayOfWeek = date("l", $unixTimestamp);
+
+					if($dayOfWeek == "Saturday" || $dayOfWeek == "Sunday") {
+						$result = "false";
+						$date = date('Y-m-d',strtotime($date . "+1 days"));		
+					} else {
+						$date = date('Y-m-d',strtotime($date . "+1 days"));
+												
+						//Create a variable that runs the query
+							$result = db_query($query);
+						//Create a variable that runs the query
+						$days--;
+						$counter--;
+						$billId++;
+					}
+
 
 					//Check if the query ran correctly, if not return the error
 						if($result === false) {
@@ -347,12 +366,9 @@
 						}
 					//Check if the query ran correctly, if not return the error
 					
-					$counter--;
+					
 				}
-				$date = date('Y-m-d',strtotime($date . "+1 days"));
-				$days--;
 				$counter = $_POST['counter'];
-				$billId++;
 			} while ($days > 0);
 			return $result;
 		}

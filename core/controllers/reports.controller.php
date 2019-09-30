@@ -12,9 +12,16 @@
 	//Run the function that bring several tables data from the database
 		if(isset($_GET['report'])){
 			$report = $_GET['report'];
+			if(isset($_POST['beforeDate'])){
+				$bDate = $_POST['beforeDate'];
+				$aDate = $_POST['afterDate'];
+				$records = select_bills($report,$bDate,$aDate);
+			} else {
+				$records = select_bills($report);
+			}
+			
 		} else {
-			$report = 'delivery';
+			$report = "";
 		}
-		$records = select_bills($report);
 	//Run the function that bring several tables data from the database
 ?>

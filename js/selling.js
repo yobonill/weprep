@@ -25,8 +25,22 @@
             daysOfWeekDisabled: [0, 6],
             clearBtn: true,
             todayHighlight: true,
+            startDate: new Date(),
             daysOfWeekHighlighted: [1, 2, 3, 4, 5]
         });
     });
 //Add datatable functionalities to Cart Table
+
+//Validate data in shopping cart is complete before submit
+    $('#shoppingForm').validate({
+        rules: {	
+            inputdate: 'required',
+            clientName: 'required'
+        },
+        messages: {
+            inputdate: 'Campo Requerido',
+            clientName: 'Campo Requerido'
+        }
+    });
+//Validate data in shopping cart is complete before submit
 

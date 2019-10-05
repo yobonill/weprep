@@ -11,3 +11,13 @@ $('#editProduct').on('show.bs.modal', function(e) {
     $(e.currentTarget).find('input[name="productName"]').val(name);
     $(e.currentTarget).find('input[name="productPrice"]').val(price);
 });
+
+//Turn table into a datatable
+    $(document).ready(function() {
+        $("#tableProducts").DataTable({
+            dom: 'lBfrtip',
+            fixedHeader: true,
+            responsive: true
+        });
+    });
+//Turn table into a datatable

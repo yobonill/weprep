@@ -13,6 +13,12 @@
         .sm-fa {
             font-size: 4em; /* Change the font size of the icons inside buttons */	
         }
+        .addClient{
+            font-size: 40px;
+            color:rgb(4, 144, 65) ;
+            float: right;
+            /* position: absolute; */
+        }
         .btn-green {
             background-color: rgb(4, 144, 65); /* Green color */
             border-color: black;
@@ -43,6 +49,12 @@
         .sm-fa {
             font-size: 8em; /* Change the font size of the icons inside buttons */	
          }
+         .addClient{
+            font-size: 40px;
+            color:rgb(4, 144, 65) ;
+            float: right;
+            /* position: absolute; */
+        }
         .btn-green {
             background-color: rgb(4, 144, 65); /* Green color */
             border-color: black;
@@ -75,6 +87,12 @@
         .sm-fa {
             font-size: 4em; /* Change the font size of the icons inside buttons */	
         }
+        .addClient{
+            font-size: 40px;
+            color:rgb(4, 144, 65) ;
+            float: right;
+            /* position: absolute; */
+        }
         .btn-green {
             background-color: rgb(4, 144, 65); /* Green color */
             border-color: black;
@@ -104,6 +122,12 @@
         /*Back Button*/
         .sm-fa {
             font-size: 4em; /* Change the font size of the icons inside buttons */	
+        }
+        .addClient{
+            font-size: 40px;
+            color:rgb(4, 144, 65) ;
+            float: right;
+            /* position: absolute; */
         }
         .btn-blue {
             background-color: rgb(36,50,100); /* midnight blue */

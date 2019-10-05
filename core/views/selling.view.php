@@ -2,6 +2,7 @@
 	<div class="container-fluid center">
         <div class="row">
 			<div class="col-md-12 text-center title">
+                <a  href='?view=adminclients' class="addClient"><i class="fa fa-user-plus" aria-hidden="true"></i></a>
 				<h1><?= $language['__TITLE_SELLING__']?></h1>
 			</div>
 		</div>
@@ -37,7 +38,7 @@
     </div>
     <!-- Shopping Cart -->
 
-    <form action="core/controllers/addbilling.controller.php" method="POST" role="form">
+    <form action="core/controllers/addbilling.controller.php" method="POST" role="form" id="shoppingForm">
         <div class="cd-cart-container empty">
             <a href="#0" class="cd-cart-trigger">
             <ul class="count"> <!-- cart items count -->
@@ -75,6 +76,7 @@
                         <div class="col-md-7">
                             <div class="group">
                                 <select name="clientName" id="clientName" class="selectpicker" required="required" data-live-search="true">
+                                    <option selected="selected" disabled>Seleccione un cliente</option>
                                     <?php foreach ($clients as $value) { ?>
                                         <option value=<?= $value['id_clientes']?>> <?= $value['nombre'] . " " . $value['apellido']?></option>
                                     <?php } ?>

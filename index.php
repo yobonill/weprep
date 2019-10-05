@@ -56,7 +56,7 @@
 
 				$view = $_GET['view'];
 
-				if($view  == 'reports'){
+				if($view  == 'reports' || $view == "adminclients" || $view == "adminusers" || $view == "adminproducts" || $view == "adminbills"){
 					?>
 						<!-- DataTables CSS -->
 							<link rel="stylesheet" href="dataTables/DataTables-1.10.16/css/jquery.dataTables.min.css">
@@ -100,7 +100,7 @@
 		<!-- jQuery -->
 		<?php
 			if(isset($_GET['view'])){
-				if($_GET['view'] == 'reports'){
+				if($_GET['view'] == 'selling'){
 					?>
 						<!--jQuery validate-->
 							<script src="js/jquery.validate.min.js"></script>
@@ -128,7 +128,7 @@
 			if(isset($_GET['view'])){
 				$view = $_GET['view'];
 
-				if($view  == 'reports'){
+				if($view  == 'reports' || $view == "adminclients" || $view == "adminusers" || $view == "adminproducts" || $view == "adminbills"){
 					?>
 						<!-- DataTables JavaScript -->
 							<script src="dataTables/DataTables-1.10.16/js/jquery.dataTables.min.js"></script>
@@ -268,7 +268,6 @@
 						<script src="js/shoppingcart.js">	</script>
 						<script src="js/bootstrap-select.min.js">	</script>
 						<script src="js/bootstrap-datepicker.min.js">	</script>
-						
 					<?php
 				}
 			//This checks if the actual view has a js with that name

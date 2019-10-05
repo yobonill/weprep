@@ -7,10 +7,10 @@
 			</div>
         </div>
         <div class="row text-center">
-            <div class="table-responsive ">
-                <table class="table table-hover">
+            <div class="table-responsive">
+                <table class="table table-bordered text-center display" id="tableProducts">
                     <thead >
-                        <tr>
+						<tr class="btn-primary">
                             <th><h3><?= $language['__PRODUCTFORM_NAME_ADMIN__'] ?></h3></th>
                             <th><h3><?= $language['__PRODUCTFORM_PRICE_ADMIN__'] ?></h3></th>
                             <th><h3><?= $language['__EDITUSER_ADMIN__'] ?></h3></th>

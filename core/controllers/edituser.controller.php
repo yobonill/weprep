@@ -17,7 +17,7 @@
 	//Call the function for deleting the user if it is admin
 		if (isAdmin()) {
             $result = edit_user();
-            header("Location: ../../?view=adminusers&msj=clientUpdated");
+            header("Location: ../../?view=adminusers&msj=userUpdated");
 		} else {
 			//Send the user to the index page and return a message
 				//header("Location: ../../?view=login&msj=notloggedin");

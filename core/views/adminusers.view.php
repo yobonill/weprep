@@ -8,9 +8,9 @@
         </div>
         <div class="row text-center">
             <div class="table-responsive ">
-                <table class="table table-hover">
+                <table class="table table-bordered text-center display" id="tableUsers">
                     <thead >
-                        <tr>
+						<tr class="btn-primary">
                             <th><h3><?= $language['__NAMEUSER_ADMIN__'] ?></h3></th>
                             <th><h3><?= $language['__LASTNAMEUSER_ADMIN__'] ?></h3></th>
                             <th><h3><?= $language['__TYPEUSER_ADMIN__'] ?></h3></th>

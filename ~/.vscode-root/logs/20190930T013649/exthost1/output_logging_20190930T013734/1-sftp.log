@@ -1,0 +1,1 @@
+[09-30 01:37:36] [info] config at /opt/lampp/htdocs/weprep {"remotePath":"/","uploadOnSave":true,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"name":"localhost","host":"104.156.59.17","port":21,"username":"******","password":"******"}

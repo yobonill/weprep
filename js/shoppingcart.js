@@ -1,5 +1,4 @@
 // Shopping Cart
-
 var cartWrapper = $('.cd-cart-container');
 //product id - you don't need a counter in your real project but you can use your real product id
 var productId = 0;
@@ -116,13 +115,11 @@ function addProduct() {
 function removeProduct(product) {
     clearInterval(undoTimeoutId);
     cartList.find('.deleted').remove();
-    
-    var topPosition = product.offset().top - cartBody.children('ul').offset().top ,
-        productQuantity = Number(product.find('.quantity').find('input').text()),
+    var topPosition = product.offset().top - cartBody.find('ul').offset().top ,
+        productQuantity = Number(product.find('.quantity').find('input').val()),
         productTotPrice = Number(product.find('.price').text().replace('$', '')) * productQuantity;
-    
-    product.css('top', topPosition+'px').addClass('deleted');
 
+    product.css('top', topPosition+'px').addClass('deleted');
     //update items count + total price
     updateCartTotal(productTotPrice, false);
     updateCartCount(true, -productQuantity);

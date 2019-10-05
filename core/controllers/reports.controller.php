@@ -17,7 +17,9 @@
 				$aDate = $_POST['afterDate'];
 				$records = select_bills($report,$bDate,$aDate);
 			} else {
-				$records = select_bills($report);
+				$bDate = date('Y-m-d');
+				$aDate = date('Y-m-d');
+				$records = select_bills($report,$bDate,$aDate);
 			}
 			
 		} else {

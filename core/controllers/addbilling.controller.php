@@ -16,10 +16,11 @@
 	//Check if the session is started in order to be able to log out, if not, start it
 
     //Call the function for adding the bill
-	   $billId = add_bills(); 
+	   //$billId = add_bills();
+	   var_dump($_POST) ;
 	//Call the function for adding the bill
 
 	//Return the user to the login page
-		header("Location: ../../?view=selling&msj=billadded");
+		//header("Location: ../../?view=selling&msj=billadded");
 	//Return the user to the login page
 ?>

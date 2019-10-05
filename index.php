@@ -81,6 +81,7 @@
 						?>
 							<link rel="stylesheet" href="css/shoppingCart.css">	
 							<link rel="stylesheet" href="css/bootstrap-select.min.css">	
+							<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">	
 						<?php
 					}
 				//Shopping Cart
@@ -266,6 +267,7 @@
 					?>
 						<script src="js/shoppingcart.js">	</script>
 						<script src="js/bootstrap-select.min.js">	</script>
+						<script src="js/bootstrap-datepicker.min.js">	</script>
 						
 					<?php
 				}

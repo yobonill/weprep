@@ -25,7 +25,7 @@
                                         <tr>
                                             <td><?= $value['nombre']?></td>
                                             <td><?= $value['precio']?></td>
-                                            <td><a data-toggle='modal'  href='#editProduct'name=<?= $value['id_producto']?>><i class="fa fa-pencil" aria-hidden="true"></a></td>
+                                            <td><a data-toggle='modal' data-target="#editProduct" data-id=<?= $value['id_producto']?> data-name=<?= $value['nombre']?> data-price=<?= $value['precio']?> href='#editProduct'><i class="fa fa-pencil" aria-hidden="true"></a></td>
                                             <td><a href="core/controllers/deleteproduct.controller.php?id=<?= $value['id_producto']?>"><i class="fa fa-trash" aria-hidden="true"></a></td>
                                         </tr>
                                     <?php
@@ -49,7 +49,7 @@
 						</div>
 						<div class="modal-body">
 							<form action = "core/controllers/addproduct.controller.php" method="POST" class="form text-center">	
-								<div class="row"> <!-- Name and Price -->
+								<div class="row"> <!--Name and Price -->
 									<div class="col-md-6"> 
 										<div class="form-group">
 									    	<label for="productName"><?= $language['__PRODUCTFORM_NAME_ADMIN__']?></label>
@@ -62,7 +62,7 @@
 									    	<input type="text" class="form-control" name="productPrice" id="productPrice" placeholder="<?= $language['__PRODUCTFORM_PRICE_ADMIN__']?>"> 
 										</div>
 									</div>
-								</div> <!-- Name and Price -->
+								</div> <!--Name and Price -->
   
 							  	<button type="submit" class="btn btn-default"><?= $language['__SUBMIT__']?></button>
 							</form>
@@ -84,20 +84,26 @@
 						</div>
 						<div class="modal-body">
 							<form action = "core/controllers/editproduct.controller.php" method="POST" class="form text-center">	
-								<div class="row"> <!-- Name and Price -->
-									<div class="col-md-6"> 
+							<div class="row"> <!--ID, Name and Price -->
+									<div class="col-md-1"> 
+										<div class="form-group">
+									    	<input type="hidden" class="form-control" name="id" id="id"> 
+								  		</div>
+									</div>
+									<div class="col-md-5"> 
 										<div class="form-group">
 									    	<label for="productName"><?= $language['__PRODUCTFORM_NAME_ADMIN__']?></label>
 									    	<input type="text" class="form-control" name="productName" id="productName" placeholder="<?= $language['__PRODUCTFORM_NAME_ADMIN__']?>"> 
 								  		</div>
 									</div>
-									<div class="col-md-6"> 
+									<div class="col-md-5"> 
 										<div class="form-group">
 			    					    	<label for="productPrice"><?= $language['__PRODUCTFORM_PRICE_ADMIN__']?></label>
 									    	<input type="text" class="form-control" name="productPrice" id="productPrice" placeholder="<?= $language['__PRODUCTFORM_PRICE_ADMIN__']?>"> 
 										</div>
 									</div>
-								</div> <!-- Name and Price -->
+									<div class="col-md-1"></div>
+								</div> <!--ID, Name and Price -->
 
 							  	<button type="submit" class="btn btn-default"><?= $language['__SUBMIT__']?></button>
 							</form>

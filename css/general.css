@@ -45,9 +45,18 @@
     /*nav*/
 
     /*content*/
-        .btn-primary, .panel-heading {
+        .panel-primary>.panel-heading {
+            color: #fff;
             background-color:rgb(36,50,100);
+            border-color: rgb(36,50,100); 
         }
+        .btn-primary{
+            background-color:rgb(36,50,100); 
+        }
+        .panel-primary {
+            border-color: rgb(36,50,100);
+        }
+        
     /*content*/
 
     /*Footer*/

@@ -54,7 +54,7 @@
 					//Reports View
 						'__TITLE_REPORTS__' => "Listado de reportes",
 						'__TITLE_REPORTS_DELIVERY__' => "Reporte Delivery",
-						'__TITLE_REPORTS_SELLINGS__' => "Ventas del Dia",
+						'__TITLE_REPORTS_SELLINGS__' => "Reporte de Ventas",
 						//Tables
 							'__FILTER_BDATE_REPORTS__' => 'Desde',
 							'__FILTER_ADATE_REPORTS__' => 'Hasta',
@@ -77,6 +77,7 @@
 
 						//Adminuser View
 							'__TITLEUSER_ADMIN__' => 'Listado de usuarios',
+							'__IDUSER_ADMIN__' => 'id',
 							'__NAMEUSER_ADMIN__' => 'Nombre',
 							'__LASTNAMEUSER_ADMIN__' => 'Apellido',
 							'__TYPEUSER_ADMIN__' => 'Tipo',
@@ -115,13 +116,13 @@
 								'__PRODUCTFORM_PRICE_ADMIN__' => 'Precio del producto',
 							//ADDPRODUCTMODAL
 						//ADDPRODUCT
-						//DELETEUSER
-						'__TITLE_DELETEUSER_ADMIN__' => 'Eliminar Usuario',
-						//DELETEUSER
+						//DELETEPRODUCT
+						'__TITLE_DELETEUSER_ADMIN__' => 'Eliminar Producto',
+						//DELETEPRODUCT
 
-						//EDITUSER
-						'__TITLE_EDITUSER_ADMIN__' => 'Editar Usuario'
-						//EDITUSER
+						//EDITPRODUCT
+						'__TITLE_EDITPRODUCTS_ADMIN__' => 'Editar Producto'
+						//EDITPRODUCT
 					//Admin View
 			//Content texts
 

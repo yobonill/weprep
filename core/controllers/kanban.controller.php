@@ -18,5 +18,8 @@
 		//run the function that logs in the user
             $result = select_bills(0,1);
 		//run the function that logs in the user
+
+		header("Refresh: 30;");
+
 	//Log in if the requirements are met
 ?>

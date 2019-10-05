@@ -138,10 +138,28 @@
 									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
 									</script>";
 						break;
+						case 'clientUpdated':
+							echo "<script> swal({
+									  title: 'Exito!',
+									  text: 'El usuario fue actualizado correctamente',
+									  icon: 'success',
+									})
+									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
+									</script>";
+						break;
 						case 'productadded':
 							echo "<script> swal({
 									  title: 'Exito!',
 									  text: 'El producto fue agregado correctamente',
+									  icon: 'success',
+									})
+									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
+									</script>";
+						break;
+						case 'productUpdated':
+							echo "<script> swal({
+									  title: 'Exito!',
+									  text: 'El producto fue actualizado correctamente',
 									  icon: 'success',
 									})
 									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');

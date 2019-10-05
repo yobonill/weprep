@@ -18,17 +18,15 @@
     });
 //Add products to cart
 
-//Modify price when manually modifying quantity
-    $(".test").on('input', function(){
-        alert("changeing");
-    });
-//Modify price when manually modifying quantity
-
 //Add datatable functionalities to Cart Table
-    // $("#cartTable").DataTable({
-    //     dom: 'lBfrtip',
-    //     fixedHeader: true,
-    //     responsive: true
-    // });
+    $(document).ready(function () {
+        $('#inputdate').datepicker({
+            multidate: true,
+            daysOfWeekDisabled: [0, 6],
+            clearBtn: true,
+            todayHighlight: true,
+            daysOfWeekHighlighted: [1, 2, 3, 4, 5]
+        });
+    });
 //Add datatable functionalities to Cart Table
 

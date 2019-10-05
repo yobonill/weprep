@@ -105,12 +105,12 @@
         .sm-fa {
             font-size: 4em; /* Change the font size of the icons inside buttons */	
         }
-        .btn-green {
-            background-color: rgb(4, 144, 65); /* Green color */
+        .btn-blue {
+            background-color: rgb(36,50,100); /* midnight blue */
             border-color: black;
             color: white;
             width:100%;
-            margin-bottom:20px;
+            margin-bottom:10px;
         }
         /* Shopping Cart */
             .cd-cart-container select{

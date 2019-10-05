@@ -45,8 +45,8 @@
           <td><?=$value['zona']  ?></td>
           <td><?=$value['producto']  ?></td>
           <td><?=$value['cantidad']  ?></td>
-          <td><?=$value['precio']  ?></td>
-          <td><?=$value['precio'] * $value['cantidad']?></td>
+          <td><?="$".$value['precio']  ?></td>
+          <td><?="$".$value['precio'] * $value['cantidad']?></td>
           <td>
             <a href="core/controllers/dispatch.controller.php?bills=<?=$value['factura']?>"><button type="button" class="btn btn-primary"><?= $language['__DISPATCH_BILL_REPORTS__']?></button></a>
           </td>
@@ -98,7 +98,7 @@
           <td><?=$value['zona']  ?></td>
           <td><?=$value['producto']  ?></td>
           <td><?=$value['cantidad']  ?></td>
-          <td><?=($value['precio'] * $value['cantidad']) - $value['descuento']?></td>
+          <td><?="$".(($value['precio'] * $value['cantidad']) - $value['descuento'])?></td>
         </tr>
           <?php
             endforeach

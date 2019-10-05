@@ -17,9 +17,9 @@
                                     
                                     foreach ($products as $value):
                                     ?>
-                                        <div class="col-md-2">
+                                        <div class="col-md-1 col-sm-2 col-xs-4">
                                             <a href="#" class="cd-add-to-cart" data-price=<?=$value['precio']?> data-product="<?=$value['nombre']?>" data-id = <?= $value["id_producto"]?> data-position="left" data-delay="50" data-tooltip="Price <?=$value['precio']?>">
-                                                <button type="button" class="btn btn-success btn-big btn-green btn-product" title=<?=$value['precio']?>>
+                                                <button type="button" class="btn btn-primary btn-big btn-blue btn-product" title=<?=$value['precio']?>>
                                                     <i class="fa fa-plus-square sm-fa" aria-hidden="true"> </i>
                                                     <br>
                                                     <?=$value['nombre']?>
@@ -50,18 +50,9 @@
             <div class="wrapper">
                 <header>
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="group">
-                            <select name="clientName" id="clientName" class="selectpicker" required="required" data-live-search="true">
-                                <?php foreach ($clients as $value) { ?>
-                                    <option value=<?= $value['id_clientes']?>> <?= $value['nombre'] . " " . $value['apellido']?></option>
-                                <?php } ?>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="form-group">
-                            <input type="date" name="date" id="inputdate" class="form-control" value="" required="required">
+                            <input type="text" name="date" id="inputdate" class="form-control" value="" required="required" placeholder="Seleccione la/s fecha/s">
                         </div>
                     </div>
                 </div>
@@ -80,22 +71,24 @@
 
                 <footer>
                     <div class="row">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-4">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-7">
+                            <div class="group">
+                                <select name="clientName" id="clientName" class="selectpicker" required="required" data-live-search="true">
+                                    <?php foreach ($clients as $value) { ?>
+                                        <option value=<?= $value['id_clientes']?>> <?= $value['nombre'] . " " . $value['apellido']?></option>
+                                    <?php } ?>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
                             <div class="form-group">
                                 <div class="input-group">
                                     <input type="number" class="form-control" id="discount" name = "discount" placeholder="descuento">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <input type="number" class="form-control" id="days" name = "days" placeholder="dias">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2"></div>
+                        <div class="col-md-1"></div>
                     </div>
                     <button type="submit" class="checkout btn"><em>Checkout - $<span>0</span></em></button>
                 </footer>

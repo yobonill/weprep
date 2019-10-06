@@ -25,7 +25,7 @@
                                         <tr>
                                             <td><?= $value['nombre']?></td>
                                             <td><?= $value['precio']?></td>
-                                            <td><a data-toggle='modal' data-target="#editProduct" data-id=<?= $value['id_producto']?> data-name=<?= $value['nombre']?> data-price=<?= $value['precio']?> href='#editProduct'><i class="fa fa-pencil" aria-hidden="true"></a></td>
+                                            <td><a data-toggle='modal' data-target="#editProduct" data-id="<?= $value['id_producto']?>" data-name="<?= $value['nombre']?>" data-price="<?= $value['precio']?>" href='#editProduct'><i class="fa fa-pencil" aria-hidden="true"></a></td>
                                             <td><a href="core/controllers/deleteproduct.controller.php?id=<?= $value['id_producto']?>"><i class="fa fa-trash" aria-hidden="true"></a></td>
                                         </tr>
                                     <?php

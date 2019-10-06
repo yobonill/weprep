@@ -31,7 +31,7 @@
                                             <td><?= $value['telefono']?></td>
                                             <td><?= $value['direccion']?></td>
                                             <td><?= $value['zona']?></td>
-                                            <td><a data-toggle='modal'  href='#editClient' data-id =<?= $value['id_clientes']?> data-last=<?= $value['apellido']?> data-name=<?= $value['nombre']?> data-phone=<?= $value['telefono']?> data-address=<?= $value['direccion']?> data-zone=<?= $value['zona']?> ><i class="fa fa-pencil" aria-hidden="true"></a></td>
+                                            <td><a data-toggle='modal'  href='#editClient' data-id ="<?= $value['id_clientes']?>" data-last="<?= $value['apellido']?>" data-name="<?= $value['nombre']?>" data-phone="<?=$value['telefono']?>" data-address="<?= $value['direccion']?>" data-zone="<?= $value['zona']?>" ><i class="fa fa-pencil" aria-hidden="true"></a></td>
                                             <td><a href="core/controllers/deleteclient.controller.php?id=<?= $value['id_clientes']?>"><i class="fa fa-trash" aria-hidden="true"></a></td>
                                         </tr>
                                     <?php

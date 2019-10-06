@@ -129,6 +129,9 @@
             float: right;
             /* position: absolute; */
         }
+        .inner {
+            max-height:200px;
+        }
         .btn-blue {
             background-color: rgb(36,50,100); /* midnight blue */
             border-color: black;

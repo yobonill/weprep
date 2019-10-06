@@ -8,7 +8,7 @@ $('#editClient').on('show.bs.modal', function(e) {
     var address = $(e.relatedTarget).data('address');
     var zone = $(e.relatedTarget).data('zone');
     var phone = $(e.relatedTarget).data('phone');
-
+ 
     //populate the textbox
     $(e.currentTarget).find('input[name="id"]').val(id);
     $(e.currentTarget).find('input[name="lastName"]').val(lastName);

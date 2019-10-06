@@ -31,7 +31,7 @@
                                             <td><?= $value['tipo']?></td>
                                             <td><?= $value['usuario']?></td>
                                             <td><?= $value['pass']?></td>
-                                            <td><a data-toggle='modal' data-target="#editUser" data-id=<?= $value['id_usuario']?> data-last=<?= $value['apellido']?> data-name=<?= $value['nombre']?> data-type=<?= $value['tipo']?> data-user=<?= $value['usuario']?> data-pass=<?= $value['pass']?> href='#editUser'><i class="fa fa-pencil" aria-hidden="true"></a></td>
+                                            <td><a data-toggle='modal' data-target="#editUser" data-id="<?= $value['id_usuario']?>" data-last="<?= $value['apellido']?>" data-name="<?= $value['nombre']?>" data-type="<?= $value['tipo']?>" data-user="<?= $value['usuario']?>" data-pass="<?= $value['pass']?>" href='#editUser'><i class="fa fa-pencil" aria-hidden="true"></a></td>
                                             <td><a href="core/controllers/deleteuser.controller.php?id=<?= $value['id_usuario']?>"><i class="fa fa-trash" aria-hidden="true"></a></td>
                                         </tr>
                                     <?php

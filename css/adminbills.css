@@ -10,14 +10,7 @@
                     margin-top: 60px;
                 }
             /*Back Button*/
-            .personal-btn {
-                font-size: 20px; /* Change the font size of the text inside buttons */
-                margin: 10px;
-                width: 100%;
-            }
-            .personal-fa {
-                font-size: 14em; /* Change the font size of the icons inside buttons */
-            }
+
             .btn-green {
                 background-color: rgb(4, 144, 65); /* Green color */
                 border-color: black;
@@ -26,6 +19,16 @@
                 margin-bottom:20px;
             }
         /*buttons*/
+
+        th{
+            text-align: center;
+        }
+        .fa-trash{
+            color:red;
+        }
+        .fa {
+            font-size:24px;
+        }
     /*Content*/
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.  */
@@ -40,14 +43,7 @@
                     margin-top: 60px;
                 }
             /*Back Button*/
-            .personal-btn {
-                font-size: 20px; /* Change the font size of the text inside buttons */
-                margin: 10px;
-                width: 100%;
-            }
-            .personal-fa {
-                font-size: 14em; /* Change the font size of the icons inside buttons */
-            }
+
             .btn-green {
                 background-color: rgb(4, 144, 65); /* Green color */
                 border-color: black;
@@ -56,6 +52,16 @@
                 margin-bottom:20px;
             }
     /*buttons*/
+
+        th{
+            text-align: center;
+        }
+        .fa-trash{
+            color:red;
+        }
+        .fa {
+            font-size:24px;
+        }
 /*Content*/
 
 }
@@ -72,14 +78,7 @@
                     margin-top: 60px;
                 }
             /*Back Button*/
-            .personal-btn {
-                font-size: 20px; /* Change the font size of the text inside buttons */
-                margin: 10px;
-                width: 100%;
-            }
-            .personal-fa {
-                font-size: 14em; /* Change the font size of the icons inside buttons */
-            }
+
             .btn-green {
                 background-color: rgb(4, 144, 65); /* Green color */
                 border-color: black;
@@ -88,6 +87,16 @@
                 margin-bottom:20px;
             }
         /*buttons*/
+
+        th{
+            text-align: center;
+        }
+        .fa-trash{
+            color:red;
+        }
+        .fa {
+            font-size:24px;
+        }
     /*Content*/
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
@@ -102,14 +111,7 @@
                     margin-top: 60px;
                 }
             /*Back Button*/
-            .personal-btn {
-                font-size: 20px; /* Change the font size of the text inside buttons */
-                margin: 10px;
-                width: 100%;
-            }
-            .personal-fa {
-                font-size: 12em; /* Change the font size of the icons inside buttons */
-            }
+
             .btn-green {
                 background-color: rgb(4, 144, 65); /* Green color */
                 border-color: black;
@@ -118,6 +120,17 @@
                 margin-bottom:20px;
             }
         /*buttons*/
+
+
+        th{
+            text-align: center;
+        }
+        .fa-trash{
+            color:red;
+        }
+        .fa {
+            font-size:24px;
+        }
     /*Content*/
 }
 /* @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops / }

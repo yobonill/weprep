@@ -86,6 +86,20 @@
 							'__EDITUSER_ADMIN__' => 'Editar',
 							'__TITLE_ADDUSERS_ADMIN__' => 'Agregar Usuario',
 							'__DELETEUSER_ADMIN__' => 'Eliminar',
+							//EDITUSER
+								'__TITLE_EDITUSERS_ADMIN__' => 'Editar Usuario',
+								//EDITUSERMODAL
+									'__USERFORM_CODE_ADMIN__' => 'Codigo',
+									'__USERFORM_TYPE_ADMIN__' => 'Tipo de usuario',
+									'__USERFORM_TYPEADMIN_ADMIN__' => 'Administrador',
+									'__USERFORM_TYPEVENDEDOR_ADMIN__' => 'Vendedor',
+
+									'__USERFORM_NAME_ADMIN__' => 'Nombre',
+									'__USERFORM_LASTNAME_ADMIN__' => 'Apellido',
+									'__USERFORM_USER_ADMIN__' => 'Usuario',
+									'__USERFORM_PASSWORD_ADMIN__' => 'Clave',
+								//EDITUSERMODAL
+							//EDITUSER
 						//Adminuser View
 
 						//Adminclient View
@@ -94,20 +108,7 @@
 							'__CLIENTFORM_ADDRESS_ADMIN__' => 'Direccion', 
 							'__CLIENTFORM_ZONE_ADMIN__' => 'Zona',
 						//Adminclient View
-						//EDITUSER
-							'__TITLE_EDITUSERS_ADMIN__' => 'Editar Usuario',
-							//EDITUSERMODAL
-								'__USERFORM_CODE_ADMIN__' => 'Codigo',
-								'__USERFORM_TYPE_ADMIN__' => 'Tipo de usuario',
-								'__USERFORM_TYPEADMIN_ADMIN__' => 'Administrador',
-								'__USERFORM_TYPEVENDEDOR_ADMIN__' => 'Vendedor',
-
-								'__USERFORM_NAME_ADMIN__' => 'Nombre',
-								'__USERFORM_LASTNAME_ADMIN__' => 'Apellido',
-								'__USERFORM_USER_ADMIN__' => 'Usuario',
-								'__USERFORM_PASSWORD_ADMIN__' => 'Clave',
-							//EDITUSERMODAL
-						//EDITUSER
+						
 
 						//ADDPRODUCT
 							'__TITLE_ADDPRODUCT_ADMIN__' => 'Agregar Producto',
@@ -121,8 +122,15 @@
 						//DELETEPRODUCT
 
 						//EDITPRODUCT
-						'__TITLE_EDITPRODUCTS_ADMIN__' => 'Editar Producto'
+						'__TITLE_EDITPRODUCTS_ADMIN__' => 'Editar Producto',
 						//EDITPRODUCT
+
+						//AdminBills
+							'__BILLS_ADMIN__' => 'Facturas',
+							'__CLIENT_BILL_REPORTS__' => "#Factura",
+							'__BILL_DISCOUNT_REPORTS__' => "Descuento",
+							'__BILL_DATE_REPORTS__' => "Fecha"
+						//AdminBills
 					//Admin View
 			//Content texts
 

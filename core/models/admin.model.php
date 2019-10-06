@@ -380,7 +380,6 @@
 							$result = db_query($query);
 						//Create a variable that runs the query
 						$counter--;
-						$billId++;
 					//Check if the query ran correctly, if not return the error
 						if($result === false) {
 							$error = db_error();
@@ -390,6 +389,7 @@
 					
 					
 				}
+				$billId++;
 				$counter = $_POST['counter'];
 			}
 			return $result;
@@ -397,17 +397,19 @@
 	//------------Function that allows us to add a client to the database------------
 
 	//------------Function to get all the client from database ------------
-		function select_bills($status=0, $kanban=0){
+		function select_bills($status=0, $kanban=0,$bDate = 0,$aDate = 0){
 
 			if($kanban){
 				//Create a variable that contains the query that log in the page
 					$query = "SELECT producto.nombre, sum(facturacion.cantidad_producto) as cantidad_producto FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) WHERE facturacion.fecha_factura = CURRENT_DATE AND estatus_factura = '$status' GROUP BY producto.nombre  DESC
 					";
 				//Create a variable that contains the query that log in the page
+			} else {
+				$query = "SELECT numero_factura, fecha_factura, clientes.nombre as cliente, facturacion.descuento_producto as descuento, clientes.zona as zona, producto.nombre as producto, facturacion.cantidad_producto as cantidad, producto.precio as precio, facturacion.total_factura as total, facturacion.id_factura as factura FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) LEFT JOIN clientes ON (facturacion.id_cliente = clientes.id_clientes) WHERE facturacion.fecha_factura BETWEEN '" . $bDate . "' AND '" . $aDate . "' ORDER BY facturacion.fecha_factura DESC";
 			}
 
 			//Create a variable that contains the query that log in the page
-				//$query = "SELECT * FROM facturacion WHERE estatus_factura = '$status' ORDER BY numero_factura DESC";
+				
 			//Create a variable that contains the query that log in the page
 
 			//Run the query and assign it to the variable result

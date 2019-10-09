@@ -360,12 +360,22 @@
 						$date = date('Y-m-d',$time);
 						$productPrice = db_quote($_POST['price'.$counter]);
 						$productQuantity = db_quote($_POST['quantity'.$counter]);
-						if(isset($_POST['discount']) && is_numeric($_POST['discount'])){
+						if(isset($_POST['discount'])) {
 							$discount = db_quote($_POST['discount']);
+							if(strpos($discount, '%')){
+								$discount = str_replace("%", "", $discount);
+								$subtotal = ($productPrice * $productQuantity);
+								$percentage = ($discount / 100) * $subtotal;
+								$total = $subtotal - $discount;
+							} else {
+								$total = $productPrice * $productQuantity - $discount;
+							}
 						} else {
 							$discount = 0;
+							$total = $productPrice * $productQuantity - $discount;
 						}
-						$total = $productPrice * $productQuantity - $discount;
+						
+						
 					//Variables used for the query
 
 					//Create a variable containing the query that inserts the client into the database
@@ -426,4 +436,30 @@
 			//Check if the query ran correctly, if not return the error
 		}
 	//------------Function to get all the client from database ------------
+
+	//------------Function that allows us to delete a client from the database------------
+		function delete_bill($id) {
+
+			//Variables used for the query
+				$id_factura = db_quote($id);
+			//Variables used for the query
+
+			//Create a variable containing the query that inserts the user into the database
+				$query = "DELETE FROM facturacion WHERE numero_factura = '$id_factura'";
+			//Create a variable containing the query that inserts the user into the database
+
+			//Create a variable that runs the query
+				$result = db_query($query);
+			//Create a variable that runs the query
+
+			//Check if the query ran correctly, if not return the error
+			if($result === false) {
+				$error = db_error();
+				echo $error;
+			} else {
+				return $result;
+			}
+			//Check if the query ran correctly, if not return the error
+		}
+	//------------Function that allows us to delete a client from the database------------
 ?>

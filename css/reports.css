@@ -19,6 +19,9 @@
                 font-size: 14em; /* Change the font size of the icons inside buttons */
             }
         /*buttons*/
+        .lightcolor {
+            background-color:#e0dede;
+        }
     /*Content*/
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.  */
@@ -42,6 +45,9 @@
                 font-size: 14em; /* Change the font size of the icons inside buttons */
             }
     /*buttons*/
+    .lightcolor {
+        background-color:#e0dede;
+    }
 /*Content*/
 
 }
@@ -67,6 +73,9 @@
                 font-size: 14em; /* Change the font size of the icons inside buttons */
             }
         /*buttons*/
+        .lightcolor {
+            background-color:#e0dede;
+        }
     /*Content*/
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
@@ -90,6 +99,9 @@
                 font-size: 14em; /* Change the font size of the icons inside buttons */
             }
         /*buttons*/
+        .lightcolor {
+            background-color:#e0dede;
+        }
     /*Content*/
 }
 /* @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops / }

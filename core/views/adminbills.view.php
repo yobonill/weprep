@@ -28,14 +28,14 @@
         <table class="table table-bordered text-center display" id="tableBills">
             <thead>
                 <tr class="btn-primary">
-                <th><?= $language['__CLIENT_BILL_REPORTS__']?></th>
-                <th><?= $language['__BILL_DATE_REPORTS__']?></th>
-                <th><?= $language['__CLIENT_NAME_REPORTS__']?></th>
-                <th><?= $language['__CLIENT_ZONE_REPORTS__']?></th>
-                <th><?= $language['__PRODUCT_NAME_REPORTS__']?></th>
-                <th><?= $language['__PRODUCT_QTY_REPORTS__']?></th>
-                <th><?= $language['__BILL_DISCOUNT_REPORTS__']?></th>
-                <th><?= $language['__PRODUCT_TOTAL_REPORTS__']?></th>
+					<th><?= $language['__CLIENT_BILL_REPORTS__']?></th>
+					<th><?= $language['__BILL_DATE_REPORTS__']?></th>
+					<th><?= $language['__CLIENT_NAME_REPORTS__']?></th>
+					<th><?= $language['__CLIENT_ZONE_REPORTS__']?></th>
+					<th><?= $language['__PRODUCT_NAME_REPORTS__']?></th>
+					<th><?= $language['__PRODUCT_QTY_REPORTS__']?></th>
+					<th><?= $language['__BILL_DISCOUNT_REPORTS__']?></th>
+					<th><?= $language['__PRODUCT_TOTAL_REPORTS__']?></th>
                 </tr>
             </thead>
             <tbody>
@@ -50,7 +50,7 @@
                         <td><?=$value['producto']  ?></td>
                         <td><?=$value['cantidad']  ?></td>
                         <td><?=$value['descuento']  ?></td>
-                        <td><?="$".(($value['precio'] * $value['cantidad']) - $value['descuento'])?></td>
+						<td><?="$".(($value['precio'] * $value['cantidad']) - $value['descuento'])?></td>
                     </tr>
                 <?php
                     endforeach;

@@ -11,13 +11,14 @@ if( cartWrapper.length > 0 ) {
     var cartTrigger = cartWrapper.children('.cd-cart-trigger');
     var cartCount = cartTrigger.children('.count')
     var addToCartBtn = $('.cd-add-to-cart');
-    var discount = $('#discount');
     var undo = cartWrapper.find('.undo');
     var undoTimeoutId;
     var price;
     var productName;
     var productImage;
     var id;
+    var discount = $('#discount');
+    
     //add product to cart
     addToCartBtn.on('click', function(event){
         price = $(this).data("price");

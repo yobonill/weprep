@@ -21,7 +21,7 @@
                         </tr>
                     </thead>
                     <tbody>
-					<?php
+						<?php
                             //Assign the values of result to the variable
                                 foreach ($result as $value) {
                                     ?>

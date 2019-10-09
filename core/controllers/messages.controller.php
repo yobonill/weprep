@@ -211,6 +211,15 @@
 									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
 									</script>";
 						break;
+						case 'billdeleted':
+							echo "<script> swal({
+									  title: 'Exito!',
+									  text: 'La Factura fue eliminada correctamente',
+									  icon: 'success',
+									})
+									$('.swal-overlay').css('background-color', 'rgba(0, 255, 0, 0.514)');
+									</script>";
+						break;
 						
 						
 					//Approved Messages

@@ -19,7 +19,9 @@
                 margin-bottom:20px;
             }
         /*buttons*/
-
+        .lightcolor {
+            background-color:#e0dede;
+        }
         th{
             text-align: center;
         }
@@ -52,7 +54,9 @@
                 margin-bottom:20px;
             }
     /*buttons*/
-
+        .lightcolor {
+            background-color:#e0dede;
+        }
         th{
             text-align: center;
         }
@@ -87,7 +91,9 @@
                 margin-bottom:20px;
             }
         /*buttons*/
-
+        .lightcolor {
+            background-color:#e0dede;
+        }
         th{
             text-align: center;
         }
@@ -120,8 +126,10 @@
                 margin-bottom:20px;
             }
         /*buttons*/
-
-
+        
+        .lightcolor {
+            background-color:#e0dede;
+        }
         th{
             text-align: center;
         }

@@ -5,9 +5,9 @@
             dom: 'lBfrtip',
             fixedHeader: true,
             responsive: true,
-            order:[[0,'asc']],
+            order:[[1,'asc']],
             rowGroup: {
-                dataSrc: 0,
+                dataSrc: 1,
                 startRender:  function ( rows, group ) {
                     var collapsed = !!collapsedGroups[group];
                     rows.nodes().each(function (r) {
@@ -18,7 +18,7 @@
 
                     // Add category name to the <tr>.
                     return $('<tr/>')
-                        .append('<td colspan="'+rows.columns()[0].length+'" class="lightcolor">' + '<span class="fa fa-fw ' + toggleClass + ' toggler"/> ' + group + ' (' + rows.count() + ')</td>')
+                        .append('<td colspan="'+rows.columns()[0].length+'" class="lightcolor">' + '<span class="fa fa-fw ' + toggleClass + ' toggler"/> ' + group + ' (' + rows.count() + ' articulo/s )</td>')
                         .attr('data-name', group)
                         .toggleClass('collapsed', collapsed);
                 },

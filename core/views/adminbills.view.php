@@ -11,11 +11,11 @@
             <!-- Allows me to select the date -->
               <div class="form-group col-md-4 col-sm-4">
                 <label class="control-label" for="beforeDate"><?= $language['__FILTER_BDATE_REPORTS__']?></label>
-                <input type="date" class="form-control" name="beforeDate" id="beforeDate" value = "" placeholder="Desde mm/dd/yyyy">
+                <input type="date" class="form-control" name="beforeDate" id="beforeDate" value = "<?=$bDate?>" placeholder="Desde mm/dd/yyyy">
               </div>
               <div class="form-group col-md-4 col-sm-4">
                 <label class="control-label" for="afterDate"><?= $language['__FILTER_ADATE_REPORTS__']?></label>
-                <input type="date" class="form-control" name="afterDate" id="afterDate" value = "" placeholder="Hasta mm/dd/yyyy">
+                <input type="date" class="form-control" name="afterDate" id="afterDate" value = "<?=$aDate?>" placeholder="Hasta mm/dd/yyyy">
               </div>
             <!-- Allows me to select the date -->
               <div class="col-md-4 col-sm-4">

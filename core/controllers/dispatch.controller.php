@@ -21,6 +21,6 @@
 	//Call the function for deleting the user
 
 	//Return the user to the login page
-		header("Location: ../../?view=reports&msj=billsUpdated");
+		header("Location: ../../?view=reports&msj=billsUpdated&report=delivery");
 	//Return the user to the login page
 ?>

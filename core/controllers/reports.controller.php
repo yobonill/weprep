@@ -12,16 +12,47 @@
 	//Run the function that bring several tables data from the database
 		if(isset($_GET['report'])){
 			$report = $_GET['report'];
-			if(isset($_POST['beforeDate'])){
-				$bDate = $_POST['beforeDate'];
-				$aDate = $_POST['afterDate'];
-				$records = select_bills($report,$bDate,$aDate);
-			} else {
-				$bDate = date('Y-m-d');
-				$aDate = date('Y-m-d');
-				$records = select_bills($report,$bDate,$aDate);
+			switch ($report) {
+				case 'delivery':
+					if(isset($_SESSION['deliveryBDate'])){
+						$bDate = $_SESSION['deliveryBDate'];
+						$aDate = $_SESSION['deliveryADate'];
+						$records = select_bills($report,$bDate,$aDate);
+					} elseif (isset($_POST['beforeDate'])){
+						$_SESSION['deliveryBDate'] = $_POST['beforeDate'];
+						$_SESSION['deliveryADate'] = $_POST['afterDate'];
+						$bDate = $_SESSION['deliveryBDate'];
+						$aDate = $_SESSION['deliveryADate'];
+						$records = select_bills($report,$bDate,$aDate);
+					} else {
+						$bDate = date('Y-m-d');
+						$aDate = date('Y-m-d');
+						$records = select_bills($report,$bDate,$aDate);
+					}
+				break;
+
+				case 'sellings':
+					if(isset($_SESSION['sellingBDate'])){
+						$bDate = $_SESSION['sellingBDate'];
+						$aDate = $_SESSION['sellingADate'];
+						$records = select_bills($report,$bDate,$aDate);
+					} elseif (isset($_POST['beforeDate'])){
+						$_SESSION['sellingBDate'] = $_POST['beforeDate'];
+						$_SESSION['sellingADate'] = $_POST['afterDate'];
+						$bDate = $_SESSION['sellingBDate'];
+						$aDate = $_SESSION['sellingADate'];
+						$records = select_bills($report,$bDate,$aDate);
+					} else {
+						$bDate = date('Y-m-d');
+						$aDate = date('Y-m-d');
+						$records = select_bills($report,$bDate,$aDate);
+					}
+				break;
+				
+				default:
+					# code...
+				break;
 			}
-			
 		} else {
 			$report = "";
 		}

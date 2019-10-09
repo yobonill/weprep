@@ -19,15 +19,19 @@
 		if (isLogin()) {
 			//run the function that logs in the user
                 $records = select_bills();
-                if(isset($_POST['beforeDate'])){
-                    $bDate = $_POST['beforeDate'];
-                    $aDate = $_POST['afterDate'];
-                    $records = select_bills(0,0,$bDate,$aDate);
+                if(isset($_SESSION['billsBDate'])){
+                    $bDate = $_SESSION['billsBDate'];
+                    $aDate = $_SESSION['billsADate'];
+                } elseif (isset($_POST['beforeDate'])){
+                    $_SESSION['billsBDate'] = $_POST['beforeDate'];
+                    $_SESSION['billsADate'] = $_POST['afterDate'];
+                    $bDate = $_SESSION['billsBDate'];
+                    $aDate = $_SESSION['billsADate'];
                 } else {
                     $bDate = date('Y-m-d');
                     $aDate = date('Y-m-d');
-                    $records = select_bills(0,0,$bDate,$aDate);
                 }
+                $records = select_bills(0,0,$bDate,$aDate);
 			//run the function that logs in the user
 		} else {
             //Send the user to the index page and return a message

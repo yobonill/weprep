@@ -11,11 +11,11 @@
             <!-- Allows me to select the date -->
               <div class="form-group col-md-4 col-sm-4">
                 <label class="control-label" for="beforeDate"><?= $language['__FILTER_BDATE_REPORTS__']?></label>
-                <input type="date" class="form-control" name="beforeDate" id="beforeDate" value = "" placeholder="Desde mm/dd/yyyy">
+                <input type="date" class="form-control" name="beforeDate" id="beforeDate" value = "<?=$bDate?>" placeholder="Desde mm/dd/yyyy">
               </div>
               <div class="form-group col-md-4 col-sm-4">
                 <label class="control-label" for="afterDate"><?= $language['__FILTER_ADATE_REPORTS__']?></label>
-                <input type="date" class="form-control" name="afterDate" id="afterDate" value = "" placeholder="Hasta mm/dd/yyyy">
+                <input type="date" class="form-control" name="afterDate" id="afterDate" value = "<?=$aDate?>" placeholder="Hasta mm/dd/yyyy">
               </div>
             <!-- Allows me to select the date -->
               <div class="col-md-4 col-sm-4">
@@ -27,6 +27,7 @@
       <!--Date selection row-->
       <thead>
         <tr class="btn-primary">
+          <th><?= $language['__BILL_DATE_REPORTS__']?></th>
           <th><?= $language['__CLIENT_NAME_REPORTS__']?></th>
           <th><?= $language['__CLIENT_ZONE_REPORTS__']?></th>
           <th><?= $language['__PRODUCT_NAME_REPORTS__']?></th>
@@ -41,15 +42,28 @@
           foreach ($records as $value):
         ?>
         <tr>
+          <td><?=$value['fecha_factura']  ?></td>  
           <td><?=$value['cliente']  ?></td>
           <td><?=$value['zona']  ?></td>
           <td><?=$value['producto']  ?></td>
           <td><?=$value['cantidad']  ?></td>
           <td><?="$".$value['precio']  ?></td>
           <td><?="$".$value['precio'] * $value['cantidad']?></td>
-          <td>
-            <a href="core/controllers/dispatch.controller.php?bills=<?=$value['factura']?>"><button type="button" class="btn btn-primary"><?= $language['__DISPATCH_BILL_REPORTS__']?></button></a>
-          </td>
+          <?php
+            if($value['estatus_factura'] == "0"):
+          ?>
+            <td>
+              <a href="core/controllers/dispatch.controller.php?bills=<?=$value['factura']?>"><button type="button" class="btn btn-primary"><?= $language['__DISPATCH_BILL_REPORTS__']?></button></a>
+            </td>
+          <?php
+            else:
+          ?>
+            <td>
+              <a href="core/controllers/dispatch.controller.php?bills=<?=$value['factura']?>"><button type="button" class="btn btn-success" disabled><?= $language['__DISPATCH_BILL_REPORTS__']?></button></a>
+            </td>
+          <?php
+            endif
+          ?>
         </tr>
         <?php
           endforeach
@@ -66,11 +80,11 @@
             <!-- Allows me to select the date -->
               <div class="form-group col-md-4 col-sm-4">
                 <label class="control-label" for="beforeDate"><?= $language['__FILTER_BDATE_REPORTS__']?></label>
-                <input type="date" class="form-control" name="beforeDate" id="beforeDate" value = "" placeholder="Desde mm/dd/yyyy">
+                <input type="date" class="form-control" name="beforeDate" id="beforeDate" value = "<?= $bDate?>" placeholder="Desde mm/dd/yyyy">
               </div>
               <div class="form-group col-md-4 col-sm-4">
                 <label class="control-label" for="afterDate"><?= $language['__FILTER_ADATE_REPORTS__']?></label>
-                <input type="date" class="form-control" name="afterDate" id="afterDate" value = "" placeholder="Hasta mm/dd/yyyy">
+                <input type="date" class="form-control" name="afterDate" id="afterDate" value = "<?=$aDate?>" placeholder="Hasta mm/dd/yyyy">
               </div>
             <!-- Allows me to select the date -->
               <div class="col-md-4 col-sm-4">
@@ -82,6 +96,7 @@
       <!--Date selection row-->
       <thead>
         <tr class="btn-primary">
+          <th><?= $language['__BILL_DATE_REPORTS__']?></th>
           <th><?= $language['__CLIENT_NAME_REPORTS__']?></th>
           <th><?= $language['__CLIENT_ZONE_REPORTS__']?></th>
           <th><?= $language['__PRODUCT_NAME_REPORTS__']?></th>
@@ -94,6 +109,7 @@
           foreach ($records as $value):
         ?>
         <tr>
+          <td><?=$value['fecha_factura']?></td>
           <td><?=$value['cliente']  ?></td>
           <td><?=$value['zona']  ?></td>
           <td><?=$value['producto']  ?></td>
@@ -118,10 +134,10 @@
         <div class="row">
           <?php //if (isDispatcher()): ?>
             <div class="col-md-6 col-xs-12">
-              <a href="?view=reports&&report=sellings"><button type="button" class="btn btn-primary personal-btn"><i class="fa fa-money personal-fa" aria-hidden="true"> </i> <br><?= $language["__TITLE_REPORTS_SELLINGS__"]?></button></a>
+              <a href="?view=reports&report=sellings"><button type="button" class="btn btn-primary personal-btn"><i class="fa fa-money personal-fa" aria-hidden="true"> </i> <br><?= $language["__TITLE_REPORTS_SELLINGS__"]?></button></a>
             </div>
             <div class="col-md-6 col-xs-12">
-              <a href="?view=reports&&report=delivery"><button type="button" class="btn btn-primary personal-btn"><i class="fa fa-motorcycle personal-fa" aria-hidden="true"> </i> <br><?= $language["__TITLE_REPORTS_DELIVERY__"]?></button></a>
+              <a href="?view=reports&report=delivery"><button type="button" class="btn btn-primary personal-btn"><i class="fa fa-motorcycle personal-fa" aria-hidden="true"> </i> <br><?= $language["__TITLE_REPORTS_DELIVERY__"]?></button></a>
             </div>
           <?php //endif ?>	
         </div>

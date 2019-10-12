@@ -22,6 +22,7 @@
     $(document).ready(function () {
         $('#inputdate').datepicker({
             multidate: true,
+            format: 'mm/dd/yyyy',
             daysOfWeekDisabled: [0, 6],
             clearBtn: true,
             todayHighlight: true,

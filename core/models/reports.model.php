@@ -13,13 +13,13 @@
 			switch ($report) {
                 case 'sellings':
                     //Create a variable that contains the query that log in the page
-					    $query = "SELECT clientes.nombre as cliente, facturacion.descuento_producto as descuento, clientes.zona as zona,producto.nombre as producto, sum(facturacion.cantidad_producto) as cantidad, producto.precio as precio, facturacion.total_factura as total, facturacion.id_factura as factura, facturacion.fecha_factura FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) LEFT JOIN clientes ON (facturacion.id_cliente = clientes.id_clientes) WHERE facturacion.fecha_factura BETWEEN '" . $bDate . "' AND '" . $aDate . "' AND estatus_factura = 0 GROUP BY clientes.nombre, producto.nombre ORDER BY clientes.nombre";
+					    $query = "SELECT clientes.nombre as nombre, clientes.apellido as apellido, facturacion.descuento_producto as descuento, clientes.zona as zona,producto.nombre as producto, facturacion.cantidad_producto as cantidad, producto.precio as precio, facturacion.total_factura as total, facturacion.id_factura as factura, facturacion.fecha_factura FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) LEFT JOIN clientes ON (facturacion.id_cliente = clientes.id_clientes) WHERE facturacion.fecha_factura BETWEEN '" . $bDate . "' AND '" . $aDate . "' AND estatus_factura = 0 GROUP BY clientes.nombre, producto.nombre ORDER BY clientes.nombre";
 				    //Create a variable that contains the query that log in the page
                 break;
 
                 case 'delivery':
                     //Create a variable that contains the query that log in the page
-					    $query = "SELECT clientes.nombre as cliente, clientes.zona as zona, producto.nombre as producto, facturacion.cantidad_producto as cantidad, producto.precio as precio, facturacion.total_factura as total, facturacion.estatus_factura,facturacion.id_factura as factura, facturacion.fecha_factura FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) LEFT JOIN clientes ON (facturacion.id_cliente = clientes.id_clientes) WHERE facturacion.fecha_factura BETWEEN '" . $bDate . "' AND '" . $aDate . "' ORDER BY estatus_factura ASC
+					    $query = "SELECT clientes.nombre as nombre, clientes.apellido as apellido, clientes.zona as zona, producto.nombre as producto, facturacion.cantidad_producto as cantidad, producto.precio as precio, facturacion.total_factura as total, facturacion.estatus_factura,facturacion.id_factura as factura, facturacion.fecha_factura FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) LEFT JOIN clientes ON (facturacion.id_cliente = clientes.id_clientes) WHERE facturacion.fecha_factura BETWEEN '" . $bDate . "' AND '" . $aDate . "' ORDER BY estatus_factura ASC
 					    ";
 				    //Create a variable that contains the query that log in the page
                 break;

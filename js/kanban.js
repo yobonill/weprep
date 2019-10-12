@@ -1,7 +1,7 @@
 //Reports View
-$("#kanbanInventory").DataTable({
-    dom: 'lBfrtip',
-    fixedHeader: true,
-    responsive: true
-});
+// $("#kanbanInventory").DataTable({
+//     dom: 'lBfrtip',
+//     fixedHeader: true,
+//     responsive: true
+// });
 //Reports View

@@ -14,13 +14,13 @@
 			$report = $_GET['report'];
 			switch ($report) {
 				case 'delivery':
-					if(isset($_SESSION['deliveryBDate'])){
+					if(isset($_POST['beforeDate'])){
+						$_SESSION['deliveryBDate'] = $_POST['beforeDate'];
+						$_SESSION['deliveryADate'] = $_POST['afterDate'];
 						$bDate = $_SESSION['deliveryBDate'];
 						$aDate = $_SESSION['deliveryADate'];
 						$records = select_bills($report,$bDate,$aDate);
-					} elseif (isset($_POST['beforeDate'])){
-						$_SESSION['deliveryBDate'] = $_POST['beforeDate'];
-						$_SESSION['deliveryADate'] = $_POST['afterDate'];
+					} elseif (isset($_SESSION['deliveryBDate'])){
 						$bDate = $_SESSION['deliveryBDate'];
 						$aDate = $_SESSION['deliveryADate'];
 						$records = select_bills($report,$bDate,$aDate);
@@ -32,20 +32,21 @@
 				break;
 
 				case 'sellings':
-					if(isset($_SESSION['sellingBDate'])){
-						$bDate = $_SESSION['sellingBDate'];
-						$aDate = $_SESSION['sellingADate'];
-						$records = select_bills($report,$bDate,$aDate);
-					} elseif (isset($_POST['beforeDate'])){
+					if(isset($_POST['beforeDate'])){
 						$_SESSION['sellingBDate'] = $_POST['beforeDate'];
 						$_SESSION['sellingADate'] = $_POST['afterDate'];
 						$bDate = $_SESSION['sellingBDate'];
 						$aDate = $_SESSION['sellingADate'];
 						$records = select_bills($report,$bDate,$aDate);
+					} elseif (isset($_SESSION['sellingBDate'])){
+					    $bDate = $_SESSION['sellingBDate'];
+					    $aDate = $_SESSION['sellingADate'];
+					    $records = select_bills($report, $bDate,$aDate);
 					} else {
 						$bDate = date('Y-m-d');
 						$aDate = date('Y-m-d');
 						$records = select_bills($report,$bDate,$aDate);
+					
 					}
 				break;
 				

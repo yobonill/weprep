@@ -49,7 +49,24 @@
 					
 					}
 				break;
-				
+
+				case 'byProducts':
+					if(isset($_POST['beforeDate'])){
+						$_SESSION['sellingBDate'] = $_POST['beforeDate'];
+						$_SESSION['sellingADate'] = $_POST['afterDate'];
+						$bDate = $_SESSION['sellingBDate'];
+						$aDate = $_SESSION['sellingADate'];
+						$records = select_bills($report,$bDate,$aDate);
+					} elseif (isset($_SESSION['sellingBDate'])){
+					    $bDate = $_SESSION['sellingBDate'];
+					    $aDate = $_SESSION['sellingADate'];
+					    $records = select_bills($report, $bDate,$aDate);
+					} else {
+						$bDate = date('Y-m-d');
+						$aDate = date('Y-m-d');
+						$records = select_bills($report,$bDate,$aDate);
+					}
+				break;
 				default:
 					# code...
 				break;

@@ -414,6 +414,8 @@
 					$query = "SELECT producto.nombre, sum(facturacion.cantidad_producto) as cantidad_producto FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) WHERE facturacion.fecha_factura = CURRENT_DATE AND estatus_factura = '$status' GROUP BY producto.nombre  DESC
 					";
 				//Create a variable that contains the query that log in the page
+			} elseif($bDate == 0) {
+				$query = "SELECT numero_factura, fecha_factura, clientes.nombre as nombre, clientes.apellido as apellido, facturacion.descuento_producto as descuento, clientes.zona as zona, producto.nombre as producto, facturacion.cantidad_producto as cantidad, producto.precio as precio, facturacion.total_factura as total, facturacion.id_factura as factura FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) LEFT JOIN clientes ON (facturacion.id_cliente = clientes.id_clientes) WHERE facturacion.numero_factura = '$status'";
 			} else {
 				$query = "SELECT numero_factura, fecha_factura, clientes.nombre as nombre, clientes.apellido as apellido, facturacion.descuento_producto as descuento, clientes.zona as zona, producto.nombre as producto, facturacion.cantidad_producto as cantidad, producto.precio as precio, facturacion.total_factura as total, facturacion.id_factura as factura FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) LEFT JOIN clientes ON (facturacion.id_cliente = clientes.id_clientes) WHERE facturacion.fecha_factura BETWEEN '" . $bDate . "' AND '" . $aDate . "' ORDER BY facturacion.fecha_factura DESC";
 			}

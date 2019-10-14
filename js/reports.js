@@ -1,4 +1,4 @@
-//Reports View
+//Selling and Delivery Table
     $(document).ready(function() {
         var collapsedGroups = {};
         var table = $("#tableReports").DataTable({
@@ -35,4 +35,16 @@
             table.draw(false);
         });
     });
-//Reports View
+//Selling and Delivery Table
+
+//By Products Table
+    $(document).ready(function() {
+        var table = $("#tableReports2").DataTable({
+            dom: 'lBfrtip',
+            fixedHeader: true,
+            pageLength: 25,
+            lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "All"]],
+            responsive: true
+        });
+    }); 
+//By Products Table

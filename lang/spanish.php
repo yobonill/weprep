@@ -55,6 +55,7 @@
 						'__TITLE_REPORTS__' => "Listado de reportes",
 						'__TITLE_REPORTS_DELIVERY__' => "Reporte Delivery",
 						'__TITLE_REPORTS_SELLINGS__' => "Reporte de Ventas",
+						'__TITLE_REPORTS_BYPRODUCTS__' => "Reporte por Productos",
 						//Tables
 							'__FILTER_BDATE_REPORTS__' => 'Desde',
 							'__FILTER_ADATE_REPORTS__' => 'Hasta',

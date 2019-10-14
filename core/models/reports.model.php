@@ -22,6 +22,11 @@
 					    $query = "SELECT clientes.nombre as nombre, clientes.apellido as apellido, clientes.zona as zona, producto.nombre as producto, facturacion.cantidad_producto as cantidad, producto.precio as precio, facturacion.total_factura as total, facturacion.estatus_factura,facturacion.id_factura as factura, facturacion.fecha_factura FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) LEFT JOIN clientes ON (facturacion.id_cliente = clientes.id_clientes) WHERE facturacion.fecha_factura BETWEEN '" . $bDate . "' AND '" . $aDate . "' ORDER BY estatus_factura ASC
 					    ";
 				    //Create a variable that contains the query that log in the page
+				break;
+				case 'byProducts':
+                    //Create a variable that contains the query that log in the page
+					    $query = "SELECT producto.nombre as producto, sum(facturacion.cantidad_producto) as cantidad, sum(facturacion.descuento_producto) as descuento, producto.precio as precio FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) WHERE facturacion.fecha_factura BETWEEN '" . $bDate . "' AND '" . $aDate . "' GROUP BY producto.nombre DESC";
+				    //Create a variable that contains the query that log in the page
                 break;
             }
 				

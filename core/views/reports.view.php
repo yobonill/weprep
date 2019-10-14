@@ -152,8 +152,8 @@
         <thead>
           <tr class="btn-primary">
             <th><?= $language['__PRODUCT_NAME_REPORTS__']?></th>
-            <th><?= $language['__PRODUCT_QTY_REPORTS__']?></th>
             <th><?= $language['__PRODUCT_PRICE_REPORTS__']?></th>
+            <th><?= $language['__PRODUCT_QTY_REPORTS__']?></th>
             <th><?= $language['__PRODUCT_TOTAL_REPORTS__']?></th>
           </tr>
         </thead>
@@ -163,8 +163,8 @@
           ?>
           <tr>
             <td><?=$value['producto']  ?></td>
-            <td><?="$".$value['precio']  ?></td>
             <td><?=$value['cantidad']  ?></td>
+            <td><?="$".$value['precio']  ?></td>
             <td><?="$".($value['precio'] * $value['cantidad'])?></td>
           </tr>
             <?php

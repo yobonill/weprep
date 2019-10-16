@@ -12,5 +12,9 @@
 	//Run the function that bring several tables data from the database
 		$products = select_products();
 		$clients = select_clients();
+		if (isset($_GET['id'])) {
+			$id = $_GET['id'];
+			$result = select_bills($id);
+		}
 	//Run the function that bring several tables data from the database
 ?>

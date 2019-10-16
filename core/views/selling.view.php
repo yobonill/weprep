@@ -60,16 +60,54 @@
                 
                 <span class="undo">Item removed. <a href="#0">Undo</a></span>
                 </header>
-                
-                <div class="body">
-                    <div class="form-group">
-                        <ul>
+                <?php if(isset($id)):?>
+                    <div class="body">
+                        <div class="form-group">
+                            <ul id="cart-list-ul">
+                                <input type="number" name="id_factura" value="<?=$id?>" hidden="">
+                                <?php $counter = 1; foreach ($result as $value):?>
+                                    <input type="text" name="product<?=$counter?>" value="<?=$value['producto']?>" hidden=""> 
+                                    <input type="number" name="price<?=$counter?>" value="<?=$value['precio']?>" hidden=""> 
+                                    <input type="number" name="id_producto<?=$counter?>" value="<?=$value['id_producto']?>" hidden="">
+                                   
+                                    <li class="product">
+                                        <div class="product-details">
+                                            <h3>
+                                                <a href="#0" id="<?=$value['producto']?>"><?=$value['producto']?></a>
+                                            </h3>
+                                            <span class="price">$<?=$value['precio']?></span>
+                                            <div class="actions">
+                                                <a href="#0" class="delete-item">Eliminar</a>
+                                                <div class="quantity">
+                                                    <label for="cd-product-<?=$counter?>">Cant</label>
+                                                    <input type="number" id="cd-product-<?=$counter?>" name="quantity<?=$counter?>" value="<?=$value['cantidad']?>">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                <?php $counter++; endforeach;?>
                             <!-- products added to the cart will be inserted here using JavaScript -->
-                        </ul>
-                        <input type="text" name = "counter" value = '' hidden id = "counter">
-                    </div>
-                </div>
+                            </ul>
 
+                            <input type="text" name="counter" value="" id="counter" hidden>
+                        </div>
+                    </div> 
+                    <script>
+                        $(document).ready(function () {
+                            quickUpdateCart();
+                            $('.cd-cart-container').removeClass('empty');
+                        });
+                    </script>
+                <?php else: ?>
+                    <div class="body">
+                        <div class="form-group">
+                            <ul id="cart-list-ul">
+                                <!-- products added to the cart will be inserted here using JavaScript -->
+                            </ul>
+                            <input type="text" name = "counter" value = '' hidden id = "counter">
+                        </div>
+                    </div>
+                <?php endif ?>
                 <footer>
                     <div class="row">
                         <div class="col-md-1"></div>
@@ -86,13 +124,13 @@
                         <div class="col-md-3">
                             <div class="form-group">
                                 <div class="input-group">
-                                    <input type="number" class="form-control" id="discount" name = "discount" placeholder="descuento">
+                                    <input type="number" class="form-control" id="discount" name = "discount" placeholder="descuento" value="0">
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-1"></div>
                     </div>
-                    <button type="submit" class="checkout btn"><em>Checkout - $<span>0</span></em></button>
+                    <button type="submit" class="checkout btn" id="submit"><em>Checkout - $<span>0</span></em></button>
                 </footer>
             </div>
             </div> <!-- .cd-cart -->

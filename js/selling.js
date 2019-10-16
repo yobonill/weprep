@@ -2,7 +2,6 @@
     $(".btn-product").on("click", function() {
         //Get name from button text and assign it to variable
         var nombre = $.trim($(this).text());
-
         //Get price from hidden input created with each product button
         var precio = $("#"+nombre).val();
 
@@ -15,11 +14,16 @@
             //If it does not exist, create the td with the below info
             $('#cartTable tr:last').after('<tr><td class="'+nombre+'">'+nombre+'</td><td class="'+precio+'">'+precio+'</td><td><input type="number" name="'+nombre+'" class="form-control '+nombre+'cantidad test" value="1"><td class="'+nombre+'total">'+precio * 1+'</td><td><input type="number" name="'+nombre+'comentario" class="form-control '+nombre+'comentario" value=""></td></tr>');
         }
+
+        //Count Amount of items in the cart
+            $('#counter').attr('value',$('#cart-list-ul li').length);
+        //Count Amount of items in the cart
     });
 //Add products to cart
 
 //Add datatable functionalities to Cart Table
     $(document).ready(function () {
+        $('#counter').attr('value',$('#cart-list-ul li').length);
         $('#inputdate').datepicker({
             multidate: true,
             format: 'mm/dd/yyyy',
@@ -45,3 +49,15 @@
     });
 //Validate data in shopping cart is complete before submit
 
+//Prevent multiple press to checkout Button
+    $(function(){
+        $('#shoppingForm').submit(function(){
+            if($("#shoppingForm").valid()) {
+                $("button[type='submit']", this)
+                .val("Please Wait...")
+                .attr('disabled', 'disabled');
+                return true;
+            }
+        });
+    });
+//Prevent multiple press to checkout Button

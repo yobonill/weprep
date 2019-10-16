@@ -41,7 +41,7 @@
                     
                     // Add category name to the <tr>.
                     return $('<tr/>')
-                        .append('<td colspan="'+rows.columns()[0].length+'" class="lightcolor">' + '<span class="fa fa-fw ' + toggleClass + ' toggler"/> ' + "Factura: " + group + ' (' + rows.count() + ' articulo/s) ' + ' <a href="core/controllers/deletebill.controller.php?id='+group+'"><i class="fa fa-trash" aria-hidden="true"></i></a>' + " " + ' <a href="?view=editbill&id='+group+'"><i class="fa fa-pencil" aria-hidden="true"></i></a> </td>')
+                        .append('<td colspan="'+rows.columns()[0].length+'" class="lightcolor">' + '<span class="fa fa-fw ' + toggleClass + ' toggler"/> ' + "Factura: " + group + ' (' + rows.count() + ' articulo/s) ' + ' <a href="core/controllers/deletebill.controller.php?id='+group+'"><i class="fa fa-trash" aria-hidden="true"></i></a>' + " " + ' <a href="?view=selling&id='+group+'" target="blank"><i class="fa fa-pencil" aria-hidden="true"></i></a> </td>')
                         .attr('data-name', group)
                         .toggleClass('collapsed', collapsed);
                 },

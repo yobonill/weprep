@@ -19,12 +19,12 @@
 		if (isLogin()) {
 			//run the function that logs in the user
                 $records = select_bills();
-                if(isset($_SESSION['billsBDate'])){
-                    $bDate = $_SESSION['billsBDate'];
-                    $aDate = $_SESSION['billsADate'];
-                } elseif (isset($_POST['beforeDate'])){
+                if(isset($_POST['beforeDate'])){
                     $_SESSION['billsBDate'] = $_POST['beforeDate'];
                     $_SESSION['billsADate'] = $_POST['afterDate'];
+                    $bDate = $_SESSION['billsBDate'];
+                    $aDate = $_SESSION['billsADate'];
+                } elseif (isset($_SESSION['billsBDate'])){
                     $bDate = $_SESSION['billsBDate'];
                     $aDate = $_SESSION['billsADate'];
                 } else {
@@ -35,7 +35,7 @@
 			//run the function that logs in the user
 		} else {
             //Send the user to the index page and return a message
-                header("Location: ../../?view=login&msj=notloggedin");
+                header("Location: ?view=login&msj=notloggedin");
             //Send the user to the index page and return a message
         }
 	//Log in if the requirements are met

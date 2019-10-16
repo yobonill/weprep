@@ -320,7 +320,13 @@
 	//------------Function that allows us to edit a client from the database------------
 
 	//------------Function that allows us to add a client to the database------------
-		function add_bills() {
+		function add_bills($update = null) {
+
+			//Delete bill with the update value if is set
+				if($update != null) {
+					delete_bill($update);
+				}
+			//Delete bill with the update value if is set
 
 			//Get the last bill ID
 				//Create a variable that contains the query that log in the page
@@ -415,7 +421,7 @@
 					";
 				//Create a variable that contains the query that log in the page
 			} elseif($bDate == 0) {
-				$query = "SELECT numero_factura, fecha_factura, clientes.nombre as nombre, clientes.apellido as apellido, facturacion.descuento_producto as descuento, clientes.zona as zona, producto.nombre as producto, facturacion.cantidad_producto as cantidad, producto.precio as precio, facturacion.total_factura as total, facturacion.id_factura as factura FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) LEFT JOIN clientes ON (facturacion.id_cliente = clientes.id_clientes) WHERE facturacion.numero_factura = '$status'";
+				$query = "SELECT numero_factura, fecha_factura, clientes.nombre as nombre, clientes.apellido as apellido, facturacion.descuento_producto as descuento, clientes.zona as zona, facturacion.id_producto, producto.nombre as producto, facturacion.cantidad_producto as cantidad, producto.precio as precio, facturacion.total_factura as total, facturacion.id_factura as factura FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) LEFT JOIN clientes ON (facturacion.id_cliente = clientes.id_clientes) WHERE facturacion.numero_factura = '$status'";
 			} else {
 				$query = "SELECT numero_factura, fecha_factura, clientes.nombre as nombre, clientes.apellido as apellido, facturacion.descuento_producto as descuento, clientes.zona as zona, producto.nombre as producto, facturacion.cantidad_producto as cantidad, producto.precio as precio, facturacion.total_factura as total, facturacion.id_factura as factura FROM facturacion LEFT JOIN producto ON(facturacion.id_producto = producto.id_producto) LEFT JOIN clientes ON (facturacion.id_cliente = clientes.id_clientes) WHERE facturacion.fecha_factura BETWEEN '" . $bDate . "' AND '" . $aDate . "' ORDER BY facturacion.fecha_factura DESC";
 			}

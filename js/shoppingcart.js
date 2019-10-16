@@ -105,10 +105,9 @@ function addProduct() {
     //you should insert an item with the selected product info
     //replace productId, productName, price and url with your real product info
     productId = productId + 1;
-    var productAdded = $('<li class="product"><div class="product-details"><h3><a href="#0">'+ productName +'</a></h3><span class="price">$'+ price +'</span><div class="actions"><a href="#0" class="delete-item">Eliminar</a><div class="quantity"><label for="cd-product-'+ productId +'">Cant</label><input type="number" id="cd-product-'+ productId +'" name="quantity'+productId+'" value="1"></span></div></div></div></li>');
+    var productAdded = $('<li class="product"><div class="product-details"><h3><a href="#0" id='+ productName +'>'+ productName +'</a></h3><span class="price">$'+ price +'</span><div class="actions"><a href="#0" class="delete-item">Eliminar</a><div class="quantity"><label for="cd-product-'+ productId +'">Cant</label><input type="number" id="cd-product-'+ productId +'" name="quantity'+productId+'" value="1"></span></div></div></div></li>');
     var productData = $('<input type="text" name = product'+productId+' value = '+productName+' hidden> <input type="number" name = price'+productId+' value = '+price+' hidden> <input type="number" name = id_producto'+productId+' value = '+id+' hidden> ')
     
-    document.getElementById("counter").value = productId;
     cartList.prepend(productAdded);
     cartList.prepend(productData);
 }

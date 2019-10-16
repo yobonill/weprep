@@ -15,8 +15,13 @@
         }
 	//Check if the session is started in order to be able to log out, if not, start it
 
-    //Call the function for adding the bill
-	   $billId = add_bills();
+	//Call the function for adding the bill
+		if(isset($_POST['id_factura'])){
+			$id = $_POST['id_factura'];
+			$billId = add_bills($id);
+		} else {
+			$billId = add_bills();
+		}
 	//Call the function for adding the bill
 
 	//Return the user to the login page

@@ -354,7 +354,11 @@
 				$clientId = db_quote($_POST['clientName']);
 				$dates = db_quote($_POST['date']);
 				$dates = explode(',', $dates);
-				
+				if ((isset($_POST['zone'])) & ($_POST['zone'] != "")) {
+					$zone = $_POST['zone'];
+				} else {
+					$zone = 999;
+				}
 			//Variables used for the query
 
 			for ($i=0; $i < count($dates); $i++) {
@@ -387,9 +391,9 @@
 
 					//Create a variable containing the query that inserts the client into the database
 						if($counter == 1) {
-							$query = "INSERT INTO facturacion (numero_factura, id_usuario,id_cliente,id_producto, cantidad_producto,descuento_producto,total_factura,fecha_factura, estatus_factura) VALUES ('$billId', '$user', '$clientId','$productId','$productQuantity','$discount','$total','$date',0)";
+							$query = "INSERT INTO facturacion (numero_factura, id_usuario,id_cliente,id_producto, cantidad_producto,descuento_producto,total_factura,fecha_factura, estatus_factura, zona) VALUES ('$billId', '$user', '$clientId','$productId','$productQuantity','$discount','$total','$date',0, '$zone')";
 						} else {
-							$query = "INSERT INTO facturacion (numero_factura, id_usuario,id_cliente,id_producto, cantidad_producto,descuento_producto,total_factura,fecha_factura, estatus_factura) VALUES ('$billId', '$user', '$clientId','$productId','$productQuantity',0,'$total','$date',0)";
+							$query = "INSERT INTO facturacion (numero_factura, id_usuario,id_cliente,id_producto, cantidad_producto,descuento_producto,total_factura,fecha_factura, estatus_factura,zona) VALUES ('$billId', '$user', '$clientId','$productId','$productQuantity',0,'$total','$date',0,'$zone')";
 						}
 					//Create a variable containing the query that inserts the client into the database	
 												

@@ -51,13 +51,13 @@
             <div class="wrapper">
                 <header>
                 <div class="row">
-                    <div class="col-md-10">
+                    <div class="col-md-9">
                         <div class="form-group">
                             <input type="text" name="date" id="inputdate" class="form-control" value="<?=$billDate?>" required="required" placeholder="Seleccione la/s fecha/s">
                         </div>
                     </div>
-                    <div class="col-md-2">
-
+                    <div class="col-md-3">
+                        <input type="number" name="zone" id="zone" class="form-control" value="" placeholder="Zona">
                     </div>
                 </div>
                 

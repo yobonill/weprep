@@ -44,7 +44,15 @@
           <tr>
             <td><?=$value['fecha_factura']  ?></td>  
             <td><?=$value['nombre'] . " " . $value['apellido']  ?></td>
-            <td><?=$value['zona']  ?></td>
+            <td>
+              <?php 
+                if(isset($value['zone']) & ($value['zone'] != 999)) {
+                  echo $value['zone'];
+                } else {
+                  echo $value['zona'];
+                }
+              ?>
+            </td>
             <td><?=$value['producto']  ?></td>
             <td><?=$value['cantidad']  ?></td>
             <td><?="$".$value['precio']  ?></td>

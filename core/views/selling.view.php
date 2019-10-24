@@ -51,10 +51,13 @@
             <div class="wrapper">
                 <header>
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-10">
                         <div class="form-group">
-                            <input type="text" name="date" id="inputdate" class="form-control" value="" required="required" placeholder="Seleccione la/s fecha/s">
+                            <input type="text" name="date" id="inputdate" class="form-control" value="<?=$billDate?>" required="required" placeholder="Seleccione la/s fecha/s">
                         </div>
+                    </div>
+                    <div class="col-md-2">
+
                     </div>
                 </div>
                 
@@ -66,11 +69,10 @@
                             <ul id="cart-list-ul">
                                 <input type="number" name="id_factura" value="<?=$id?>" hidden="">
                                 <?php $counter = 1; foreach ($result as $value):?>
-                                    <input type="text" name="product<?=$counter?>" value="<?=$value['producto']?>" hidden=""> 
-                                    <input type="number" name="price<?=$counter?>" value="<?=$value['precio']?>" hidden=""> 
-                                    <input type="number" name="id_producto<?=$counter?>" value="<?=$value['id_producto']?>" hidden="">
-                                   
                                     <li class="product">
+                                        <input type="text" name="product<?=$counter?>" value="<?=$value['producto']?>" hidden=""> 
+                                        <input type="number" name="price<?=$counter?>" value="<?=$value['precio']?>" hidden=""> 
+                                        <input type="number" name="id_producto<?=$counter?>" value="<?=$value['id_producto']?>" hidden="">
                                         <div class="product-details">
                                             <h3>
                                                 <a href="#0" id="<?=$value['producto']?>"><?=$value['producto']?></a>
@@ -85,7 +87,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                <?php $counter++; endforeach;?>
+                                <?php ++$counter; endforeach;?>
                             <!-- products added to the cart will be inserted here using JavaScript -->
                             </ul>
 
@@ -115,9 +117,18 @@
                             <div class="group">
                                 <select name="clientName" id="clientName" class="selectpicker" required="required" data-live-search="true">
                                     <option selected="selected" disabled>Seleccione un cliente</option>
-                                    <?php foreach ($clients as $value) { ?>
+                                    <?php foreach ($clients as $value) { 
+                                        if(($value['nombre'] . " " . $value['apellido']) != ($nombre . " " . $apellido)):
+                                    ?>
                                         <option value=<?= $value['id_clientes']?>> <?= $value['nombre'] . " " . $value['apellido']?></option>
-                                    <?php } ?>
+                                    <?php 
+                                        else:
+                                    ?>
+                                        <option selected="selected" value=<?= $value['id_clientes']?>> <?= $value['nombre'] . " " . $value['apellido']?></option>
+                                    <?php
+                                        endif;
+                                        }  
+                                    ?>
                                 </select>
                             </div>
                         </div>

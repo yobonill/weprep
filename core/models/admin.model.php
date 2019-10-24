@@ -360,6 +360,7 @@
 			for ($i=0; $i < count($dates); $i++) {
 				while ($counter > 0) {
 					//Variables used for the query
+						if (!isset($_POST['id_producto'.$counter])) { --$counter; continue; }
 						$productId = db_quote($_POST['id_producto'.$counter]);
 						$productName = db_quote($_POST['product'.$counter]);
 						$time = strtotime($dates[$i]);
@@ -395,7 +396,7 @@
 						//Create a variable that runs the query
 							$result = db_query($query);
 						//Create a variable that runs the query
-						$counter--;
+						--$counter;
 					//Check if the query ran correctly, if not return the error
 						if($result === false) {
 							$error = db_error();

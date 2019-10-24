@@ -15,6 +15,14 @@
 		if (isset($_GET['id'])) {
 			$id = $_GET['id'];
 			$result = select_bills($id);
+			//var_dump($result);
+			$nombre = $result[0]['nombre'];
+			$apellido = $result[0]['apellido'];
+			$billDate = $result[0]['fecha_factura'];
+		} else {
+			$nombre = "a";
+			$nombre = "b";
+			$billDate = date('Y-m-d');
 		}
 	//Run the function that bring several tables data from the database
 ?>

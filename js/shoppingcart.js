@@ -1,7 +1,7 @@
 // Shopping Cart
 var cartWrapper = $('.cd-cart-container');
 //product id - you don't need a counter in your real project but you can use your real product id
-var productId = 0;
+var productId = $('#cart-list-ul li').length;
 
 if( cartWrapper.length > 0 ) {
     //store jQuery objects
@@ -105,11 +105,11 @@ function addProduct() {
     //you should insert an item with the selected product info
     //replace productId, productName, price and url with your real product info
     productId = productId + 1;
-    var productAdded = $('<li class="product"><div class="product-details"><h3><a href="#0" id='+ productName +'>'+ productName +'</a></h3><span class="price">$'+ price +'</span><div class="actions"><a href="#0" class="delete-item">Eliminar</a><div class="quantity"><label for="cd-product-'+ productId +'">Cant</label><input type="number" id="cd-product-'+ productId +'" name="quantity'+productId+'" value="1"></span></div></div></div></li>');
-    var productData = $('<input type="text" name = product'+productId+' value = '+productName+' hidden> <input type="number" name = price'+productId+' value = '+price+' hidden> <input type="number" name = id_producto'+productId+' value = '+id+' hidden> ')
+    var productAdded = $('<li class="product" id='+ productId +'><div class="product-details"><h3><a href="#0" id='+ productName +'>'+ productName +'</a></h3><span class="price">$'+ price +'</span><div class="actions"><a href="#0" class="delete-item">Eliminar</a><div class="quantity"><label for="cd-product-'+ productId +'">Cant</label><input type="number" id="cd-product-'+ productId +'" name="quantity'+productId+'" value="1"></span></div></div></div></li>');
+    var productData = $('<input type="text" name = product'+productId+' value = '+productName+' hidden> <input type="number" name = price'+productId+' value = '+price+' hidden> <input type="number" name = id_producto'+productId+' value = '+id+' hidden>')
     
     cartList.prepend(productAdded);
-    cartList.prepend(productData);
+    cartList.find("#"+productId).prepend(productData);
 }
 
 function removeProduct(product) {
@@ -137,8 +137,9 @@ function quickUpdateCart() {
     var price = 0;
     
     cartList.children('li:not(.deleted)').each(function(){
-        var singleQuantity = Number($(this).find('input').val());
+        var singleQuantity = Number($(this).find('input').eq(3).val());
         quantity = quantity + singleQuantity;
+        console.log(singleQuantity);
         price = price + singleQuantity*Number($(this).find('.price').text().replace('$', ''));
     });
 

@@ -74,5 +74,6 @@
 		} else {
 			$report = "";
 		}
+		//var_dump($records);
 	//Run the function that bring several tables data from the database
 ?>

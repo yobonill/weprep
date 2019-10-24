@@ -1,5 +1,3 @@
-<?php //var_dump($_POST); ?>
-
 <?php  
 	//Load Configuration with config data as an array, to be able to use the directory root parameter
 	    require_once($_SERVER['DOCUMENT_ROOT'] . '/weprep/config.php');
@@ -20,6 +18,7 @@
 			$id = $_POST['id_factura'];
 			$billId = add_bills($id);
 		} else {
+			var_dump($_POST);
 			$billId = add_bills();
 		}
 	//Call the function for adding the bill

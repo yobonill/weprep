@@ -51,12 +51,12 @@
             <div class="wrapper">
                 <header>
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-9 col-xs-9">
                         <div class="form-group">
                             <input type="text" name="date" id="inputdate" class="form-control" value="<?=$billDate?>" required="required" placeholder="Seleccione la/s fecha/s">
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-xs-3">
                         <input type="number" name="zone" id="zone" class="form-control" value="" placeholder="Zona">
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                 <footer>
                     <div class="row">
                         <div class="col-md-1"></div>
-                        <div class="col-md-7">
+                        <div class="col-md-7 col-xs-7">
                             <div class="group">
                                 <select name="clientName" id="clientName" class="selectpicker" required="required" data-live-search="true">
                                     <option selected="selected" disabled>Seleccione un cliente</option>
@@ -132,7 +132,8 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-xs-2"></div>
+                        <div class="col-md-3 col-xs-3">
                             <div class="form-group">
                                 <div class="input-group">
                                     <input type="number" class="form-control" id="discount" name = "discount" placeholder="descuento" value="0">

@@ -43,7 +43,7 @@
   .cd-cart-trigger,
   .cd-cart {
     position: fixed;
-    bottom: 20px;
+    bottom: 41px;
     right: 5%;
     -webkit-transition: -webkit-transform .2s;
     transition: -webkit-transform .2s;
@@ -795,7 +795,7 @@
   .cd-cart-trigger,
   .cd-cart {
     position: fixed;
-    bottom: 20px;
+    bottom: 41px;
     right: 5%;
     -webkit-transition: -webkit-transform .2s;
     transition: -webkit-transform .2s;

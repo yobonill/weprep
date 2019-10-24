@@ -26,6 +26,9 @@
             width:100%;
             margin-bottom:20px;
         }
+        .col-xs-4 {
+            padding-bottom: 5px;
+        }
         /* Shopping Cart */
             .cd-cart-container select{
                 display:inline;

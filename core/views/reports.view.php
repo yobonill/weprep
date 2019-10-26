@@ -1,3 +1,26 @@
+<script>
+  function dispatch(id){
+    $.ajax(
+      'core/controllers/dispatch.controller.php?bills='+id+'',
+      {
+          success: function(data) {
+            //alert('Despachado correctamente');
+            $('#'+id).prop("disabled", true);
+            $('#'+id).removeClass("btn-primary");
+            $('#'+id).addClass("btn-success");
+          },
+          error: function() {
+            swal({
+									title: 'Error!',
+									text: 'Factura no despachada, contacte al desarrollador',
+									icon: 'error',
+								})
+						$('.swal-overlay').css('background-color', 'rgba(255, 0, 0, 0.514)');
+          }
+      }
+    );
+  };
+</script>
 <div id="Inventory">
     <?php 
       switch ($report) {
@@ -61,13 +84,13 @@
               if($value['estatus_factura'] == "0"):
             ?>
               <td>
-                <a href="core/controllers/dispatch.controller.php?bills=<?=$value['factura']?>"><button type="button" class="btn btn-primary"><?= $language['__DISPATCH_BILL_REPORTS__']?></button></a>
+                <a href="#" onclick="dispatch(<?=$value['factura']?>); return false;"><button type="button" class="btn btn-primary" id="<?=$value['factura']?>"><?= $language['__DISPATCH_BILL_REPORTS__']?></button></a>
               </td>
             <?php
               else:
             ?>
               <td>
-                <a href="core/controllers/dispatch.controller.php?bills=<?=$value['factura']?>"><button type="button" class="btn btn-success" disabled><?= $language['__DISPATCH_BILL_REPORTS__']?></button></a>
+                <a href="#" onclick="dispatch(<?=$value['factura']?>); return false;"><button type="button" class="btn btn-success" disabled id="<?=$value['factura']?>"><?= $language['__DISPATCH_BILL_REPORTS__']?></button></a>
               </td>
             <?php
               endif

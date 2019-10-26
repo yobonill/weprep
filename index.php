@@ -111,7 +111,7 @@
 		?>
 		
 		<?php
-			if(isset($_GET['msj'])){
+			if(isset($_GET['msj']) || isset($_GET['report'])){
 				?>
 					<!--SweetAlert-->
 						<script src="js/sweetalert.min.js"></script>

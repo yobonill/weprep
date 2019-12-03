@@ -78,8 +78,8 @@
             </td>
             <td><?=$value['producto']  ?></td>
             <td><?=$value['cantidad']  ?></td>
-            <td><?="$".$value['precio']  ?></td>
-            <td><?="$".$value['precio'] * $value['cantidad']?></td>
+            <td><?="$".number_format($value['precio'])  ?></td>
+            <td><?="$".number_format($value['precio'] * $value['cantidad'])?></td>
             <?php
               if($value['estatus_factura'] == "0"):
             ?>
@@ -155,7 +155,7 @@
             </td>
             <td><?=$value['producto']  ?></td>
             <td><?=$value['cantidad']  ?></td>
-            <td><?="$".(($value['precio'] * $value['cantidad']) - $value['descuento'])?></td>
+            <td><?="$".number_format((($value['precio'] * $value['cantidad']) - $value['descuento']))?></td>
           </tr>
             <?php
               endforeach
@@ -191,8 +191,8 @@
         <thead>
           <tr class="btn-primary">
             <th><?= $language['__PRODUCT_NAME_REPORTS__']?></th>
-            <th><?= $language['__PRODUCT_PRICE_REPORTS__']?></th>
             <th><?= $language['__PRODUCT_QTY_REPORTS__']?></th>
+            <th><?= $language['__PRODUCT_PRICE_REPORTS__']?></th>
             <th><?= $language['__PRODUCT_TOTAL_REPORTS__']?></th>
           </tr>
         </thead>
@@ -203,8 +203,8 @@
           <tr>
             <td><?=$value['producto']  ?></td>
             <td><?=$value['cantidad']  ?></td>
-            <td><?="$".$value['precio']  ?></td>
-            <td><?="$".($value['precio'] * $value['cantidad'])?></td>
+            <td><?="$".number_format($value['precio'])?></td>
+            <td><?="$".number_format(($value['precio'] * $value['cantidad']))?></td>
           </tr>
             <?php
               endforeach

@@ -136,7 +136,7 @@
                         <div class="col-md-3 col-xs-3">
                             <div class="form-group">
                                 <div class="input-group">
-                                    <input type="number" class="form-control" id="discount" name = "discount" placeholder="descuento" value="0">
+                                    <input type="number" class="form-control" id="discount" name = "discount" placeholder="descuento" value="0" pattern="[%]{0,100}">
                                 </div>
                             </div>
                         </div>

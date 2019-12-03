@@ -59,7 +59,7 @@
 									<div class="col-md-6"> 
 										<div class="form-group">
 			    					    	<label for="productPrice"><?= $language['__PRODUCTFORM_PRICE_ADMIN__']?></label>
-									    	<input type="text" class="form-control" name="productPrice" id="productPrice" placeholder="<?= $language['__PRODUCTFORM_PRICE_ADMIN__']?>"> 
+									    	<input type="number" class="form-control" name="productPrice" id="productPrice" min="1" placeholder="<?= $language['__PRODUCTFORM_PRICE_ADMIN__']?>"> 
 										</div>
 									</div>
 								</div> <!--Name and Price -->
@@ -99,7 +99,7 @@
 									<div class="col-md-5"> 
 										<div class="form-group">
 			    					    	<label for="productPrice"><?= $language['__PRODUCTFORM_PRICE_ADMIN__']?></label>
-									    	<input type="text" class="form-control" name="productPrice" id="productPrice" placeholder="<?= $language['__PRODUCTFORM_PRICE_ADMIN__']?>"> 
+									    	<input type="number" class="form-control" name="productPrice" id="productPrice" min="1" placeholder="<?= $language['__PRODUCTFORM_PRICE_ADMIN__']?>"> 
 										</div>
 									</div>
 									<div class="col-md-1"></div>

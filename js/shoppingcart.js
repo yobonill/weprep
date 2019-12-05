@@ -18,7 +18,7 @@ if( cartWrapper.length > 0 ) {
     var productImage;
     var id;
     var discount = $('#discount');
-    
+
     //add product to cart
     addToCartBtn.on('click', function(event){
         price = $(this).data("price");
@@ -143,6 +143,15 @@ function quickUpdateCart() {
         price = price + singleQuantity*Number($(this).find('.price').text().replace('$', ''));
     });
 
+    //calculate discount if it has a percentage
+        if(discount.val().includes("%")){
+            //alert(price.toFixed(2));
+            var discounts = discount.val().replace('%','');
+            var percentage = (discounts / 100 ) * price.toFixed(2)
+            discount.val(percentage);
+        }
+    //calculate discount if it has a percentage
+
     cartTotal.text(price.toFixed(2) -discount.val());
     cartCount.find('li').eq(0).text(quantity);
     cartCount.find('li').eq(1).text(quantity+1);
@@ -181,6 +190,14 @@ function updateCartCount(emptyCart, quantity) {
 }
 
 function updateCartTotal(price, bool) {
+    //calculate discount if it has a percentage
+        if(discount.val().includes("%")){
+            //alert(price.toFixed(2));
+            var discounts = discount.val().replace('%','');
+            var percentage = (discounts / 100 ) * price.toFixed(2)
+            discount.val(percentage);
+        }
+    //calculate discount if it has a percentage
     bool ? cartTotal.text( (Number(cartTotal.text()) + price -discount.val()).toFixed(2))  : cartTotal.text( (Number(cartTotal.text()) - price -discount.val()).toFixed(2));
 }
 

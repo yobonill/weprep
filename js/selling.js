@@ -1,5 +1,4 @@
 //Add products to cart
-
     var $counter = $('#cart-list-ul li').length;
     $('#counter').attr('value', $counter);
     $(".btn-product").on("click", function() {
